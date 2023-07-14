@@ -1,0 +1,4 @@
+int8 initiation     # Request message: Distance in (m) to be converted to (ft)
+---                         # Demarcation
+string succession       # Response message: Distance in (ft) after Conversion
+

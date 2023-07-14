@@ -1,0 +1,6 @@
+sys.path.append('/opt/ros/noetic/lib/python3/dist-packages')
+import importlib.util
+spec = importlib.util.spec_from_file_location("rospy", "/opt/ros/noetic/lib/python3/dist-packages/rospy/__init__.py")
+foo = importlib.util.module_from_spec(spec)
+sys.modules["rospy"] = foo
+spec.loader.exec_module(foo)

@@ -1,0 +1,6 @@
+int8 begin_to_detect
+---
+geometry_msgs/PoseStamped location   				# Request message: request the robot to move to a specific location, assigned by realsense
+                      		 					# Demarcation
+		    							# Response message: feedbacks of reached location 
+
