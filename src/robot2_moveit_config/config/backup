@@ -1,0 +1,50 @@
+  - sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+    point_cloud_topic: /camera/depth/points/with_frame   
+    max_range: 5.0
+    point_subsample: 1
+    padding_offset: 0.1
+    padding_scale: 1.0
+    filtered_cloud_topic: filtered_cloud
+    
+  - sensor_plugin: occupancy_map_monitor/DepthImageOctomapUpdater
+    image_topic: 
+    queue_size: 5
+    near_clipping_plane_distance: 0.3
+    far_clipping_plane_distance: 5.0
+    shadow_threshold: 0.2
+    padding_scale: 4.0
+    padding_offset: 0.03
+    filtered_cloud_topic: filtered_cloud
+ 
+ 
+ 
+   - sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+    point_cloud_topic: /camera/depth/points/with_frame   
+    max_range: 1.5
+    frame_subsample: 10
+    point_subsample: 10
+    padding_offset: 0.1
+    padding_scale: 1.0
+    filtered_cloud_topic: filtered_cloud
+ 
+ 
+ launch
+ 
+ 
+ <launch>
+
+  <!-- This file makes it easy to include the settings for sensor managers -->
+
+  <!-- Params for 3D sensors config -->
+  <rosparam command="load" file="$(find robot2_moveit_config)/config/sensors_3d.yaml" />
+
+  <!-- Params for the octomap monitor -->
+  <!--  <param name="octomap_frame" type="string" value="some frame in which the robot moves" /> -->
+  <param name="octomap_resolution" type="double" value="0.025" />
+  <param name="max_range" type="double" value="5.0" />
+  <param name="octomap_frame" type="string" value="camera_depth_optical_frame" />
+  <!-- Load the robot specific sensor manager; this sets the moveit_sensor_manager ROS parameter -->
+  <arg name="moveit_sensor_manager" default="abb_irb120" />
+  <include file="$(dirname)/$(arg moveit_sensor_manager)_moveit_sensor_manager.launch.xml" />
+
+</launch>

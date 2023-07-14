@@ -1,0 +1,14 @@
+<launch>
+
+
+ <include file="$(find robot2_moveit_config)/launch/demo.launch" />
+ <include file="$(find safety_v)/launch/depth_to_pc.launch" />
+ 
+ <node pkg="safety_v" type="pose_and_safety.py" name="pose_and_safety" output="screen"/>
+ <node pkg="safety_v" type="reset_octo.py" name="reset_octo" output="screen"/>
+ 
+ 
+ 
+ 
+ 
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  <!--param name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/-->
+  <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
+
+
+  <rosparam file="$(find robot2_moveit_config)/config/gazebo_controller.yaml"/>
+
+</launch>

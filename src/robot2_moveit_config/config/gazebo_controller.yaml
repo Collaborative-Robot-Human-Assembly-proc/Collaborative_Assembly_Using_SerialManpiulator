@@ -1,0 +1,38 @@
+abb_irb120:
+
+ joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 250
+  
+ joint_trajectory_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+   - joint_1
+   - joint_2
+   - joint_3
+   - joint_4
+   - joint_5
+   - joint_6
+ 
+ #gazebo_ros_control:
+  #pid_gains:
+   #joint_1: {p: 100, i: 0.87, d: 0.1}
+   #joint_2: {p: 100, i: 0.87, d: 0.1}
+   #joint_3: {p: 100, i: 0.88, d: 0.1}
+   #joint_4: {p: 110, i: 0.9, d: 0.1}
+   #joint_5: {p: 98, i: 0.86, d: 0.1}
+   #joint_6: {p: 98, i: 0.86, d: 0.1}
+controller_list:
+ - name: /abb_irb120/joint_trajectory_controller
+   action_ns: follow_joint_trajectory
+   default: True
+   type: FollowJointTrajectory
+   joints:
+     - joint_1
+     - joint_2
+     - joint_3
+     - joint_4
+     - joint_5
+     - joint_6
+   allowed_execution_duration_scaling: 1.2
+   allowed_goal_duration_margin: 0.5
