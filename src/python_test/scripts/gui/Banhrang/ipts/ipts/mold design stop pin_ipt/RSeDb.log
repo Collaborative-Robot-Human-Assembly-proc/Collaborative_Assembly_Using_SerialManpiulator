@@ -1,0 +1,79 @@
+Schema: 31
+UID:    {70DCAF4A-DF47-490B-ACB9-CA025935B5EE}
+Vrs1:   Version 25.0.0 [40,00,00,7C,47]
+Date1:  2020-02-21 17:08:09.162444
+Vrs2:   Version 25.0.0 [40,00,00,BC,34]
+Date2:  2020-02-21 17:08:09.162444
+Document N:\Templates\BaseTemplates\Metric\Standard (mm).ipt was created using in-development software (11.0 Internal) and cannot be opened using production or beta software.
+File Schema: 11.0.9000.24900
+Software Schema: 11.0.0.27500
+Saved From: 11.0 Internal
+Saved On: Feb 15 14:53:15 2006
+segInfo:
+	UID:   {None}
+	Date:  None
+	Text:  ''
+	U16:   000
+	Text2: ''
+	arr1:  [2000,008]
+	arr2:  []
+	arr3:  []
+	arr4:  []
+	UID1:
+		[00]: 'RDxPart'
+		[01]: 'RDxPlane'
+		[02]: 'RDxLine3'
+		[03]: 'RDxPoint3'
+		[04]: 'RDxBody'
+		[05]: 'RDxPlanarSketch'
+		[06]: 'RDxPoint2'
+		[07]: 'RDxArc2'
+		[08]: 'RDxDiameter2'
+		[09]: 'RDxMateInterfaceDef'
+		[0A]: '6D8A4AC8-11D4-490F-6000-E6AB3A39FBB0'
+		[0B]: 'RDxInsertInterfaceDef'
+		[0C]: 'RDxFeature'
+		[0D]: 'FWxRenderingStyle'
+		[0E]: 'NMxFaceMergeData'
+		[0F]: 'MIxTransactablePartition'
+		[10]: 'RSeAcisEntityWrapper'
+		[11]: '_BodiesFolder'
+		[12]: 'RDxStopNode'
+		[13]: 'RDxBrowserFolder'
+		[14]: 'NBxNotebook'
+		[15]: 'RDxReal'
+		[16]: '4116DA9E-11D1-BF97-6000-B2B801F31BB0'
+		[17]: 'RDxCircle3'
+		[18]: 'MIxBrepComponent'
+		[19]: 'RSeAcisEntityContainer'
+		[1A]: 'PMxEntryManager'
+		[1B]: '_ViewDirectionCollection'
+		[1C]: 'NBxEntry'
+	UID2:
+		[00]: 'UCxComponentNode'
+		[01]: 'UCxWorkplaneNode'
+		[02]: 'UCxWorkaxisNode'
+		[03]: 'UCxWorkpointNode'
+		[04]: 'PMxBodyNode'
+		[05]: 'SCxSketchNode'
+		[06]: 'UCxCompInterfaceNode'
+		[07]: 'PMxSingleFeatureOutline'
+		[08]: 'PMxPartDrawAttr'
+		[09]: 'RDxComponent'
+		[0A]: 'RDxModelerTxnMgr'
+		[0B]: 'RDxBody'
+		[0C]: 'PMxEntryManager'
+		[0D]: 'BRxEntry'
+		[0E]: 'RDxAtomicInterfaceDef'
+		[0F]: 'PMxPartRepresentation'
+		[10]: 'NBxItem'
+	Segments:
+		FWxDesignViewManagerType:DesignViewSegment, count=(0/1), ID={3948DBBE-619F-43F3-95D0-82896D62F89D}, value1=0000, arr1=[0000,0001,0001,0001,0001], arr2=[006E,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		FBAttributeSegment:FBAttributeSegment, count=(0/1), ID={6B3B600D-0C20-49FF-B7F9-3249C7F4CAB4}, value1=0000, arr1=[0000,0002,0001,0010,0010], arr2=[0002,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		NotebookSegmentType:NBNotebookSegment, count=(1/2), ID={9EA05EAD-3204-4BAA-B98F-960824CA0774}, value1=0000, arr1=[0000,0001,0001,0001,0001], arr2=[0003,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmAppSegmentType:PmAppSegment, count=(4/14), ID={2950E0A7-FD9B-43C8-9472-D5502E95F75F}, value1=0000, arr1=[0000,000D,0004,0150,0143], arr2=[0017,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmBrepSegmentType:PmBRepSegment, count=(0/1), ID={D711DCDF-3E72-4487-9F9F-093659556FA9}, value1=0000, arr1=[0000,0002,0001,000E,0008], arr2=[006E,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		PmBRxSegmentType:PmBrowserSegment, count=(3/21), ID={2D5A3775-9AA7-41F5-82C1-8D22441E391D}, value1=0000, arr1=[0000,0004,0001,001D,001D], arr2=[006D,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmDcSegmentType:PmDCSegment, count=(2/5), ID={B6690B97-5630-4805-972C-DA6A32B1DCBA}, value1=0000, arr1=[0000,0007,0004,009B,009B], arr2=[014F,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmGRxSegmentType:PmGraphicsSegment, count=(2/21), ID={3A0D9507-ED46-42F9-93B8-5A4EB492E8F7}, value1=0000, arr1=[0000,000A,0003,012A,007F], arr2=[0073,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmResultSegmentType:PmResultSegment, count=(0/1), ID={112E071B-30BA-4C44-9C9E-033875324FCC}, value1=0000, arr1=[0000,0002,0001,000B,0003], arr2=[0000,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]

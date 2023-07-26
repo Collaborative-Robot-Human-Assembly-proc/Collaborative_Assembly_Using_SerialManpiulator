@@ -1,0 +1,18 @@
+[2021]
+(0001): AcisEntityContainer 
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00  wrapperIdx=0009
+		asm = (0005): ASM u32_0=031D schema=002B fmt="ASM BinaryFile4" SAT=<Acis.AcisReader object at 0x7fa8ca7794f0> nameMatches={} dcAttributes={27:<Acis.IndexMappings object at 0x7fa8cac7ae50>,59:<Acis.IndexMappings object at 0x7fa8cac79be0>,57:<Acis.IndexMappings object at 0x7fa8cac79cd0>} selectedKey=80000005 delta_state=21 
+			history = (0006): SatHistory s32_0=0  numbers=(2,18,21)  
+				delta_states[0002] = (0007): 09780457 data_set=2 
+				delta_states[0012] = (0008): 09780457 data_set=18 
+					items[0000] = (000B): 766EA5E5  u32_0=0000   s32_1=-1  wrapperIdx=0009
+						*root = (0006): SatHistory
+						*nameTable = (0003): AsmEntityWrapper
+						*asm = (0005): ASM
+				delta_states[0015] = (0009): 09780457 data_set=21 
+				ref_1 = (000A): 09780457 data_set=-1 
+(0002): BrepComponent  length="mm" angle="deg"
+	components[001B] = (0004): 66085B35dcCreatorIdx=001B u16_0=102 
+(000C): AcisEntityContainer 
+(000D): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (000E): NameTable  lastIdx=0000 

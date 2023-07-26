@@ -1,0 +1,72 @@
+[2021]
+(0001): 189B3560 'PmDefault'  grIdx=004C
+	lst0[0000] = (0005): DF9CA7B0 'PmDefault'   lst0=[] u16=000 val=""
+		ref_0 = (0004): F7676AB1 'Spur Gear1'flags=0010 u8_0=00 u8_4=00 a0=(000,000,000,000,004)  index=000B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000B u8_3=00 u32_0=0000
+			*items[0000] = (001E): 9E77CCC1
+			*items[0001] = (000E): FolderBodies
+			*items[0002] = (000D): FolderBodies
+			*items[0003] = (001F): 18BAA333
+			*items[0004] = (0012): FolderBrowser 'Origin'
+			*items[0005] = (001B): FxUnknown 'Extrusion1'
+			*items[0006] = (0009): 3dObject 'Work Plane2'
+			*items[0007] = (0007): FxUnknown 'Pitch Diameter'
+			*items[0008] = (000A): 3dObject 'Work Plane8'
+			*items[0009] = (000B): 3dObject 'Work Plane9'
+			*items[000A] = (000C): FxUnknown 'Spur Gear'
+			*items[000B] = (0006): FxUnknown 'Extrusion2'
+			*items[000C] = (0010): EndOfPart
+(0002): EntryManager  u32_0=000B
+	entries[0001] = (0006): FxUnknown 'Extrusion2'flags=0000 u16_0=002 a0=(000,000,051)  index=0001 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004C u8_3=00 u32_0=0000 uid_0={0CA91131-11D0-838B-0008-19B00524DC09} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (000F): Sketch2D 'Sketch3'
+	entries[0002] = (0007): FxUnknown 'Pitch Diameter'flags=0400 u16_0=003 a0=(000,000,016)  index=0002 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0012 u8_3=00 u32_0=0000 uid_0={E597A4F0-11D4-84D8-1000-FAA5BBA647B5} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (001C): Sketch2D 'Sketch2'
+	entries[0003] = (0008): Body 'Srf1'flags=0204 u16_0=001 a0=(000,000,04D)  index=0003 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0048 u8_3=00 u32_0=0000 dcCreatorIdx=006E a5=(0000,0001)
+		*items[0000] = (0007): FxUnknown 'Pitch Diameter'
+	entries[0004] = (0009): 3dObject 'Work Plane2'flags=0004 u16_0=002 a0=(000,000,019)  index=0004 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0015 u8_3=00 u32_0=0000 u8_5=00
+	entries[0005] = (000A): 3dObject 'Work Plane8'flags=0004 u16_0=008 a0=(000,000,039)  index=0005 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0034 u8_3=00 u32_0=0000 u8_5=00
+	entries[0006] = (000B): 3dObject 'Work Plane9'flags=0004 u16_0=009 a0=(000,000,03E)  index=0006 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0039 u8_3=00 u32_0=0000 u8_5=00
+	entries[0007] = (000C): FxUnknown 'Spur Gear'flags=0000 u16_0=00A a0=(000,000,041)  index=0007 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003C u8_3=00 u32_0=0000 uid_0={B56309D0-11D2-D7F8-A000-5780D694C7C9} u32_2=0000 txt_0="" s32_0=-1
+	entries[0008] = (000D): FolderBodiesflags=0200 u16_0=00B a0=(000,000,04A)  index=0008 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0045 u8_3=00 u32_0=0000
+		*items[0000] = (0008): Body 'Srf1'
+	entries[0009] = (000E): FolderBodiesflags=0400 u16_0=00C a0=(000,000,04B)  index=0009 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0046 u8_3=00 u32_0=0000
+		*items[0000] = (0011): Body 'Solid1'
+	entries[000A] = (000F): Sketch2D 'Sketch3'flags=4004 u16_0=00D a0=(000,000,050)  index=000A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004B u8_3=00 u32_0=0000
+	*entries[000B] = (0004): F7676AB1 'Spur Gear1'
+	entries[000C] = (0010): EndOfPartflags=0000 u16_0=00E a0=(000,000,005)  index=000C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000A u8_3=00 u32_0=0000
+	entries[000D] = (0011): Body 'Solid1'flags=0400 u16_0=001 a0=(000,000,04C)  index=000D a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0047 u8_3=00 u32_0=0000 dcCreatorIdx=0002 a5=(0000,0001)
+		*items[0000] = (001B): FxUnknown 'Extrusion1'
+		*items[0001] = (000C): FxUnknown 'Spur Gear'
+		*items[0002] = (0006): FxUnknown 'Extrusion2'
+	entries[000E] = (0012): FolderBrowser 'Origin'flags=0200 u16_0=000 a0=(000,000,010)  index=000E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0009 u8_3=00 u32_0=0000
+		*items[0000] = (0013): 3dObject 'YZ Plane'
+		*items[0001] = (0014): 3dObject 'XZ Plane'
+		*items[0002] = (0015): 3dObject 'XY Plane'
+		*items[0003] = (0016): 3dObject 'X Axis'
+		*items[0004] = (0017): 3dObject 'Y Axis'
+		*items[0005] = (0018): 3dObject 'Z Axis'
+		*items[0006] = (0019): 3dObject 'Center Point'
+	entries[000F] = (0013): 3dObject 'YZ Plane'flags=0004 u16_0=000 a0=(000,000,009)  index=000F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0002 u8_3=00 u32_0=0000 u8_5=08
+	entries[0010] = (0014): 3dObject 'XZ Plane'flags=0004 u16_0=000 a0=(000,000,00A)  index=0010 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0003 u8_3=00 u32_0=0000 u8_5=07
+	entries[0011] = (0015): 3dObject 'XY Plane'flags=0004 u16_0=000 a0=(000,000,00B)  index=0011 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0004 u8_3=00 u32_0=0000 u8_5=06
+	entries[0012] = (0016): 3dObject 'X Axis'flags=0004 u16_0=000 a0=(000,000,00C)  index=0012 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0005 u8_3=00 u32_0=0000 u8_5=09
+	entries[0013] = (0017): 3dObject 'Y Axis'flags=0004 u16_0=000 a0=(000,000,00D)  index=0013 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0006 u8_3=00 u32_0=0000 u8_5=0A
+	entries[0014] = (0018): 3dObject 'Z Axis'flags=0004 u16_0=000 a0=(000,000,00E)  index=0014 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0007 u8_3=00 u32_0=0000 u8_5=0B
+	entries[0015] = (0019): 3dObject 'Center Point'flags=0004 u16_0=000 a0=(000,000,00F)  index=0015 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0008 u8_3=00 u32_0=0000 u8_5=0C
+	entries[0016] = (001A): Sketch2D 'Sketch1'flags=0004 u16_0=001 a0=(000,000,012)  index=0016 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000E u8_3=00 u32_0=0000
+	entries[0017] = (001B): FxUnknown 'Extrusion1'flags=0000 u16_0=001 a0=(000,000,013)  index=0017 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000F u8_3=00 u32_0=0000 uid_0={0CA91131-11D0-838B-0008-19B00524DC09} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (001A): Sketch2D 'Sketch1'
+	entries[0018] = (001C): Sketch2D 'Sketch2'flags=4004 u16_0=002 a0=(000,000,015)  index=0018 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0011 u8_3=00 u32_0=0000
+(0003): 189B3560 'NbDefault'  grIdx=0000
+	lst0[0000] = (001D): DF9CA7B0 'NbDefault'   lst0=[] u16=000 val=""
+		ref_0 = (0020): NBxEntry 'Engineer's Notebook'  index=0019 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000C u8_3=00 u32_0=0000 str0="NBxNotebook" a4=(000,000,000) u8_4=00
+(001E): 9E77CCC1  index=000B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0001 u8_3=00 u32_0=0000 txt_1="PartInterfaceFolderEntry" b0=00
+	lst0[0000] = (0021): PartInterfaceFlush 'Align iMate'  index=001A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0021 u8_3=00 u32_0=0000 txt_1="PartFlushInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0001] = (0022): PartInterfaceMate 'Distance iMate'  index=001B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0020 u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0002] = (0023): PartInterfaceMate 'Start plane iMate'  index=001C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003D u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0003] = (0024): PartInterfaceMate 'Axis iMate'  index=001D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003F u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0004] = (0025): PartInterfaceMate 'Position iMate'  index=001E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0042 u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0005] = (0026): PartInterfaceMate 'Mesh iMate'  index=001F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0043 u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0006] = (0027): PartInterfaceMate 'Mesh iMate2'  index=0020 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0044 u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+(001F): 18BAA333flags=0000 u16_0=003 a0=(000,000,04E)  index=000B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0049 u8_3=00 u32_0=0000
+	*items[0000] = (0028): B4278FFF
+(0028): B4278FFFflags=0000 u16_0=004 a0=(000,000,04F)  index=0000 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004A u8_3=00 u32_0=0000 aX=(11 00 00 00 01 00 00 00)

@@ -1,0 +1,27 @@
+[2021]
+(0001): 128AAF24 lst1=[(2,(24,520,699),1,2,(),Vector (-4.499249391815114, -4.493246028686217, 0.0),Vector (4.499249391815114, 4.5, 1.0000000000000007)),(110,(98),0,1,(),Vector (-4.3, -4.3, 0.0),Vector (4.3, 4.3, 1.0))] lst2=[(0018,0001),(0062,0000),(0208,0000),(02BB,0000)] lst3=[(12,1,1,0,-4.5,-4.5,0,4.5,4.5,0),(70,1,1,0,-4.5,-4.5,0,4.5,4.5,0),(681,1,1,0,-1.25,-1.25,1,1.25,1.25,1)] lst4=[] lst5={} lst6=[(0002,0100,0018,(0018,0208,02BB)),(006E,0001,0062,(0062))] lst7=[] u8_1=01 lst8=[] u8_2=01
+(0002): F645595C u32_0=071D schema=002B u32_2=0000 u8_0=01 s32_0=-1  lastKey=29
+	ref_1 = (0003): SatHistory s32_0=0  numbers=(22,23,24,25,26,27,28,29)  
+		delta_states[0016] = (0004): 09780457 delta_state=22 
+		delta_states[0017] = (0005): 09780457 delta_state=23 
+			lst0[0000] = (000D): 809BE56Froot=80000003  flags=1004 ref_0=80000001 aX=(00 01)
+			lst0[0001] = (000E): 80CAECF1root=80000003  flags=400004 ref_0=80000001 aX=(00 01)
+			lst0[0002] = (000F): E9B04618root=80000003  flags=1000004 ref_0=80000001 aX=(00 01)
+			lst0[0003] = (0010): 0E70AF5Croot=80000003  flags=2004 ref_0=80000001 dcBodyIdx=0002
+			lst0[0004] = (0011): 3E0040FDroot=80000003  flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0018
+			lst0[0005] = (0012): E065E15Aroot=80000003  flags=800004 ref_0=80000001 dcBodyIdx=0002 u32_0=0000 dcCreatorIdx=0018
+			lst0[0006] = (0013): 9147489Aroot=80000003  flags=80004 ref_0=80000001 dcBodyIdx=0002 aX=(00 01)
+		delta_states[0018] = (0006): 09780457 delta_state=24 
+		delta_states[0019] = (0007): 09780457 delta_state=25 
+			lst0[0000] = (0014): 0E70AF5Croot=80000003  flags=2004 ref_0=80000001 dcBodyIdx=006E
+			lst0[0001] = (0015): 3E0040FDroot=80000003  flags=8004 ref_0=80000001 dcBodyIdx=006E dcCreatorIdx=0062
+			lst0[0002] = (0016): E065E15Aroot=80000003  flags=800004 ref_0=80000001 dcBodyIdx=006E u32_0=0000 dcCreatorIdx=0062
+			lst0[0003] = (0017): 6B9A3C47root=80000003  flags=4004 ref_0=80000001 dcBodyIdx=006E aX=(00 01)
+			lst0[0004] = (0018): A4645884root=80000003  flags=4004 ref_0=80000001 aX=(6E 00 00 00 00 01)
+		delta_states[001A] = (0008): 09780457 delta_state=26 
+		delta_states[001B] = (0009): 09780457 delta_state=27 
+			lst0[0000] = (0019): 3E0040FDroot=80000003  flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0208
+		delta_states[001C] = (000A): 09780457 delta_state=28 
+		delta_states[001D] = (000B): 09780457 delta_state=29 
+			lst0[0000] = (001A): 3E0040FDroot=80000003  flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=02BB
+		ref_1 = (000C): 09780457 delta_state=-1 

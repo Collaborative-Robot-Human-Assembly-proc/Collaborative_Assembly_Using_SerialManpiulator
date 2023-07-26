@@ -1,0 +1,51 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 16 -                LastSavedBy: 'mahmo'
+ 17 -              LastSavedDate: 2023/06/22 14:31:46.289781
+ 18 -                         18: 'D44A410F-4D4D-1FCA-6803-7AB60A18EC23'
+ 21 -                         21: '1EA77F12-43C8-4BC7-7BDA-338C106A17E2'
+ 22 -               BuildVersion: 250183000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2023/06/22 00:00:00.000000
+  5 -                 PartNumber: 'Spur Gear1'
+ 20 -                   Material: 'Steel'
+ 21 -              PartPropRevId: '00787AD0-DE23-4D6A-9DA1-07B53D6B73DC'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'mahmo'
+ 46 -          ExternalPropRevId: '738AF75D-3CC3-4026-902E-B5F02F4D4315'
+ 56 -                 Categories: '<?xml version="1.0" encoding="UTF-16"?>\r\n<MemberInstance><Categories><FamilyTemplate><FamilyTemplateParameter ValueType="xs:double" Id="1" ObjectReferenceKey="da_z" ObjectType="kUserParameterObject"/><FamilyTemplateParameter ValueType="xs:double" Id="2" ObjectReferenceKey="da_b" ObjectType="kUserParameterObject"/><FamilyTemplateParameter ValueType="xs:double" Id="3" ObjectReferenceKey="da_beta" ObjectType="kUserParameterObject"/><FamilyTemplateParameter ValueType="xs:double" Id="4" ObjectReferenceKey="da_da" ObjectType="kUserParameterObject"/><FamilyTemplateParameter ValueType="xs:double" Id="5" ObjectReferenceKey="da_aw" ObjectType="kUserParameterObject"/><FamilyTemplateParameter ValueType="xs:string" Id="6" ObjectReferenceKey="EAIAABAAAACIAQAAAAAAAIAAAAAAAAAA" ObjectType="83910656" SubObjectId="SurfaceGeometry"/></FamilyTemplate><ParamToTemplateMap><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'046C89C9-8512-4d59-83FE-43B91F4F132A\']" TemplateParameter="1"/><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'2552DF32-E462-4b46-AEBF-C6C7768E72AC\']" TemplateParameter="2"/><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'C9EE641D-15FC-4fae-A226-E94C4372FDD7\']" TemplateParameter="3"/><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'00B6519A-459B-49c7-AD84-2E56D39A5744\']" ConstantValue="0.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'04B31F0E-C7A6-4894-AA32-9629BEFACF47\']" ConstantValue="1.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'43CBEC2E-7847-49e7-A936-2F7889FCB2D9\']" ConstantValue="0.250000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'B1EFC894-105D-4ebd-86BF-FA20ED196853\']" ConstantValue="0.350000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'51175063-3D10-4879-93E8-6246FE8B403D\']" ConstantValue="2060000000.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'A3A52E27-4454-46a9-B0BD-C932399B70AF\']" ConstantValue="0.300000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'91B76062-C214-41d9-B1B9-14D2AB99603D\']" ConstantValue="0.200000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'374E806E-8B8A-4dda-A9AA-1039D6500AD2\']" ConstantValue="5.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'2D373A89-B862-43d6-8D0B-0CBF12AB9F6C\']" ConstantValue="0.349066"/></ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'37777632-D6A2-4fac-9D53-DB8ACD95C989\']" TemplateParameter="4"/><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'FD1017F1-B727-4f7e-9707-0F86F1FF9423\']" TemplateParameter="5"/><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'9E1B4470-B2D3-4ff1-B813-535BB4CDF51A\']" ConstantValue="3520000.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'F8452263-BFF6-458c-9FB1-07C4B99E95CD\']" ConstantValue="11400000.000000"/></ParamToTemplate><ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'3E3BB259-FD49-497f-8171-6EBC954A3479\']" ConstantValue="2.000000"/></ParamToTemplate><ParamToTemplate CategoryParameter="//CategoryParameter[@InternalName=\'27C3BAF2-7550-4e4b-AE2C-0DB134B7D9B7\']" TemplateParameter="6"/></ParamToTemplateMap><Category DisplayName="Gear" InternalName="DC85795E-93AB-48d5-8EEE-5A27447B64BD" Mnemonic="Gear"><CategoryParameter DisplayName="z" InternalName="046C89C9-8512-4d59-83FE-43B91F4F132A" Mnemonic="z"/><CategoryParameter DisplayName="b" InternalName="2552DF32-E462-4b46-AEBF-C6C7768E72AC" Mnemonic="b"/><CategoryParameter DisplayName="||b|" InternalName="C9EE641D-15FC-4fae-A226-E94C4372FDD7" Mnemonic="beta"/><CategoryParameter DisplayName="x" InternalName="00B6519A-459B-49c7-AD84-2E56D39A5744" Mnemonic="x"/><CategoryParameter DisplayName="a*" InternalName="04B31F0E-C7A6-4894-AA32-9629BEFACF47" Mnemonic="a"/><CategoryParameter DisplayName="c*" InternalName="43CBEC2E-7847-49e7-A936-2F7889FCB2D9" Mnemonic="c"/><CategoryParameter DisplayName="r|.f|*" InternalName="B1EFC894-105D-4ebd-86BF-FA20ED196853" Mnemonic="rf"/><CategoryParameter DisplayName="E" InternalName="51175063-3D10-4879-93E8-6246FE8B403D" Mnemonic="E"/><CategoryParameter DisplayName="||m|" InternalName="A3A52E27-4454-46a9-B0BD-C932399B70AF" Mnemonic="mi"/><Category DisplayName="SpurGear" InternalName="26C5A22E-A91E-4dfd-A3B3-23CCAFAE1764" Mnemonic="SpurGear"><CategoryParameter DisplayName="m" InternalName="91B76062-C214-41d9-B1B9-14D2AB99603D" Mnemonic="m"/><CategoryParameter DisplayName="P" InternalName="374E806E-8B8A-4dda-A9AA-1039D6500AD2" Mnemonic="PP"/><CategoryParameter DisplayName="||a|" InternalName="2D373A89-B862-43d6-8D0B-0CBF12AB9F6C" Mnemonic="alpha"/><CategoryParameter DisplayName="d|.a|" InternalName="37777632-D6A2-4fac-9D53-DB8ACD95C989" Mnemonic="da"/><CategoryParameter DisplayName="a|.w|" InternalName="FD1017F1-B727-4f7e-9707-0F86F1FF9423" Mnemonic="aw"/><CategoryParameter DisplayName="||s||.Flim|" InternalName="9E1B4470-B2D3-4ff1-B813-535BB4CDF51A" Mnemonic="sFlim"/><CategoryParameter DisplayName="||s||.Hlim|" InternalName="F8452263-BFF6-458c-9FB1-07C4B99E95CD" Mnemonic="sHlim"/><CategoryParameter DisplayName="type" InternalName="3E3BB259-FD49-497f-8171-6EBC954A3479" Mnemonic="type"/><CategoryParameter DisplayName="PitchDiameter" InternalName="27C3BAF2-7550-4e4b-AE2C-0DB134B7D9B7" Mnemonic="IDS_PITCHDIAM"/></Category></Category></Categories></MemberInstance>\r\n'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2021 (Build 250183000, 183)'
+ 71 -         MaterialIdentifier: 'R:\\Application\\App\\Materials\\InventorMaterialLibrary\\InventorMaterialLibrary.adsklib#1:Steel\n#Material-077'
+ 72 -                 Appearance: 'Steel'
+
+FDesign:
+  0 -                          0: 255
+  3 -                          3: 1
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'mahmo'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Metal/Steel</Category><StyleName>Steel</StyleName><Protein><MaterialId>InvGen-066</MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+

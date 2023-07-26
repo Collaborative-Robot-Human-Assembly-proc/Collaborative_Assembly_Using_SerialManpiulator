@@ -1,0 +1,46 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 16 -                LastSavedBy: 'mahmo'
+ 17 -              LastSavedDate: 2023/06/24 14:25:29.936361
+ 18 -                         18: '19A7C498-44AC-5C5B-484D-358A3C31C80C'
+ 21 -                         21: '071F31B7-44E3-BB79-459F-42B1352B82A1'
+ 22 -               BuildVersion: 250183000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2023/06/22 00:00:00.000000
+  5 -                 PartNumber: 'casing_MIR_MIR'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: 'B96D1E1F-AEAF-4C27-B158-263F0AAB6AB7'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'mahmo'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2021 (Build 250183000, 183)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2015\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'mahmo'
+ 17 -                  Thumbnail: PNG: 512 x 512
+
+Inventor User Defined Properties:
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Miscellaneous</Category><StyleName>Default</StyleName><Protein><MaterialId>InvGen-071</MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+

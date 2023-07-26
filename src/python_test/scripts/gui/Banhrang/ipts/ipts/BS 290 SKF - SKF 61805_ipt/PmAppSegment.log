@@ -1,0 +1,405 @@
+[2021]
+(0001): 11FBECCD          u8_0=01 
+	material = (0008): MaterialName 'Steel, Mild' u8_0=00 u16_0=001 a0=(000,000) default=0001 u32=0000  comment="Mild Steel" u16_1=000 longName="1:Steel, Mild" txt_1="" txt_2="MaterialInv_029" txt_3="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,000) uid_0={A64B34EB-0785-926D-FFCB-AF8CD7A811EE} a3=(7.85,220,0.275,207,345,45,12,0.48) u8_1=00  txt_4="2:MATERIAL:MI_InventorSustainability:443FF4C0-B220-406B-A03C-AE1602BB69A3:48745BB7-BE14-4E5F-B4E0-4C3D4A7AE7A5:0"
+		*materials = (0018): LeaderCollection 'Materials'
+		*ref_0 = (0009): RenderingStyle 'Semi-Polished'
+	renderingStyle = (0009): RenderingStyle 'Semi-Polished' u8_0=00 u16_0=004 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="Metal." u16_2=000 txt_1="1:Semi-Polished" txt_2="" txt_3="Metal-045" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,002) uid_0={39E7C1AE-BD15-2AEC-D945-C471BD0D70A4} Color.c0=#BDBBB9FF Color.diffuse=#BDBBB9FF Color.c1=#BDBBB9FF Color.c2=#000000FF Color.f=65 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=0 f32_1=1.4 FileMapBump="" s32_1=0 vec2d_1=Vector (0.3, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.745,0.737,0.729,1,1,0.4] u8_4=01 a10=[0.75,1,0,0,1.4,0,0]
+		*ref1Name = (0016): LeaderCollection 'Colors'
+	cld_2 = (000A): 2AE52C91 u16_0=(002,00A) txt_0="1 mm" txt_1="1 mm" txt_2="1 deg" 
+		*parent = (0002): F8A779F9
+	cld_3 = (000B): 6B4C0C42 '5.000 mm' 
+		*parent = (0002): F8A779F9
+	cld_4 = (000C): BA93BB36 '0.250 mm'  u16_0=001 txt_0="5 deg" u8_0=00 u16_1=(000,000,000,000,001,000,000,000,000,000,000,000) txt_1="Solid" txt_2="Srf" aX=(00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 01 01 01 01 03 00 00 00 55 00 43 00 53 00 00 00 00 00 E1 00 00 00 01 01 01)
+		*parent = (0002): F8A779F9
+	cld_5 = (000D): 3235A9B8 uid_0={A816DD01-11D1-7AF9-8000-4787F388C25F}   
+	cld_6 = (000E): E454FA4D lst0=[] u32_0=0001 lst1=[] u32_1=0001 lst2=[]
+	cld_7 = (000F): 37186901 lst0=[] u32_0=0001
+	cld_8 = (0010): 42A65DAA u32_0=0000
+	cld_9 = (0011): D4227E2D a0=(1,0.04,2,0.08,3,0.12,4) u16_0=001
+(0002): F8A779F9  
+	ref_1 = (0012): F8A779F8 a0=(003,002) u8_0=01 a1=(001,006) u8_1=01 a2=(001,000,000,000,000,000,000,001,000) u8_2=00 a3=(003,002,000)
+	ref_2 = (0013): SystemOfUnitsCollection   
+		*selected = (001F): SystemOfUnitsCGS 'Custom'
+		customUnitSystems[0000] = (001F): SystemOfUnitsCGS 'Custom' 
+			units[0000] = (004B): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			units[0001] = (004C): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0002] = (004D): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (004E): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (004F): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0050): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0051): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0007] = (0052): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		predefinedUnitSystems[0000] = (0020): SystemOfUnitsCGS 'CGS' 
+			units[0000] = (0053): UnitMeter magnitude=0.01 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			units[0001] = (0054): UnitGram magnitude=1 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0002] = (0055): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0056): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (0057): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0058): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0059): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (005A): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+		predefinedUnitSystems[0001] = (0021): SystemOfUnitsImperial 'English' 
+			units[0000] = (005B): UnitInch magnitude=1 factor=1 Unit="in" UnitOffset=0 UnitFactor=2.54 UnitSupportet=True
+			units[0001] = (005C): UnitPound magnitude=1 factor=1 Unit="lb" UnitOffset=0 UnitFactor=0.428335 UnitSupportet=True
+			units[0002] = (005D): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (005E): UnitFahrenheit magnitude=1 factor=1 Unit="°F" UnitOffset=459.67 UnitFactor=0.555556 UnitSupportet=True
+			units[0004] = (005F): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0060): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0061): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (0062): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+		predefinedUnitSystems[0002] = (0022): SystemOfUnitsMGS 'MKS' 
+			units[0000] = (0063): UnitMeter magnitude=1 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			units[0001] = (0064): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0002] = (0065): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0066): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (0067): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0068): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0069): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (006A): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(0003): Settings 'GreyRoom'   a0=(0,0,1,0,0,0,10,5,0,0,1,0,1,-1,1,-0.333333,0.333333,0.666667,0,0,-1,0,1,0) a1=(0000,0006) u8_0=01 a2=(0,0,0,0,0,0,0,0,0,0) u8_1=01 c_0=#C0C0C0FF f_0=0.3 u16_0=101 f_1=2 u32_1=000A f_2=0.2 u32_2=0014 f_3=0.5 a3=Vector (0.0, 0.0078125, 0.0) a4=(0000,0001) u32_4=0000 a5=(0046,03FF,0000) u8_2=00 u32_3=0001 u8_5=01 u8_6=00 u32_5=0001 c_1=#50A5D2FF u32_6=0011 f_4=[0,0,0,1,1] u8_7=01
+	lst0[AnalysisSetup] = (0014): LeaderCollection 'AnalysisSetup'    localeId=409 aX=(00 00 00 00 00 00)
+	lst0[AnalysisStyle] = (0015): LeaderCollection 'AnalysisStyle'    localeId=409 aX=(00 00 00 00 00 00)
+	lst0[Colors] = (0016): LeaderCollection 'Colors'    localeId=409 aX=(00 00 00 00 00 00)
+		lst0[Beige] = (0023): RenderingStyle 'Beige' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="Paint material for interiors." u16_2=000 txt_1="1:Beige" txt_2="" txt_3="Paint-062" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(009,002) uid_0={E2AF525C-E45E-FED6-4307-F1EDDABDB552} Color.c0=#333333FF Color.diffuse=#CCCCCCFF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=0 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Blue Grey] = (0024): RenderingStyle 'Blue Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Blue Grey" txt_2="6C751F7D-834C-4566-9FB3-0D4ACAC5E342" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={0C21D20D-37AD-4F35-C9B9-1360787A38D1} Color.c0=#374355FF Color.diffuse=#9CB9BEFF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Blue(Clear)] = (0025): RenderingStyle 'Blue(Clear)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Blue(Clear)" txt_2="82A75D16-552D-4DC4-A25A-19878B9FE509" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={C4209DC5-4C80-0BC4-8681-252B74B53685} Color.c0=#01289EFF Color.diffuse=#0136D17F Color.c1=#4270FDFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Blue(Flat)] = (0026): RenderingStyle 'Blue(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Blue(Flat)" txt_2="D05FC416-A5E8-4B0B-BDB5-ADA6A80879C8" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={26385BC9-38BB-C130-5316-C6EE2725AFF0} Color.c0=#01289EFF Color.diffuse=#0136D1FF Color.c1=#4270FDFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Bubble Gum] = (0027): RenderingStyle 'Bubble Gum' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Bubble Gum" txt_2="ABC72000-8819-4B3C-81C0-C3C021B06BC1" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={2F39A8C7-3118-7ACF-F79C-547363842870} Color.c0=#F0AAAAFF Color.diffuse=#FFB0FFFF Color.c1=#FFFFFFFF Color.c2=#191919FF Color.f=24 FileMapTexture="" u8_1=00 vec4d_0=[0.760784,0.74902,0.647059,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Coffee(Flat)] = (0028): RenderingStyle 'Coffee(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Coffee(Flat)" txt_2="B1B56634-6CBA-44B0-93A5-B3BBBB90BA85" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={9F4FE660-DC47-F23C-CA6C-21E4481DDF90} Color.c0=#745F0CFF Color.diffuse=#AA8A1CFF Color.c1=#886213FF Color.c2=#060502FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0.760784,0.74902,0.647059,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Dark Blue Grey] = (0029): RenderingStyle 'Dark Blue Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Dark Blue Grey" txt_2="0ECB80A2-4803-4D51-9C01-3DFE658B9510" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={48468ED2-75D3-4A41-1D36-82B76992FC03} Color.c0=#405264FF Color.diffuse=#405264FF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Dark Grey] = (002A): RenderingStyle 'Dark Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Dark Grey" txt_2="386105F5-9549-4507-B36C-EF2C4EADAFD4" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={A0ECCABC-C3E6-52E6-E76F-F78E9D912474} Color.c0=#374355FF Color.diffuse=#808080FF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Green(Clear)] = (002B): RenderingStyle 'Green(Clear)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Green(Clear)" txt_2="DC96801E-6054-4BB0-8F2F-989DA6D26A06" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={27CAD74C-D698-498D-B217-4FA6D90AAA52} Color.c0=#0C933FFF Color.diffuse=#11C1547F Color.c1=#50EF8AFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Green(Flat)] = (002C): RenderingStyle 'Green(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Green(Flat)" txt_2="C591EC25-A476-41C6-AA55-B9F1407A5601" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={18B20FB1-30C9-5196-0C6C-5DFD1E3018DB} Color.c0=#0C933FFF Color.diffuse=#11C154FF Color.c1=#50EF8AFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Grey] = (002D): RenderingStyle 'Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Grey" txt_2="51896377-C2DA-42E7-A854-FA90816AE00F" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={BB38E613-F035-E5AB-CEAF-1BF214C5E5B3} Color.c0=#808080FF Color.diffuse=#808080FF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Lexan-Clear] = (002E): RenderingStyle 'Lexan-Clear' u8_0=00 u16_0=001 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Lexan-Clear" txt_2="8B241324-B04C-4F7B-9B77-7E920FD1A32C" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(002,002) uid_0={A7BE1FD1-E241-61C2-1B8F-EEE3C2E88B9F} Color.c0=#7F7F7FA9 Color.diffuse=#7F7F7F98 Color.c1=#000000FF Color.c2=#808080FF Color.f=50 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.5,0.5,0.5,0.665,1,1] u8_4=00 a10=[0,0,0.67,0,1,1500,6500]
+		lst0[Lexan-Smoke] = (002F): RenderingStyle 'Lexan-Smoke' u8_0=00 u16_0=001 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Lexan-Smoke" txt_2="8BFE2D3D-9D16-4BD2-A6CB-4B8B5B63C85D" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(002,002) uid_0={EDEDA792-4F61-B4CA-9AFF-61643CC1C146} Color.c0=#726A41FF Color.diffuse=#726A4184 Color.c1=#726A41FF Color.c2=#1F1F1FFF Color.f=60 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.448627,0.416471,0.254902,1,1,1] u8_4=01 a10=[0.2,0.2,0.8,0,1,600,6500]
+		lst0[Light Blue Grey] = (0030): RenderingStyle 'Light Blue Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Light Blue Grey" txt_2="D7BFA14E-36EF-4601-A7EF-BC3174BA6D58" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={69603F75-60DE-CAF9-5F08-7362FE4FC9D3} Color.c0=#808080FF Color.diffuse=#9CB9BEFF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Light Grey] = (0031): RenderingStyle 'Light Grey' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Light Grey" txt_2="75D95EB4-F24F-480D-9DA2-FB25A1D836E8" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={075A3B84-053E-5AB1-4EA2-E92D3D763AB5} Color.c0=#808080FF Color.diffuse=#FFFFFFFF Color.c1=#C4C7BAFF Color.c2=#000000FF Color.f=29 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Metal-AL-6061-AHC] = (0032): RenderingStyle 'Metal-AL-6061-AHC' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Metal-AL-6061-AHC" txt_2="4B50ACE1-A420-40D3-9A2B-14EC53014768" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={1A3F7A4E-29D5-C529-1887-4432DAE836D5} Color.c0=#000000FF Color.diffuse=#1B1B1BFF Color.c1=#C0C0C0FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Metal-AL-6061(Flat)] = (0033): RenderingStyle 'Metal-AL-6061(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Metal-AL-6061(Flat)" txt_2="9D988236-0F88-439A-BCC8-24CEBD6E08AD" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={09F2EB9E-217E-4931-648A-07FD8C41DAA5} Color.c0=#C5C2CDFF Color.diffuse=#D8D6D6FF Color.c1=#000000FF Color.c2=#000000FF Color.f=50 FileMapTexture="" u8_1=00 vec4d_0=[0.760784,0.74902,0.647059,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Metal-Steel(Polish)] = (0034): RenderingStyle 'Metal-Steel(Polish)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Metal-Steel(Polish)" txt_2="75654EBE-0FD0-466D-974B-D5C6E3209C9A" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={5BB05127-36A3-E1F9-1843-455996D5E6BE} Color.c0=#A3A3A3FF Color.diffuse=#A3A3AFFF Color.c1=#A3A3AAFF Color.c2=#000000FF Color.f=60 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Plastic-Black] = (0035): RenderingStyle 'Plastic-Black' u8_0=00 u16_0=002 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Plastic-Black" txt_2="78B4E73D-AB80-4993-910F-FDDB08C56741" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(002,002) uid_0={981958DC-4606-342B-DCBD-0119E84A680C} Color.c0=#868686FF Color.diffuse=#868686FF Color.c1=#868686FF Color.c2=#0A0A0AFF Color.f=63.11 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.52749,0.52749,0.52749,1,1,0.69] u8_4=01 a10=[0.38,0.38,0,0,1,465,6500]
+		lst0[Plastic-Gray] = (0036): RenderingStyle 'Plastic-Gray' u8_0=00 u16_0=001 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Plastic-Gray" txt_2="6C8ED68E-A12C-44BE-B39C-12D87A68CB7E" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(002,002) uid_0={A7AC3B20-7380-63F7-0854-1663F97FF77B} Color.c0=#333333FF Color.diffuse=#333333FF Color.c1=#000000FF Color.c2=#5D5D5DFF Color.f=23.5 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.201961,0.201961,0.201961,1,1,0.47] u8_4=00 a10=[0,0,0,0,1,1500,6500]
+		lst0[Plastic-White] = (0037): RenderingStyle 'Plastic-White' u8_0=00 u16_0=002 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Plastic-White" txt_2="0AD6BAE1-E515-4A3C-8AD8-541BFCDDB279" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(002,002) uid_0={B536D294-B9B2-1ED2-D611-9D3720F78A96} Color.c0=#FFFFFFFF Color.diffuse=#FFFFFFFF Color.c1=#000000FF Color.c2=#000000FF Color.f=10.5 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,1,1,1,1,1,0.21] u8_4=00 a10=[0,0,0,0,1,0,0]
+		lst0[Red(Clear)] = (0038): RenderingStyle 'Red(Clear)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Red(Clear)" txt_2="C4F9F471-BC69-448D-AE6F-FA0AEB2CD3D4" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={7470BF40-BE30-9B9C-D37F-A54331B54C45} Color.c0=#9E0000FF Color.diffuse=#D400007F Color.c1=#FFAAAAFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Red(Flat)] = (0039): RenderingStyle 'Red(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Red(Flat)" txt_2="0D9EC3A1-74F3-422E-A4B8-FA93D7E770F3" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={A9BDE485-2C4F-0126-A844-FABFD07BD800} Color.c0=#9E0000FF Color.diffuse=#D40000FF Color.c1=#FFAAAAFF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Rubber-Black] = (003A): RenderingStyle 'Rubber-Black' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Rubber-Black" txt_2="FC11EAC2-C99A-4F71-A1AD-ACD3D74480E9" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={0D949731-99E6-6BC0-D6A3-44D9373A28B3} Color.c0=#343434FF Color.diffuse=#4F4F4FFF Color.c1=#838383FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Rubber-Blue] = (003B): RenderingStyle 'Rubber-Blue' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Rubber-Blue" txt_2="22EC91CB-0E0D-4297-9800-8227C73F79E0" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={226AD36F-3AD5-CA38-4D7C-285D13557B0F} Color.c0=#798097FF Color.diffuse=#6E7CA1FF Color.c1=#0034D4FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Rubber-Green] = (003C): RenderingStyle 'Rubber-Green' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Rubber-Green" txt_2="38A867DC-CEEF-45E3-9966-B6F0F1CBDE8C" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={0739D818-0E6A-3385-F4C0-96B80975421F} Color.c0=#79977CFF Color.diffuse=#6EA174FF Color.c1=#00D415FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		*lst0[Semi-Polished] = (0009): RenderingStyle 'Semi-Polished'
+		lst0[Sky Blue] = (003D): RenderingStyle 'Sky Blue' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Sky Blue" txt_2="61EE208E-CE7E-4D1E-AB62-7198E43B8915" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={90BD1A39-AE0A-7705-8D90-974DA8EFC0B1} Color.c0=#013D61FF Color.diffuse=#70A0FCFF Color.c1=#FFFFFFFF Color.c2=#000000FF Color.f=41 FileMapTexture="" u8_1=00 vec4d_0=[0.752941,0.752941,0.752941,1] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Steel] = (003E): RenderingStyle 'Steel' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="Generic material." u16_2=000 txt_1="1:Metal-Steel" txt_2="" txt_3="InvGen-066" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,002) uid_0={FEE7EA40-0633-BC49-B4A4-9F5F2577E9AC} Color.c0=#E0DFDBFF Color.diffuse=#E0DFDBFF Color.c1=#E0DFDBFF Color.c2=#000000FF Color.f=51.5 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-4 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (0.0, 1.0, 0.0) txt_7="Metal/Steel" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.878431,0.87451,0.858824,1,1,0.2] u8_4=01 a10=[0.15,0.15,0,0,1,0,0]
+		lst0[Yellow(Clear)] = (003F): RenderingStyle 'Yellow(Clear)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Yellow(Clear)" txt_2="E7A4A2B7-F870-4E76-980B-B5DF279172CD" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={CEBD7B57-11F2-A0BC-0CC7-8EE450D556E8} Color.c0=#9E9A00FF Color.diffuse=#D4CF007F Color.c1=#FFFB75FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+		lst0[Yellow(Flat)] = (0040): RenderingStyle 'Yellow(Flat)' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="" u16_2=000 txt_1="1:Yellow(Flat)" txt_2="E23B6AAF-6192-4325-8876-5BCFB3204540" txt_3="" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(00A,002) uid_0={2F2392D3-322A-AEB0-D82E-A85B8D5A644E} Color.c0=#9E9A00FF Color.diffuse=#D4CF00FF Color.c1=#FFFB75FF Color.c2=#000000FF Color.f=20 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-2 f32_1=1 FileMapBump="" s32_1=-2 vec2d_1=Vector (1.0, 1.0, 0.0) txt_7="" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,-1,-1,-1,-1,1,0] u8_4=00 a10=[0,1,0,0,1,0,0]
+	lst0[Lighting] = (0017): LeaderCollection 'Lighting'    localeId=409 aX=(00 00 00 00 00 00)
+		*default = (0041): Lighting 'Two Lights'
+		lst0[Two Lights] = (0041): Lighting 'Two Lights' u8_0=01 u16_0=001 a0=(002,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Two Lights" color=#3F3F3FFF lst0=[3: #FFFFFFFF, #FFFFFFFF, #FFFFFFFF, [0, 0, 0, 0.304518, -0.71934, -0.624355], [1, 0, 0, 0.3, 0.5, 0.5, 1],3: #FFFFFFFF, #B3B6CDFF, #B3B6CDFF, [0, 0, 0, -0.482087, 0.642788, 0.595328], [1, 0, 0, 0.3, 0.5, 0.5, 1]] aX=(00 00 00 3F CD CC CC 3E FF FF FF FF 00 00 00 00 00 00 00 00 00 00 3F 00 00 00 00 00 00 80 3F 01 00 00 00 00 00 00 00 3F 00 00 00 3F 00 00 00 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+	lst0[Materials] = (0018): LeaderCollection 'Materials'    localeId=409 aX=(00 00 00 00 00 00)
+		lst0[Delrin, Black] = (0042): MaterialName 'Delrin, Black' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Delrin, Black" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.425,3.585,0.35,68.21,67.52,0.24,85,1.46545) u8_1=00  txt_4=""
+			*ref_0 = (0035): RenderingStyle 'Plastic-Black'
+		lst0[Delrin, White] = (0043): MaterialName 'Delrin, White' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Delrin, White" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.42,3.585,0.35,68.21,67.52,0.24,85,1.46545) u8_1=00  txt_4=""
+			*ref_0 = (0037): RenderingStyle 'Plastic-White'
+		lst0[Lexan, Clear] = (0044): MaterialName 'Lexan, Clear' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Lexan, Clear" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.2,2.275,0.38,62.01,68.9,0.137,67.5,1.2561) u8_1=00  txt_4=""
+			*ref_0 = (002E): RenderingStyle 'Lexan-Clear'
+		lst0[Lexan, Smoke] = (0045): MaterialName 'Lexan, Smoke' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Lexan, Smoke" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.2,2.275,0.38,62.01,68.9,0.137,67.5,1.2561) u8_1=00  txt_4=""
+			*ref_0 = (002F): RenderingStyle 'Lexan-Smoke'
+		lst0[Nylatron] = (0046): MaterialName 'Nylatron' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Nylatron" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.13,2.93,0.35,82.75,82.68,0.24,55.8,1.33984) u8_1=00  txt_4=""
+			*ref_0 = (0036): RenderingStyle 'Plastic-Gray'
+		lst0[PEEK] = (0047): MaterialName 'PEEK' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:PEEK" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.32,1.1,0.42,99.97,0,0.25,46.8,1.33984) u8_1=00  txt_4=""
+			*ref_0 = (0037): RenderingStyle 'Plastic-White'
+		*lst0[Steel, Mild] = (0008): MaterialName 'Steel, Mild'
+		lst0[Ultem-1000] = (0048): MaterialName 'Ultem-1000' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Ultem-1000" txt_1="" txt_2="" txt_3="" a2=(003,000) uid_0={00000000-0000-0000-0000-000000000000} a3=(1.28,3.3,0.36,0,114,0.13,56,0) u8_1=00  txt_4=""
+			*ref_0 = (0035): RenderingStyle 'Plastic-Black'
+(0004): iMates u32_0=0008
+	imates[0000] = (0019): InsertInterfaceDef uid_0={03C20A8E-1E97-4A3B-8A32-9F6E81DC8B5D} a0=(0002,0001) txt_0="Insert In1" a1=(0001,0004) aX=(00 00 00 00 03 00 00 00 00 00 00 00 01 00 00 00 0E 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 7B 00 31 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 66 66 66 66 66 66 E6 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 7B 14 AE 47 E1 7A F4 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 5C 7C F7 EE AE 76 0A 40 00 00 00 00 00 00 00 00 DD 36 28 C3 6D 21 CB BF F0 98 A1 A9 7F 32 F4 3F 66 66 66 66 66 66 E6 3F 01 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 01)
+	imates[0001] = (001A): InsertInterfaceDef uid_0={21E7E812-E8E5-4DC1-8102-B93DF5EC14E5} a0=(0002,0001) txt_0="Insert In2" a1=(0002,0004) aX=(65 00 72 00 04 00 00 00 00 00 00 00 01 00 00 00 0E 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 7B 00 32 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 66 66 66 66 66 66 E6 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1F 85 EB 51 B8 1E FD 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 42 EC 30 0A 78 F6 16 40 00 00 00 00 00 00 00 00 21 21 C7 21 56 11 EE 3F A2 ED AD 32 67 F0 F8 BF 66 66 66 66 66 66 E6 3F 03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 01 01)
+	imates[0002] = (001B): InsertInterfaceDef uid_0={62D6D18A-67C6-4979-BDC8-FB8F6F5FDBF4} a0=(0002,0001) txt_0="Insert In3" a1=(0003,0004) aX=(98 EC C5 7F 05 00 00 00 00 00 00 00 01 00 00 00 0E 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 7B 00 33 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 98 BC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7B 14 AE 47 E1 7A F4 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 DE A4 F5 78 7F 3A 15 40 00 00 00 00 00 00 00 00 66 C7 C5 3A A7 F6 F0 3F 50 88 BC 8C 15 F3 E6 BF 00 00 00 00 00 00 98 BC 05 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 01)
+	imates[0003] = (001C): InsertInterfaceDef uid_0={DAB0BAE0-914C-4CA5-B53F-34FC5ADB0F72} a0=(0002,0001) txt_0="Insert In4" a1=(0004,0004) aX=(42 00 6C 00 06 00 00 00 00 00 00 00 01 00 00 00 0E 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 7B 00 34 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 98 BC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 1F 85 EB 51 B8 1E FD 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 B0 2C B3 3B A7 40 10 40 00 00 00 00 00 00 00 00 C4 54 4E 87 F5 31 F7 BF 3A E9 31 95 0C 9B F1 3F 00 00 00 00 00 00 98 BC 07 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 01 01)
+	imates[0004] = (001D): iMate 'Align' uid_0={3F7BD75B-9B47-4D8C-9343-522F2B2D12A9} a0=(0002,0001) a1=(0001,0000) a2=(7F804300,0007,0000,0001) aX=(0D 00 00 00 49 00 44 00 53 00 5F 00 41 00 4C 00 49 00 47 00 4E 00 4D 00 45 00 4E 00 54 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 09 00 00 00 0A 00 00 00 00 00 00 00 00 00 00 00)
+(0005): 7313FAC3  a0=(001,000,02E,001,000,001,000,085,000) lst1=[] a1=(000,000,000,000) lst2=[(),(),()]
+(0006): 345EB9B1  uid_0={41B5AACF-CE4F-44EB-8298-B9809ECDF850} uid_1={41B5AACF-CE4F-44EB-8298-B9809ECDF850}
+	lst0[0000] = (001E): 9E11F9F6 uid_0={41B5AACF-CE4F-44EB-8298-B9809ECDF850} a0=(000B,000C,0000,0000,000D,000E) brepUID={6F376DCA-5BDD-4E44-AB26-E0A6F9ACCC7C} graphicsUID={368F6C90-14EA-4818-B615-A28AF67BE888}   u32_0=000F u16_0=000
+		lst6[0000] = (0049): E5DDE747 a0=(47.639,1.95977e-06,6.36767e-07,0.95,1.95977e-06,6.36767e-07,0.95,1865.6,1865.6,2832.13,-0.000226511,-0.000697129,0.000244695,199.249,1.79769e+308,1.79769e+308) aX=(00 1E 53 61 41 75 5F 77 40 66 66 66 66 66 66 1F 40 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+		lst6[0002] = (004A): E5DDE747 a0=(47.639,1.95977e-06,6.36767e-07,0.95,1.95977e-06,6.36767e-07,0.95,1865.6,1865.6,2832.13,-0.000226511,-0.000697129,0.000244695,199.249,1.79769e+308,1.79769e+308) aX=(00 D5 46 78 8C 14 67 77 40 71 3D 0A D7 A3 70 1F 40 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+(0007): F8D07626 uid={B41FED41-2AAB-4290-A9E0-D1264BB4C7C5}
+(006B): UnitMeter magnitude=0.01 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(006C): Unit   visible=True 
+	*numerators[0000] = (006B): UnitMeter
+(006D): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(006E): Unit   visible=True 
+	*numerators[0000] = (006D): UnitGrad
+(006F): Unit   visible=True 
+	numerators[0000] = (0070): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0071): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0072): Unit   visible=True 
+	numerators[0000] = (0073): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0074): Unit   visible=True 
+	numerators[0000] = (0075): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+(0076): Unit   visible=True 
+	numerators[0000] = (0077): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(0078): Unit   visible=True 
+	numerators[0000] = (0079): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(007A): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(007B): Unit   visible=True 
+	*numerators[0000] = (007A): UnitMeter
+(007C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(007D): Unit   visible=True 
+	*numerators[0000] = (007C): UnitGrad
+(007E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(007F): Unit   visible=True 
+	*numerators[0000] = (007E): UnitMeter
+(0080): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0081): Unit   visible=True 
+	*numerators[0000] = (0080): UnitGrad
+(0082): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0083): Unit   visible=True 
+	*numerators[0000] = (0082): UnitMeter
+(0084): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0085): Unit   visible=True 
+	*numerators[0000] = (0084): UnitGrad
+(0086): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0087): Unit   visible=True 
+	*numerators[0000] = (0086): UnitMeter
+(0088): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0089): Unit   visible=True 
+	*numerators[0000] = (0088): UnitGrad
+(008A): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(008B): Unit   visible=True 
+	*numerators[0000] = (008A): UnitMeter
+(008C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(008D): Unit   visible=True 
+	*numerators[0000] = (008C): UnitGrad
+(008E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(008F): Unit   visible=True 
+	*numerators[0000] = (008E): UnitMeter
+(0090): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0091): Unit   visible=True 
+	*numerators[0000] = (0090): UnitGrad
+(0092): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0093): Unit   visible=True 
+	*numerators[0000] = (0092): UnitMeter
+(0094): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0095): Unit   visible=True 
+	*numerators[0000] = (0094): UnitGrad
+(0096): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0097): Unit   visible=True 
+	*numerators[0000] = (0096): UnitMeter
+(0098): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0099): Unit   visible=True 
+	*numerators[0000] = (0098): UnitGrad
+(009A): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(009B): Unit   visible=True 
+	*numerators[0000] = (009A): UnitMeter
+(009C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(009D): Unit   visible=True 
+	*numerators[0000] = (009C): UnitGrad
+(009E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(009F): Unit   visible=True 
+	*numerators[0000] = (009E): UnitMeter
+(00A0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00A1): Unit   visible=True 
+	*numerators[0000] = (00A0): UnitGrad
+(00A2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00A3): Unit   visible=True 
+	*numerators[0000] = (00A2): UnitMeter
+(00A4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00A5): Unit   visible=True 
+	*numerators[0000] = (00A4): UnitGrad
+(00A6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00A7): Unit   visible=True 
+	*numerators[0000] = (00A6): UnitMeter
+(00A8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00A9): Unit   visible=True 
+	*numerators[0000] = (00A8): UnitGrad
+(00AA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00AB): Unit   visible=True 
+	*numerators[0000] = (00AA): UnitMeter
+(00AC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00AD): Unit   visible=True 
+	*numerators[0000] = (00AC): UnitGrad
+(00AE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00AF): Unit   visible=True 
+	*numerators[0000] = (00AE): UnitMeter
+(00B0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00B1): Unit   visible=True 
+	*numerators[0000] = (00B0): UnitGrad
+(00B2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00B3): Unit   visible=True 
+	*numerators[0000] = (00B2): UnitMeter
+(00B4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00B5): Unit   visible=True 
+	*numerators[0000] = (00B4): UnitGrad
+(00B6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00B7): Unit   visible=True 
+	*numerators[0000] = (00B6): UnitMeter
+(00B8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00B9): Unit   visible=True 
+	*numerators[0000] = (00B8): UnitGrad
+(00BA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00BB): Unit   visible=True 
+	*numerators[0000] = (00BA): UnitMeter
+(00BC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00BD): Unit   visible=True 
+	*numerators[0000] = (00BC): UnitGrad
+(00BE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00BF): Unit   visible=True 
+	*numerators[0000] = (00BE): UnitMeter
+(00C0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00C1): Unit   visible=True 
+	*numerators[0000] = (00C0): UnitGrad
+(00C2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00C3): Unit   visible=True 
+	*numerators[0000] = (00C2): UnitMeter
+(00C4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00C5): Unit   visible=True 
+	*numerators[0000] = (00C4): UnitGrad
+(00C6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00C7): Unit   visible=True 
+	*numerators[0000] = (00C6): UnitMeter
+(00C8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00C9): Unit   visible=True 
+	*numerators[0000] = (00C8): UnitGrad
+(00CA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00CB): Unit   visible=True 
+	*numerators[0000] = (00CA): UnitMeter
+(00CC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00CD): Unit   visible=True 
+	*numerators[0000] = (00CC): UnitGrad
+(00CE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00CF): Unit   visible=True 
+	*numerators[0000] = (00CE): UnitMeter
+(00D0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00D1): Unit   visible=True 
+	*numerators[0000] = (00D0): UnitGrad
+(00D2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00D3): Unit   visible=True 
+	*numerators[0000] = (00D2): UnitMeter
+(00D4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00D5): Unit   visible=True 
+	*numerators[0000] = (00D4): UnitGrad
+(00D6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00D7): Unit   visible=True 
+	*numerators[0000] = (00D6): UnitMeter
+(00D8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00D9): Unit   visible=True 
+	*numerators[0000] = (00D8): UnitGrad
+(00DA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00DB): Unit   visible=True 
+	*numerators[0000] = (00DA): UnitMeter
+(00DC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00DD): Unit   visible=True 
+	*numerators[0000] = (00DC): UnitGrad
+(00DE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00DF): Unit   visible=True 
+	*numerators[0000] = (00DE): UnitMeter
+(00E0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00E1): Unit   visible=True 
+	*numerators[0000] = (00E0): UnitGrad
+(00E2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00E3): Unit   visible=True 
+	*numerators[0000] = (00E2): UnitMeter
+(00E4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00E5): Unit   visible=True 
+	*numerators[0000] = (00E4): UnitGrad
+(00E6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00E7): Unit   visible=True 
+	*numerators[0000] = (00E6): UnitMeter
+(00E8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00E9): Unit   visible=True 
+	*numerators[0000] = (00E8): UnitGrad
+(00EA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00EB): Unit   visible=True 
+	*numerators[0000] = (00EA): UnitMeter
+(00EC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00ED): Unit   visible=True 
+	*numerators[0000] = (00EC): UnitGrad
+(00EE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00EF): Unit   visible=True 
+	*numerators[0000] = (00EE): UnitMeter
+(00F0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00F1): Unit   visible=True 
+	*numerators[0000] = (00F0): UnitGrad
+(00F2): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00F3): Unit   visible=True 
+	*numerators[0000] = (00F2): UnitMeter
+(00F4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00F5): Unit   visible=True 
+	*numerators[0000] = (00F4): UnitGrad
+(00F6): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00F7): Unit   visible=True 
+	*numerators[0000] = (00F6): UnitMeter
+(00F8): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00F9): Unit   visible=True 
+	*numerators[0000] = (00F8): UnitGrad
+(00FA): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00FB): Unit   visible=True 
+	*numerators[0000] = (00FA): UnitMeter
+(00FC): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00FD): Unit   visible=True 
+	*numerators[0000] = (00FC): UnitGrad
+(00FE): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00FF): Unit   visible=True 
+	*numerators[0000] = (00FE): UnitMeter
+(0100): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0101): Unit   visible=True 
+	*numerators[0000] = (0100): UnitGrad
+(0102): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0103): Unit   visible=True 
+	*numerators[0000] = (0102): UnitMeter
+(0104): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0105): Unit   visible=True 
+	*numerators[0000] = (0104): UnitGrad
+(0106): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0107): Unit   visible=True 
+	*numerators[0000] = (0106): UnitMeter
+(0108): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0109): Unit   visible=True 
+	*numerators[0000] = (0108): UnitGrad
+(010A): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(010B): Unit   visible=True 
+	*numerators[0000] = (010A): UnitMeter
+(010C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(010D): Unit   visible=True 
+	*numerators[0000] = (010C): UnitGrad
+(010E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(010F): Unit   visible=True 
+	*numerators[0000] = (010E): UnitMeter
+(0110): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0111): Unit   visible=True 
+	*numerators[0000] = (0110): UnitGrad
+(0112): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0113): Unit   visible=True 
+	*numerators[0000] = (0112): UnitMeter
+(0114): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0115): Unit   visible=True 
+	*numerators[0000] = (0114): UnitGrad
+(0116): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0117): Unit   visible=True 
+	*numerators[0000] = (0116): UnitMeter
+(0118): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0119): Unit   visible=True 
+	*numerators[0000] = (0118): UnitGrad
+(011A): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(011B): Unit   visible=True 
+	*numerators[0000] = (011A): UnitMeter
+(011C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(011D): Unit   visible=True 
+	*numerators[0000] = (011C): UnitGrad
+(011E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(011F): Unit   visible=True 
+	*numerators[0000] = (011E): UnitMeter
+(0120): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0121): Unit   visible=True 
+	*numerators[0000] = (0120): UnitGrad
+(0122): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0123): Unit   visible=True 
+	*numerators[0000] = (0122): UnitMeter
+(0124): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0125): Unit   visible=True 
+	*numerators[0000] = (0124): UnitGrad
+(0126): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0127): Unit   visible=True 
+	*numerators[0000] = (0126): UnitMeter
+(0128): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0129): Unit   visible=True 
+	*numerators[0000] = (0128): UnitGrad

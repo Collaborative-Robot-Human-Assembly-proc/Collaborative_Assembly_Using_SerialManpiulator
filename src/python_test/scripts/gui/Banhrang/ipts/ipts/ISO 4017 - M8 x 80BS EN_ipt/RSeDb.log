@@ -1,0 +1,75 @@
+Schema: 31
+UID:    {FABDCA04-5936-8EA5-2E99-D1FCDF41AB2E}
+Vrs1:   Version 25.0.0 [40,00,00,7C,47]
+Date1:  2023-06-24 15:22:02.571052
+Vrs2:   Version 25.0.0 [40,00,00,BC,34]
+Date2:  2023-06-24 15:22:02.571052
+
+segInfo:
+	UID:   {None}
+	Date:  None
+	Text:  ''
+	U16:   000
+	Text2: ''
+	arr1:  [B49,000]
+	arr2:  []
+	arr3:  []
+	arr4:  []
+	UID1:
+		[00]: 'RDxPart'
+		[01]: 'RDxPlane'
+		[02]: 'RDxLine3'
+		[03]: 'RDxPoint3'
+		[04]: 'RDxBody'
+		[05]: 'RDxPlanarSketch'
+		[06]: 'RDxPoint2'
+		[07]: 'RDxLine2'
+		[08]: 'RDxDistanceDimension2'
+		[09]: 'RDxHorizontalDistance2'
+		[0A]: 'RDxAngle2'
+		[0B]: 'RDxMateInterfaceDef'
+		[0C]: 'RDxInsertInterfaceDef'
+		[0D]: 'RDxFeature'
+		[0E]: 'FWxRenderingStyle'
+		[0F]: 'NMxFaceMergeData'
+		[10]: 'MIxTransactablePartition'
+		[11]: 'RSeAcisEntityWrapper'
+		[12]: 'RDxStopNode'
+		[13]: 'RDxBrowserFolder'
+		[14]: '_BodiesFolder'
+		[15]: 'NBxNotebook'
+		[16]: 'RDxCircle3'
+		[17]: 'RDxReal'
+		[18]: 'MIxBrepComponent'
+		[19]: 'RSeAcisEntityContainer'
+		[1A]: 'PMxEntryManager'
+		[1B]: '_ViewDirectionCollection'
+		[1C]: 'NBxEntry'
+	UID2:
+		[00]: 'UCxComponentNode'
+		[01]: 'UCxWorkplaneNode'
+		[02]: 'UCxWorkaxisNode'
+		[03]: 'UCxWorkpointNode'
+		[04]: 'PMxBodyNode'
+		[05]: 'SCxSketchNode'
+		[06]: 'UCxCompInterfaceNode'
+		[07]: 'PMxSingleFeatureOutline'
+		[08]: 'PMxPartDrawAttr'
+		[09]: 'RDxComponent'
+		[0A]: 'RDxModelerTxnMgr'
+		[0B]: 'RDxBody'
+		[0C]: 'PMxEntryManager'
+		[0D]: 'BRxEntry'
+		[0E]: 'RDxAtomicInterfaceDef'
+		[0F]: 'PMxPartRepresentation'
+		[10]: 'NBxItem'
+	Segments:
+		FWxDesignViewManagerType:DesignViewSegment, count=(0/1), ID={E6298D89-6908-6A71-0698-0AFC0249851A}, value1=0000, arr1=[0000,0001,0001,0001,0001], arr2=[006E,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		FBAttributeSegment:FBAttributeSegment, count=(0/1), ID={597D03D0-2209-C596-E5D2-18CD541CF16D}, value1=0000, arr1=[0000,0002,0001,000A,000A], arr2=[0002,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		NotebookSegmentType:NBNotebookSegment, count=(1/2), ID={50261832-3F57-6745-4C21-BFFB60B1B143}, value1=0000, arr1=[0000,0001,0001,0001,0001], arr2=[0003,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmAppSegmentType:PmAppSegment, count=(4/12), ID={3225871B-6705-4D0C-F63A-5FD88C1B6EA2}, value1=0000, arr1=[0000,0005,0004,00A4,00A3], arr2=[0017,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmBrepSegmentType:PmBRepSegment, count=(0/1), ID={69EC1421-5282-0C33-6DDC-AB7B86872EF5}, value1=0000, arr1=[0000,0004,0003,0017,0008], arr2=[006E,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]
+		PmBRxSegmentType:PmBrowserSegment, count=(3/27), ID={0AFE8065-F4FE-0A69-A955-199C0D57E28B}, value1=0000, arr1=[0000,0004,0001,0023,0023], arr2=[006D,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmDcSegmentType:PmDCSegment, count=(2/5), ID={7D78F3DF-186F-024A-9D39-93CF28CCD05E}, value1=0000, arr1=[0000,002B,0008,0418,0418], arr2=[014F,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmGRxSegmentType:PmGraphicsSegment, count=(2/83), ID={52092A16-424C-93DF-3A4E-D5F88B9C1736}, value1=0000, arr1=[0000,0022,0006,03A6,01F8], arr2=[0073,0000], value2=0000, Version 25.0.0 [40,00,00,BC,34]
+		PmResultSegmentType:PmResultSegment, count=(0/1), ID={BE31CAC6-6B19-34D8-FE91-E285404DFFAA}, value1=0000, arr1=[0000,0002,0001,0019,0003], arr2=[0000,0000], value2=0001, Version 25.0.0 [40,00,00,BC,34]

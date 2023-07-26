@@ -1,0 +1,9 @@
+
+
+Our innovative CAUSM (Collaborative Assembly Using Serial Manipulator), robotic system developed by engineers from Ain Shams University, incorporates cutting-edge technologies to revolutionize the industrial assembly process. 
+
+
+Equipped with advanced capabilities, the CAUSM system utilizes a combination of intelligent components to ensure seamless and efficient operations. The robot's integrated camera, running the YOLO v7 neural network model, accurately detects and identifies mechanical parts and grid numbers without the need for image capture. This information is then utilized by the ROS MoveIt-based trajectory planning algorithm to guide the robot towards the desired objects on the grid, facilitating precise positioning and pickup. Simultaneously, an Intel RealSense D435 camera, also powered by YOLO v8, identifies segmented body parts and other obstacles, such as bottles, within the scene.
+
+
+By recognizing and avoiding these obstacles, the CAUSM system ensures safe and obstacle-free trajectory execution. Furthermore, the system leverages the combined knowledge from both cameras to determine the precise location of the human hand to provide him the mechanical part. This enables the robot to navigate directly to the hand location, ensuring efficient and accurate object providing. The integration of these advanced technologies into the CAUSM robotic system significantly enhances the productivity, safety, and reliability of industrial assembly procedures, marking a improvement concept of industrial assembly field.

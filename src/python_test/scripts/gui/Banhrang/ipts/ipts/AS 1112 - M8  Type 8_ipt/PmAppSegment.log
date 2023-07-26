@@ -1,0 +1,175 @@
+[2021]
+(0001): 11FBECCD          u8_0=01 
+	material = (0008): MaterialName 'Steel, Mild' u8_0=00 u16_0=001 a0=(000,000) default=0001 u32=0000  comment="Mild Steel" u16_1=000 longName="1:Steel, Mild" txt_1="" txt_2="MaterialInv_029" txt_3="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,000) uid_0={A64B34EB-0785-926D-FFCB-AF8CD7A811EE} a3=(7.85,220,0.275,207,345,45,12,0.48) u8_1=00  txt_4="2:MATERIAL:MI_InventorSustainability:443FF4C0-B220-406B-A03C-AE1602BB69A3:48745BB7-BE14-4E5F-B4E0-4C3D4A7AE7A5:0"
+		*materials = (0018): LeaderCollection 'Materials'
+		*ref_0 = (0009): RenderingStyle 'Semi-Polished'
+	renderingStyle = (0009): RenderingStyle 'Semi-Polished' u8_0=00 u16_0=004 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="Metal." u16_2=000 txt_1="1:Semi-Polished" txt_2="" txt_3="Metal-045" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,002) uid_0={39E7C1AE-BD15-2AEC-D945-C471BD0D70A4} Color.c0=#BDBBB9FF Color.diffuse=#BDBBB9FF Color.c1=#BDBBB9FF Color.c2=#000000FF Color.f=65 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=0 f32_1=1.4 FileMapBump="" s32_1=0 vec2d_1=Vector (0.3, 1.0, 0.0) txt_7="Default" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.745,0.737,0.729,1,1,0.4] u8_4=01 a10=[0.75,1,0,0,1.4,0,0]
+		*ref1Name = (0016): LeaderCollection 'Colors'
+	cld_2 = (000A): 2AE52C91 u16_0=(002,00A) txt_0="1 mm" txt_1="1 mm" txt_2="1 deg" 
+		*parent = (0002): F8A779F9
+	cld_3 = (000B): 6B4C0C42 '5.000 mm' 
+		*parent = (0002): F8A779F9
+	cld_4 = (000C): BA93BB36 '0.250 mm'  u16_0=003 txt_0="5.00 deg" u8_0=00 u16_1=(000,000,000,000,001,000,000,000,000,000,000,000) txt_1="Solid" txt_2="Srf" aX=(00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 01 01 01 01 03 00 00 00 55 00 43 00 53 00 00 00 00 00 E1 00 00 00 01 01 01)
+		*parent = (0002): F8A779F9
+	cld_5 = (000D): 3235A9B8 uid_0={A816DD01-11D1-7AF9-8000-4787F388C25F}   
+	cld_6 = (000E): E454FA4D lst0=[] u32_0=0001 lst1=[] u32_1=0001 lst2=[]
+	cld_7 = (000F): 37186901 lst0=[] u32_0=0001
+	cld_8 = (0010): 42A65DAA u32_0=0000
+	cld_9 = (0011): D4227E2D a0=(1,0.04,2,0.08,3,0.12,4) u16_0=001
+(0002): F8A779F9  
+	ref_1 = (0012): F8A779F8 a0=(003,002) u8_0=01 a1=(001,006) u8_1=01 a2=(001,000,000,000,000,000,000,001,000) u8_2=00 a3=(003,002,000)
+	ref_2 = (0013): SystemOfUnitsCollection   
+		*selected = (001E): SystemOfUnitsCGS 'Custom'
+		customUnitSystems[0000] = (001E): SystemOfUnitsCGS 'Custom' 
+			units[0000] = (0026): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			units[0001] = (0027): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0002] = (0028): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0029): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (002A): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (002B): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (002C): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0007] = (002D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		predefinedUnitSystems[0000] = (001F): SystemOfUnitsCGS 'CGS' 
+			units[0000] = (002E): UnitMeter magnitude=0.01 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			units[0001] = (002F): UnitGram magnitude=1 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0002] = (0030): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0031): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (0032): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0033): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0034): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (0035): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+		predefinedUnitSystems[0001] = (0020): SystemOfUnitsImperial 'English' 
+			units[0000] = (0036): UnitInch magnitude=1 factor=1 Unit="in" UnitOffset=0 UnitFactor=2.54 UnitSupportet=True
+			units[0001] = (0037): UnitPound magnitude=1 factor=1 Unit="lb" UnitOffset=0 UnitFactor=0.428335 UnitSupportet=True
+			units[0002] = (0038): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0039): UnitFahrenheit magnitude=1 factor=1 Unit="°F" UnitOffset=459.67 UnitFactor=0.555556 UnitSupportet=True
+			units[0004] = (003A): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (003B): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (003C): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (003D): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+		predefinedUnitSystems[0002] = (0021): SystemOfUnitsMGS 'MKS' 
+			units[0000] = (003E): UnitMeter magnitude=1 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			units[0001] = (003F): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+			units[0002] = (0040): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0003] = (0041): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0004] = (0042): UnitRadian magnitude=1 factor=1 Unit="rad" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0005] = (0043): UnitAmpere magnitude=1 factor=1 Unit="A" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0006] = (0044): UnitMol magnitude=1 factor=1 Unit="mol" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			units[0007] = (0045): UnitCandela magnitude=1 factor=1 Unit="cd" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(0003): Settings 'GreyRoom'   a0=(0,0,1,0,0,0,10,5,0,0,1,0,1,-1,1,-0.333333,0.333333,0.666667,0,0,-1,0,1,0) a1=(0000,0006) u8_0=01 a2=(0,0,0,0,0,0,0,0,0,0) u8_1=01 c_0=#C0C0C0FF f_0=0.3 u16_0=101 f_1=2 u32_1=000A f_2=0.2 u32_2=0014 f_3=0.5 a3=Vector (0.0, 0.0078125, 0.0) a4=(0000,0001) u32_4=0000 a5=(0046,03FF,0000) u8_2=00 u32_3=0001 u8_5=01 u8_6=00 u32_5=0001 c_1=#50A5D2FF u32_6=0011 f_4=[0,0,0,1,1] u8_7=01
+	lst0[AnalysisSetup] = (0014): LeaderCollection 'AnalysisSetup'    localeId=409 aX=(00 00 00 00 00 00)
+	lst0[AnalysisStyle] = (0015): LeaderCollection 'AnalysisStyle'    localeId=409 aX=(00 00 00 00 00 00)
+	lst0[Colors] = (0016): LeaderCollection 'Colors'    localeId=409 aX=(00 00 00 00 00 00)
+		*lst0[Semi-Polished] = (0009): RenderingStyle 'Semi-Polished'
+		lst0[Steel] = (0022): RenderingStyle 'Steel' u8_0=00 u16_0=000 a0=(000,000) default=0001 u32=0000  comment="" u16_1=000 longName="Generic material." u16_2=000 txt_1="1:Metal-Steel" txt_2="" txt_3="InvGen-066" txt_4="AFEFC330-5E61-4E24-814F-AE810148B79D" a2=(000,002) uid_0={FEE7EA40-0633-BC49-B4A4-9F5F2577E9AC} Color.c0=#E0DFDBFF Color.diffuse=#E0DFDBFF Color.c1=#E0DFDBFF Color.c2=#000000FF Color.f=51.5 FileMapTexture="" u8_1=00 vec4d_0=[0,0,0,0] vec2d_0=(100,1) a3=(0,0) a4=(00,00,00,00,00) s32_0=-4 f32_1=1 FileMapBump="" s32_1=0 vec2d_1=Vector (0.0, 1.0, 0.0) txt_7="Metal/Steel" a6=(1,0) txt_9="" u8_2=00 f32_2=0 a7=(00,00,00) a8=(1.875,0,0) u8_3=00 a9=[-1,-1,-1,-1,0.878431,0.87451,0.858824,1,1,0.2] u8_4=01 a10=[0.15,0.15,0,0,1,0,0]
+	lst0[Lighting] = (0017): LeaderCollection 'Lighting'    localeId=409 aX=(00 00 00 00 00 00)
+		*default = (0023): Lighting 'Two Lights'
+		lst0[Two Lights] = (0023): Lighting 'Two Lights' u8_0=01 u16_0=001 a0=(002,000) default=0001 u32=0000  comment="" u16_1=000 longName="1:Two Lights" color=#3F3F3FFF lst0=[3: #FFFFFFFF, #FFFFFFFF, #FFFFFFFF, [0, 0, 0, 0.304518, -0.71934, -0.624355], [1, 0, 0, 0.3, 0.5, 0.5, 1],3: #FFFFFFFF, #B3B6CDFF, #B3B6CDFF, [0, 0, 0, -0.482087, 0.642788, 0.595328], [1, 0, 0, 0.3, 0.5, 0.5, 1]] aX=(00 00 00 3F CD CC CC 3E FF FF FF FF 00 00 00 00 00 00 00 00 00 00 3F 00 00 00 00 00 00 80 3F 01 00 00 00 00 00 00 00 3F 00 00 00 3F 00 00 00 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+	lst0[Materials] = (0018): LeaderCollection 'Materials'    localeId=409 aX=(00 00 00 00 00 00)
+		*lst0[Steel, Mild] = (0008): MaterialName 'Steel, Mild'
+(0004): iMates u32_0=0008
+	imates[0000] = (0019): InsertInterfaceDef uid_0={1E8C950B-CF02-4674-84E4-06F8122C0D29} a0=(0003,0001) txt_0="Insert In1" a1=(0001,0004) aX=(BA B1 41 01 05 00 00 00 00 00 00 00 01 00 00 00 11 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 5F 00 49 00 4E 00 7B 00 31 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 02 00 00 C3 F5 28 5C 8F C2 E5 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 9D A2 82 23 BC 99 D9 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 FE 12 36 B6 E0 91 DA 3F 00 00 00 00 00 00 00 00 C3 F5 28 5C 8F C2 E5 3F 52 EC 8C A0 A4 A6 C4 BF 69 52 A9 0D 06 6D D7 3F 01 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 01)
+	imates[0001] = (001A): InsertInterfaceDef uid_0={94687E2B-6F53-416C-9264-71503C90B7C8} a0=(0003,0001) txt_0="Insert Back1" a1=(0002,0004) aX=(E8 C1 E7 7F 06 00 00 00 00 00 00 00 01 00 00 00 12 00 00 00 49 00 44 00 53 00 5F 00 43 00 4F 00 4E 00 4E 00 45 00 43 00 54 00 5F 00 4F 00 55 00 54 00 7B 00 31 00 7D 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 00 9D A2 82 23 BC 99 D9 3F 00 00 00 00 00 00 00 00 18 2D 44 54 FB 21 19 40 7B 64 87 7E 9A 01 08 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F2 19 B9 65 43 BE AC BF BA 3C 15 DB DE 58 D9 3F 03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 01)
+	imates[0002] = (001B): iMate 'Align1' uid_0={062843E9-597D-458A-AF4F-6656A2CD9EE2} a0=(0004,0001) a1=(0001,0000) a2=(1794050,0004,0000,0001) aX=(10 00 00 00 49 00 44 00 53 00 5F 00 41 00 4C 00 49 00 47 00 4E 00 4D 00 45 00 4E 00 54 00 7B 00 31 00 7D 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 BF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 05 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00)
+	imates[0003] = (001C): iMate 'Align 2D' uid_0={C0666894-9818-443B-AA22-081447C87562} a0=(0002,0001) a1=(0002,0000) a2=(0000,0007,0000,0001) aX=(10 00 00 00 49 00 44 00 53 00 5F 00 41 00 4C 00 49 00 47 00 4E 00 4D 00 45 00 4E 00 54 00 5F 00 32 00 44 00 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AE 8A 31 71 28 B4 F6 BF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 E0 BF A9 4C 58 E8 7A B6 EB 3F A0 1F 32 73 12 B9 E3 3F AB FC DE 8A BC AC 88 3F BC F5 30 6F 3E AF E9 BF B0 FC DE 8A BC AC 78 BF F1 37 39 4B 74 5E 85 3F 07 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00)
+(0005): 7313FAC3  a0=(001,000,02E,001,000,001,000,085,000) lst1=[] a1=(000,000,000,000) lst2=[(),(),()]
+(0006): 345EB9B1  uid_0={83436C50-4C60-4C16-9344-68CDDE1CB611} uid_1={83436C50-4C60-4C16-9344-68CDDE1CB611}
+	lst0[0000] = (001D): 9E11F9F6 uid_0={83436C50-4C60-4C16-9344-68CDDE1CB611} a0=(0009,000A,0000,0000,000B,000C) brepUID={23568DE0-8281-4B29-8DDF-8D0E89D98BE7} graphicsUID={CA096C0C-66B4-408F-9C20-6CD2A5EAC109}   u32_0=000D u16_0=000
+		lst6[0000] = (0024): E5DDE747 a0=(0,0,0,0,0,0,0,1,1,1,0,0,0,0,1.79769e+308,1.79769e+308) aX=(00 00 00 00 00 00 00 00 00 66 66 66 66 66 66 1F 40 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+		lst6[0002] = (0025): E5DDE747 a0=(0,0,0,0,0,0,0,1,1,1,0,0,0,0,1.79769e+308,1.79769e+308) aX=(00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 3F 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+(0007): F8D07626 uid={AD017FCE-0759-418D-A613-DDC13681B0F3}
+(0046): UnitMeter magnitude=0.01 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0047): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0048): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0049): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(004A): UnitGram magnitude=1000 factor=1 Unit="g" UnitOffset=0 UnitFactor=0.001 UnitSupportet=True
+(004B): UnitSecond magnitude=1 factor=1 Unit="s" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(004C): UnitKelvin magnitude=1 factor=1 Unit="K" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+(004D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(004E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(004F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0050): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0051): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0052): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0053): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0054): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0055): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0056): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0057): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0058): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0059): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(005A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(005B): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(005C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(005D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(005E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(005F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0060): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0061): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0062): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0063): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0064): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0065): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0066): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0067): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0068): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0069): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(006A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(006B): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(006C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(006D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(006E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(006F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0070): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0071): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0072): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0073): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0074): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0075): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0076): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0077): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0078): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0079): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(007A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(007B): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(007C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(007D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(007E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(007F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0080): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0081): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0082): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0083): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0084): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0085): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0086): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0087): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0088): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0089): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(008A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(008B): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(008C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(008D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(008E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(008F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0090): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0091): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0092): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0093): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0094): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0095): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0096): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0097): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(0098): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(0099): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(009A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(009B): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(009C): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(009D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(009E): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(009F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00A0): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00A1): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00A2): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+(00A3): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+(00A4): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True

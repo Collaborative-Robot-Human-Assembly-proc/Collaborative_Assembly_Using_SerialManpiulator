@@ -1,0 +1,59 @@
+22600 0 2 5
+8 Inventor 20 ASM 226.0.3.65535 NT 24 Fri Feb 21 09:08:09 2020
+10 1e-06 1e-10
+-0 asmheader $-1 -1 @13 226.0.3.65535 #
+-1 body $-1 9 $-1 $2 $-1 $-1 #
+-2 lump $-1 -1 $-1 $-1 $3 $1 #
+-3 shell $-1 -1 $-1 $-1 $-1 $4 $-1 $2 #
+-4 face $5 19 $-1 $6 $7 $3 $-1 $8 forward single #
+-5 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $4 43 1 27 -1 0 0 4108 0 0 0 0 0 0 0 #
+-6 face $9 21 $-1 $10 $11 $3 $-1 $12 forward single #
+-7 loop $-1 -1 $-1 $-1 $13 $4 #
+-8 plane-surface $-1 -1 $-1 0 0 -10 0 0 -1 -1 0 0 forward_v I I I I #
+-9 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $14 $-1 $6 43 $15 $16 #
+-10 face $17 23 $-1 $-1 $18 $3 $-1 $19 reversed single #
+-11 loop $-1 -1 $-1 $20 $21 $6 #
+-12 cone-surface $-1 -1 $-1 0 0 0 0 0 1 -0.41321 0 0 1 I I 0 1 0.41321 forward I I I I #
+-13 coedge $-1 -1 $-1 $13 $13 $21 $22 reversed $7 0 $-1 #
+-14 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $9 $6 43 1 27 -1 3 0 20 0 0 1 4096 0 0 0 0 #
+-15 straight-curve $-1 -1 $-1 4.1321 5.06037e-16 0 0 0 1 I I #
+-16 ellipse-curve $-1 -1 $-1 0 0 0 0 0 -1 -0.41321 -0 -0 1 I I #
+-17 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $10 43 1 27 -1 0 0 12 0 0 0 0 0 0 0 #
+-18 loop $-1 -1 $-1 $-1 $23 $10 #
+-19 plane-surface $-1 -1 $-1 0 0 10 0 0 -1 -1 0 0 forward_v I I I I #
+-20 loop $-1 -1 $-1 $-1 $24 $6 #
+-21 coedge $-1 -1 $-1 $21 $21 $13 $22 forward $11 0 $-1 #
+-22 edge $25 20 $-1 $26 -3.14159 $26 3.14159 $21 $27 forward @7 unknown #
+-23 coedge $-1 -1 $-1 $23 $23 $24 $28 reversed $18 0 $-1 #
+-24 coedge $-1 -1 $-1 $24 $24 $23 $28 forward $20 0 $-1 #
+-25 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $29 $-1 $22 43 1 59 -1 7 0 #
+-26 vertex $30 -1 $-1 $22 2 $31 #
+-27 ellipse-curve $-1 -1 $-1 0 0 -10 0 0 1 -0.41321 -0 -0 1 I I #
+-28 edge $32 22 $-1 $33 -3.14159 $33 3.14159 $24 $34 forward @7 unknown #
+-29 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $25 $22 43 1 27 -1 3 0 4106 0 0 0 0 0 0 0 #
+-30 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $35 $-1 $26 43 1 59 -1 5 1 #
+-31 point $-1 -1 $-1 4.1321 5.06037e-16 -10 #
+-32 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $36 $-1 $28 43 1 57 -1 4 0 #
+-33 vertex $37 -1 $-1 $28 2 $38 #
+-34 ellipse-curve $-1 -1 $-1 0 0 10 0 0 -1 -0.41321 -0 -0 1 I I #
+-35 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $30 $26 43 1 27 -1 3 0 4105 0 0 0 0 0 0 0 #
+-36 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $32 $28 43 1 27 -1 3 0 10 0 0 0 0 0 0 0 #
+-37 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $39 $-1 $33 43 1 57 -1 2 1 #
+-38 point $-1 -1 $-1 4.1321 5.06037e-16 10 #
+-39 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $37 $33 43 1 27 -1 3 0 9 0 0 0 0 0 0 0 #
+Begin-of-ACIS-History-Data history_stream 21 21 0 24 $0 $0 $1 $-1 #
+-0 delta_state 0 1 0 $-1 $2 $0 $-1 $0 F 0 0 #
+-1 delta_state 2 1 0 $3 $-1 $1 $-1 $0 F 0 0 #
+-2 delta_state 21 1 0 $0 $3 $2 $-1 $0 F 1 $2 2 1 $-1 $25 1 $40 $29 1 $41 $22 1 $-1 $30 1 $42 $35 1 $43 $26 1 $-1 $32 1 $44 $36 1 $45 $28 1 $-1 $37 1 $46 $39 1 $47 $33 0 0 0 #
+-3 delta_state 18 1 0 $2 $1 $3 $-1 $0 F 1 $3 2 1 $-1 $1 1 $-1 $3 1 $-1 $2 1 $-1 $10 1 $-1 $18 1 $-1 $38 1 $-1 $33 1 $-1 $12 1 $-1 $34 1 $-1 $28 1 $-1 $24 1 $-1 $23 1 $-1 $6 1 $-1 $19 1 $-1 $20 1 $-1 $17 1 $-1 $14 1 $-1 $36 1 $-1 $39 1 $-1 $4 1 $-1 $7 1 $-1 $31 1 $-1 $26 1 $-1 $27 1 $-1 $22 1 $-1 $21 1 $-1 $13 1 $-1 $8 1 $-1 $11 1 $-1 $5 1 $-1 $29 1 $-1 $35 1 $-1 $15 1 $-1 $9 1 $-1 $16 0 0 0 #
+End-of-ACIS-History-Section
+-40 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $22 43 1 27 -1 3 0 4106 0 0 0 0 0 0 0 #
+-41 edge $29 20 $-1 $26 -3.14159 $26 3.14159 $21 $27 forward @7 unknown #
+-42 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $26 43 1 27 -1 3 0 4105 0 0 0 0 0 0 0 #
+-43 vertex $35 -1 $-1 $22 2 $31 #
+-44 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $28 43 1 27 -1 3 0 10 0 0 0 0 0 0 0 #
+-45 edge $36 22 $-1 $33 -3.14159 $33 3.14159 $24 $34 forward @7 unknown #
+-46 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $33 43 1 27 -1 3 0 9 0 0 0 0 0 0 0 #
+-47 vertex $39 -1 $-1 $28 2 $38 #
+
+End-of-ACIS-data

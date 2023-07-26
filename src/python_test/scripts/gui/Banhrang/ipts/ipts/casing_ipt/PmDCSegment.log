@@ -1,0 +1,1673 @@
+[2021]
+(0001): Document 'casing'  u32_0=20040 uid_0={AE26AC2D-CD33-11D3-B589-00902707C6F2}  a0=(0000,0000,0000)        u32_1=800000F8  u32_2=0001   segName="PmBRepSegment" f64_0=1 
+	next = (0002): Label a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+		*participants[0000] = (000A): BodiesFolder 'Solid Bodies'
+		*participants[0001] = (000B): BodiesFolder 'Surface Bodies'
+		*participants[0002] = (000C): BrowserFolder 'Origin'
+		*participants[0003] = (000D): FxExtrude 'Extrusion1'
+		*participants[0004] = (000E): FxExtrude 'Extrusion2'
+		*participants[0005] = (000F): FxExtrude 'Extrusion3'
+		*participants[0006] = (0010): FxExtrude 'Extrusion4'
+		*participants[0007] = (0011): Sketch2D 'Sketch5'
+		*participants[0008] = (0012): EndOfFeatures
+	component = (0003): PartComponent  a0=(100,000)    a1=(0004,0015) index=018B u32_0=001F lst1={{FFD270B8-11D5-2D14-1000-0897994909B5}:0002,{12115D87-4545-5E57-FD74-BAA2FC39CF26}:0001,{0CA91131-11D0-838B-0008-19B00524DC09}:0004,{90874D11-11D0-D1F8-0008-CABC0663DC09}:0005,{2D86FC26-42DF-E340-30C0-8AB05EF9BFC5}:0002}    
+		objects[0000] = (0012): EndOfFeatures  flags=2200  index=0001 s32_0=-1
+			next = (015C): Label a0=(0000,0000)    index=FFFFFFFF  uid={00000000-0000-0000-0000-000000000000}
+		objects[0001] = (0008): SurfaceBody  flags=3004200  index=0002 
+			next = (0153): Label 'Solid1' a0=(0000,0000)    index=000D  uid={00000000-0000-0000-0000-000000000000}
+				next = (0207): 07AB2269 u32_0=0000 u32_1=0000   u32_2=0000 uid={08A376E7-13C3-4A2A-AA6B-05358E1AF143}
+					*surface = (0008): SurfaceBody 'Solid1'
+			*ref_0 = (0004): NameTable
+		objects[0002] = (000C): BrowserFolder 'Origin'  flags=0200  index=0003
+			next = (0156): Label 'Origin' a0=(0000,0000)    index=000A  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0013): Plane 'YZ Plane'
+				*participants[0001] = (0014): Plane 'XZ Plane'
+				*participants[0002] = (0015): Plane 'XY Plane'
+				*participants[0003] = (0016): Line3D (-1,0,0)-(1,0,0)
+				*participants[0004] = (0017): Line3D (0,-1,0)-(0,1,0)
+				*participants[0005] = (0018): Line3D (0,0,-1)-(0,0,1)
+				*participants[0006] = (0019): Point3D - (0,0,0)
+		objects[0003] = (0013): Plane 'YZ Plane'  flags=20200  index=0004 flags2=428000   u32_1=0203 u32_2=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-0.0, 1.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (015D): Label 'YZ Plane' a0=(0000,0000)    index=0003  uid={00000000-0000-0000-0000-000000000000}
+		objects[0004] = (0014): Plane 'XZ Plane'  flags=20200  index=0005 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-1.0, 0.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (015E): Label 'XZ Plane' a0=(0000,0000)    index=0004  uid={00000000-0000-0000-0000-000000000000}
+		objects[0005] = (0015): Plane 'XY Plane'  flags=20200  index=0006 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (1.0, 0.0, -0.0) normal=Vector (-0.0, 1.0, 0.0)
+			next = (015F): Label 'XY Plane' a0=(0000,0000)    index=0005  uid={00000000-0000-0000-0000-000000000000}
+		objects[0006] = (0016): Line3D  flags=20200  index=0007 flags2=424000    pos=Vector (-1.0, 0.0, 0.0) dir=Vector (2.0, 0.0, 0.0) u8_0=00
+			next = (0160): Label 'X Axis' a0=(0000,0000)    index=0006  uid={00000000-0000-0000-0000-000000000000}
+		objects[0007] = (0017): Line3D  flags=20200  index=0008 flags2=424000    pos=Vector (0.0, -1.0, 0.0) dir=Vector (0.0, 2.0, 0.0) u8_0=00
+			next = (0161): Label 'Y Axis' a0=(0000,0000)    index=0007  uid={00000000-0000-0000-0000-000000000000}
+		objects[0008] = (0018): Line3D  flags=20200  index=0009 flags2=424000    pos=Vector (0.0, 0.0, -1.0) dir=Vector (0.0, 0.0, 2.0) u8_0=00
+			next = (0162): Label 'Z Axis' a0=(0000,0000)    index=0008  uid={00000000-0000-0000-0000-000000000000}
+		objects[0009] = (0019): Point3D  flags=20200  index=000A flags2=22000   pos=Vector (0.0, 0.0, 0.0)   
+			next = (0163): Label 'Center Point' a0=(0000,0000)    index=0009  uid={00000000-0000-0000-0000-000000000000}
+		objects[000A] = (000B): BodiesFolder 'Surface Bodies'  flags=0200  index=000B u16_0=001
+			next = (0155): Label 'Surface Bodies' a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+		objects[000B] = (000A): BodiesFolder 'Solid Bodies'  flags=0200  index=000C u16_0=000
+			next = (0154): Label 'Solid Bodies' a0=(0000,0000)    index=0001  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0008): SurfaceBody 'Solid1'
+		objects[000C] = (001A): Transformation  flags=1020200  index=000D transformation= transformation={a0=|+000|0+00|00+0|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 10]]}
+		objects[000D] = (001B): Sketch2D  flags=400200  index=000E s32_0=4 numEntities=000B    a0=(0000,7C5ED95F) 
+			next = (0164): Label 'Sketch1' a0=(0000,0000)    index=000B  uid={00000000-0000-0000-0000-000000000000}
+				next = (020C): A917F560 a0=(0000,0000)    
+					*owner = (001B): Sketch2D 'Sketch1'
+					next = (0270): A9F6B271 a0=(0000,0000)    
+						*owner = (001B): Sketch2D 'Sketch1'
+						next = (02A9): 07AB2269 u32_0=0000 u32_1=0000   u32_2=0000 uid={5D4BC67C-9BA0-48DE-BAF7-38CAE5E99457}
+							*surface = (001B): Sketch2D 'Sketch1'
+						*participant = (000D): FxExtrude 'Extrusion1'
+					ref_2 = (0271): DBDD00E3 u32_0=0000 numEntities=000B  lst0=[]
+						*sketch = (001B): Sketch2D 'Sketch1'
+			*entities[0000] = (001E): Point2D - (0,0)
+			*entities[0001] = (0020): Point2D - (-12.5,-7.5)
+			*entities[0002] = (0021): Point2D - (12.5,7.5)
+			*entities[0003] = (0022): Point2D - (12.5,-7.5)
+			*entities[0004] = (0023): Point2D - (-12.5,7.5)
+			*entities[0005] = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entities[0006] = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entities[0007] = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entities[0008] = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*entities[0009] = (0028): Geometric_Coincident2D - (-12.5,-7.5)	(0024): Line2D
+			*entities[000A] = (0029): Geometric_Coincident2D - (12.5,-7.5)	(0024): Line2D
+			*entities[000B] = (002A): Geometric_Coincident2D - (12.5,-7.5)	(0025): Line2D
+			*entities[000C] = (002B): Geometric_Coincident2D - (12.5,7.5)	(0025): Line2D
+			*entities[000D] = (002C): Geometric_Coincident2D - (12.5,7.5)	(0026): Line2D
+			*entities[000E] = (002D): Geometric_Coincident2D - (-12.5,7.5)	(0026): Line2D
+			*entities[000F] = (002E): Geometric_Coincident2D - (-12.5,7.5)	(0027): Line2D
+			*entities[0010] = (002F): Geometric_Coincident2D - (-12.5,-7.5)	(0027): Line2D
+			*entities[0011] = (0030): Geometric_Perpendicular2D
+			*entities[0012] = (0031): Geometric_Parallel2D
+			*entities[0013] = (0032): Geometric_Parallel2D
+			*entities[0014] = (0033): Geometric_Horizontal2D
+			*entities[0015] = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+			*entities[0016] = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+			*entities[0017] = (0036): Geometric_Coincident2D - (-12.5,-7.5)	(0034): Line2D
+			*entities[0018] = (0037): Geometric_Coincident2D - (12.5,7.5)	(0034): Line2D
+			*entities[0019] = (0038): Geometric_Coincident2D - (12.5,-7.5)	(0035): Line2D
+			*entities[001A] = (0039): Geometric_Coincident2D - (-12.5,7.5)	(0035): Line2D
+			*entities[001B] = (003A): Geometric_Coincident2D - (0,0)	(0035): Line2D
+			*entities[001C] = (003B): Geometric_Coincident2D - (0,0)	(0034): Line2D
+			*entities[001D] = (003E): Dimension_Distance2D - d='d0', (-12.5,7.5), (12.5,7.5)
+			*entities[001E] = (0040): Dimension_Distance2D - d='d1', (12.5,7.5), (12.5,-7.5)
+			*transformation = (001A): Transformation
+			*direction = (001C): DirectionAxis dir=(0,0,1)
+		objects[000E] = (001C): DirectionAxis  flags=20200  index=000F flags2=0000 a=0 dir=Vector (0.0, 0.0, 1.0)
+		objects[000F] = (001D): Sketch2DPlacementPlane  flags=0200  index=0010 s32_0=-1   a1=(000,000,001,000,000,000,000) 
+			*transformation2 = (001A): Transformation
+			*plane = (0015): Plane 'XY Plane'
+		objects[0010] = (001E): Point2D  flags=30200  index=0011 flags2=0040  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (0165): Styles a0=(0000,0000)    u32_0=0000 associativeID=0001 typEntity=0001
+				next = (020D): EntityReference a0=(0000,0000)    
+					*owner = (001E): Point2D - (0,0)
+					next = (0272): C89EF3C0 a0=(0000,0000)    u32_0=0000 pos=Vector (0.0, 0.0, 0.0)
+						*owner = (001E): Point2D - (0,0)
+					*ref_2 = (001F): Representation3DPoint
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*endPointOf[0000] = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+			*endPointOf[0001] = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+		objects[0011] = (001F): Representation3DPoint  flags=0200  index=0012 s32_0=-1   
+			*point2D = (001E): Point2D - (0,0)
+			*transformation = (001A): Transformation
+			*point3D = (0019): Point3D - (0,0,0)
+		objects[0012] = (0020): Point2D  flags=20200  index=0013 flags2=0000  pos=Vector (-12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (0166): Styles a0=(0000,0000)    u32_0=0000 associativeID=0002 typEntity=0001
+				next = (020E): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0020): Point2D - (-12.5,-7.5)
+					*entity2 = (0020): Point2D - (-12.5,-7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*endPointOf[0000] = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*endPointOf[0001] = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*endPointOf[0002] = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+		objects[0013] = (0021): Point2D  flags=20200  index=0014 flags2=0000  pos=Vector (12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (0167): Styles a0=(0000,0000)    u32_0=0000 associativeID=0003 typEntity=0001
+				next = (020F): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0021): Point2D - (12.5,7.5)
+					*entity2 = (0021): Point2D - (12.5,7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*endPointOf[0000] = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*endPointOf[0001] = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*endPointOf[0002] = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+		objects[0014] = (0022): Point2D  flags=20200  index=0015 flags2=0000  pos=Vector (12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (0168): Styles a0=(0000,0000)    u32_0=0000 associativeID=0004 typEntity=0001
+				next = (0210): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0022): Point2D - (12.5,-7.5)
+					*entity2 = (0022): Point2D - (12.5,-7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*endPointOf[0000] = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*endPointOf[0001] = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*endPointOf[0002] = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+		objects[0015] = (0023): Point2D  flags=20200  index=0016 flags2=0000  pos=Vector (-12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (0169): Styles a0=(0000,0000)    u32_0=0000 associativeID=0005 typEntity=0001
+				next = (0211): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0023): Point2D - (-12.5,7.5)
+					*entity2 = (0023): Point2D - (-12.5,7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*endPointOf[0000] = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*endPointOf[0001] = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*endPointOf[0002] = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+		objects[0016] = (0024): Line2D  flags=20200  index=0017 flags2=0000   pos=Vector (0.0, -7.5, 0.0) dir=Vector (1.0, 0.0, 0.0)
+			next = (016A): Styles a0=(0000,0000)    u32_0=0000 associativeID=0006 typEntity=0002
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0020): Point2D - (-12.5,-7.5)
+			*points[0001] = (0022): Point2D - (12.5,-7.5)
+		objects[0017] = (0025): Line2D  flags=20200  index=0018 flags2=0000   pos=Vector (12.5, 0.0, 0.0) dir=Vector (0.0, 1.0, 0.0)
+			next = (016B): Styles a0=(0000,0000)    u32_0=0000 associativeID=0007 typEntity=0002
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0022): Point2D - (12.5,-7.5)
+			*points[0001] = (0021): Point2D - (12.5,7.5)
+		objects[0018] = (0026): Line2D  flags=20200  index=0019 flags2=0000   pos=Vector (0.0, 7.5, 0.0) dir=Vector (-1.0, 0.0, 0.0)
+			next = (016C): Styles a0=(0000,0000)    u32_0=0000 associativeID=0008 typEntity=0002
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0021): Point2D - (12.5,7.5)
+			*points[0001] = (0023): Point2D - (-12.5,7.5)
+		objects[0019] = (0027): Line2D  flags=20200  index=001A flags2=0000   pos=Vector (-12.5, 0.0, 0.0) dir=Vector (0.0, -1.0, 0.0)
+			next = (016D): Styles a0=(0000,0000)    u32_0=0000 associativeID=0009 typEntity=0002
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0023): Point2D - (-12.5,7.5)
+			*points[0001] = (0020): Point2D - (-12.5,-7.5)
+		objects[001A] = (0028): Geometric_Coincident2D  flags=4208  index=001B flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entity2 = (0020): Point2D - (-12.5,-7.5)
+		objects[001B] = (0029): Geometric_Coincident2D  flags=4208  index=001C flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entity2 = (0022): Point2D - (12.5,-7.5)
+		objects[001C] = (002A): Geometric_Coincident2D  flags=4208  index=001D flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entity2 = (0022): Point2D - (12.5,-7.5)
+		objects[001D] = (002B): Geometric_Coincident2D  flags=4208  index=001E flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entity2 = (0021): Point2D - (12.5,7.5)
+		objects[001E] = (002C): Geometric_Coincident2D  flags=4208  index=001F flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entity2 = (0021): Point2D - (12.5,7.5)
+		objects[001F] = (002D): Geometric_Coincident2D  flags=4208  index=0020 flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entity2 = (0023): Point2D - (-12.5,7.5)
+		objects[0020] = (002E): Geometric_Coincident2D  flags=4208  index=0021 flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*entity2 = (0023): Point2D - (-12.5,7.5)
+		objects[0021] = (002F): Geometric_Coincident2D  flags=4208  index=0022 flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*entity2 = (0020): Point2D - (-12.5,-7.5)
+		objects[0022] = (0030): Geometric_Perpendicular2D  flags=4208  index=0023 flags2=-1  lst0={}     u16_0=000
+			*group = (003C): Group2D
+			*line1 = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*line2 = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+		objects[0023] = (0031): Geometric_Parallel2D  flags=4208  index=0024 flags2=-1  lst0={}     u16_0=000
+			*group = (003C): Group2D
+			*line1 = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*line2 = (0026): Line2D - (12.5,7.5) - (-12.5,7.5)
+		objects[0024] = (0032): Geometric_Parallel2D  flags=4208  index=0025 flags2=-1  lst0={}     u16_0=000
+			*group = (003C): Group2D
+			*line1 = (0025): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*line2 = (0027): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+		objects[0025] = (0033): Geometric_Horizontal2D  flags=4208  index=0026 flags2=-1  lst0={}    u8_0=00
+			*group = (003C): Group2D
+			*line = (0024): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+		objects[0026] = (0034): Line2D  flags=20200  index=0027 flags2=80000   pos=Vector (0.0, 0.0, 0.0) dir=Vector (0.8574929257125443, 0.5144957554275266, 0.0)
+			next = (016E): Styles a0=(0000,0000)    u32_0=0000 associativeID=000A typEntity=0002
+				next = (0212): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+					*entity2 = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0020): Point2D - (-12.5,-7.5)
+			*points[0001] = (0021): Point2D - (12.5,7.5)
+			*points[0002] = (001E): Point2D - (0,0)
+		objects[0027] = (0035): Line2D  flags=20200  index=0028 flags2=80000   pos=Vector (0.0, 0.0, 0.0) dir=Vector (-0.8574929257125443, 0.5144957554275266, 0.0)
+			next = (016F): Styles a0=(0000,0000)    u32_0=0000 associativeID=000B typEntity=0002
+				next = (0213): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+					*entity2 = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*points[0000] = (0022): Point2D - (12.5,-7.5)
+			*points[0001] = (0023): Point2D - (-12.5,7.5)
+			*points[0002] = (001E): Point2D - (0,0)
+		objects[0028] = (0036): Geometric_Coincident2D  flags=4208  index=0029 flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+			*entity2 = (0020): Point2D - (-12.5,-7.5)
+		objects[0029] = (0037): Geometric_Coincident2D  flags=4208  index=002A flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+			*entity2 = (0021): Point2D - (12.5,7.5)
+		objects[002A] = (0038): Geometric_Coincident2D  flags=4208  index=002B flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+			*entity2 = (0022): Point2D - (12.5,-7.5)
+		objects[002B] = (0039): Geometric_Coincident2D  flags=4208  index=002C flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+			*entity2 = (0023): Point2D - (-12.5,7.5)
+		objects[002C] = (003A): Geometric_Coincident2D  flags=4208  index=002D flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (001E): Point2D - (0,0)
+			*entity2 = (0035): Line2D - (12.5,-7.5) - (-12.5,7.5)
+		objects[002D] = (003B): Geometric_Coincident2D  flags=4208  index=002E flags2=-1  lst0={}    
+			*group = (003C): Group2D
+			*entity1 = (001E): Point2D - (0,0)
+			*entity2 = (0034): Line2D - (-12.5,-7.5) - (12.5,7.5)
+		objects[002E] = (003C): Group2D  flags=0200  index=002F s32_0=-1 s32_1=20  entries={8000001E:0004,80000020:0000,80000021:0000,80000022:0000,80000023:0000,80000024:0000,80000025:0000,80000026:0000,80000027:0000,80000028:0000,80000029:0000,8000002A:0000,8000002B:0000,8000002C:0000,8000002D:0000,8000002E:0000,8000002F:0000,80000030:0000,80000031:0000,80000032:0000,80000033:0000,80000034:0000,80000035:0000,80000036:0000,80000037:0000,80000038:0000,80000039:0000,8000003A:0000,8000003B:0000,8000003E:0000,80000040:0000} u32_0=0000
+			*constrains[0000] = (0028): Geometric_Coincident2D - (-12.5,-7.5)	(0024): Line2D
+			*constrains[0001] = (0033): Geometric_Horizontal2D
+			*constrains[0002] = (0031): Geometric_Parallel2D
+			*constrains[0003] = (0030): Geometric_Perpendicular2D
+			*constrains[0004] = (0029): Geometric_Coincident2D - (12.5,-7.5)	(0024): Line2D
+			*constrains[0005] = (0036): Geometric_Coincident2D - (-12.5,-7.5)	(0034): Line2D
+			*constrains[0006] = (002F): Geometric_Coincident2D - (-12.5,-7.5)	(0027): Line2D
+			*constrains[0007] = (002D): Geometric_Coincident2D - (-12.5,7.5)	(0026): Line2D
+			*constrains[0008] = (002C): Geometric_Coincident2D - (12.5,7.5)	(0026): Line2D
+			*constrains[0009] = (0032): Geometric_Parallel2D
+			*constrains[000A] = (002B): Geometric_Coincident2D - (12.5,7.5)	(0025): Line2D
+			*constrains[000B] = (002A): Geometric_Coincident2D - (12.5,-7.5)	(0025): Line2D
+			*constrains[000C] = (0038): Geometric_Coincident2D - (12.5,-7.5)	(0035): Line2D
+			*constrains[000D] = (003B): Geometric_Coincident2D - (0,0)	(0034): Line2D
+			*constrains[000E] = (0037): Geometric_Coincident2D - (12.5,7.5)	(0034): Line2D
+			*constrains[000F] = (002E): Geometric_Coincident2D - (-12.5,7.5)	(0027): Line2D
+			*constrains[0010] = (0039): Geometric_Coincident2D - (-12.5,7.5)	(0035): Line2D
+			*constrains[0011] = (003A): Geometric_Coincident2D - (0,0)	(0035): Line2D
+			*constrains[0012] = (003E): Dimension_Distance2D - d='d0', (-12.5,7.5), (12.5,7.5)
+			*constrains[0013] = (0040): Dimension_Distance2D - d='d1', (12.5,7.5), (12.5,-7.5)
+		objects[002F] = (003D): Parameter 'd0'  flags=34200  index=0030   valueNominal=25 valueModel=25   tolerance=NOMINAL u16_0=-1
+			unit = (0170): Unit   visible=True 
+				numerators[0000] = (0214): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (0171): ParameterValue  value=25 type=000
+				unit = (0215): Unit   visible=True 
+					numerators[0000] = (0273): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0030] = (003E): Dimension_Distance2D  flags=4208  index=0031 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (0172): EEE03AF5 a0=(0000,0000)     u16_0=004   u32_0=0000 a1=Vector (0.0, 0.0, 0.0) p1=Vector (-12.5, 7.5, 0.0) p2=Vector (12.5, 7.5, 0.0) a2=Vector (0.0, 0.1990987236575501, 0.0)
+				entity2 = (0216): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (-12.5, 7.5, 0.0) a4=(000,000,000) a5=Vector (8.115e-320, 8.1096e-320, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,1,0,1,0,0,0,0,7.6991,0,0,7.6991,0,-12.5,7.73892,0,12.5,7.73892,0,-12.5,7.5,0,12.5,7.5,0,-12.5,7.6991,0,12.5,7.6991,0) a8=(01,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.0398197,0.00995494,0.629027,0.291191,0) u8_0=01   a10=(0000,0000,006A) a11=(-12.5,7.6991,0,12.5,7.6991,0,-12.5,7.6991,0,12.5,7.6991,0,0,7.6991,0,0,0,0) u8_1=01 a12=(0,1,0,0,7.6991,0,1,0,0,0,0,0) u8_2=00 a13=(-12.5,7.50995,0,12.5,7.50995,0) 
+					ref_1 = (0274): 39A41830  flags=0200  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,0,7.6991,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (003D): Parameter 'd0'=250mm
+						*sketch = (001B): Sketch2D 'Sketch1'
+					ref_2 = (0275): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0275): 99B938AE
+				*entity3 = (0023): Point2D - (-12.5,7.5)
+				*entity4 = (0021): Point2D - (12.5,7.5)
+			*group = (003C): Group2D
+			*parameter = (003D): Parameter 'd0'=250mm
+			*entity1 = (0023): Point2D - (-12.5,7.5)
+			*entity2 = (0021): Point2D - (12.5,7.5)
+		objects[0031] = (003F): Parameter 'd1'  flags=34200  index=0032   valueNominal=15 valueModel=15   tolerance=NOMINAL u16_0=-1
+			unit = (0173): Unit   visible=True 
+				numerators[0000] = (0217): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (0174): ParameterValue  value=15 type=000
+				unit = (0218): Unit   visible=True 
+					numerators[0000] = (0276): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0032] = (0040): Dimension_Distance2D  flags=4208  index=0033 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (0175): EEE03AF5 a0=(0000,0000)     u16_0=004   u32_0=0000 a1=Vector (0.0, 0.0, 0.0) p1=Vector (12.5, 7.5, 0.0) p2=Vector (12.5, -7.5, 0.0) a2=Vector (0.0, 0.199098723657551, 0.0)
+				entity2 = (0219): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (12.5, 7.5, 0.0) a4=(000,000,000) a5=Vector (8.115e-320, 2.4299e-319, 0.0) a6=(000,002,000) s32_0=-1 a7=(1,0,0,0,-1,0,0,12.6991,0,0,12.6991,0,0,12.7389,7.5,0,12.7389,-7.5,0,12.5,7.5,0,12.5,-7.5,0,12.6991,7.5,0,12.6991,-7.5,0) a8=(01,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.0398197,0.00995494,0.629027,0.290965,0) u8_0=01   a10=(0000,0000,006A) a11=(12.6991,7.5,0,12.6991,-7.5,0,12.6991,7.5,0,12.6991,-7.5,0,12.6991,0,0,0,0,0) u8_1=01 a12=(1,0,0,12.6991,0,0,0,-1,0,0,0,0) u8_2=00 a13=(12.51,7.5,0,12.51,-7.5,0) 
+					ref_1 = (0277): 39A41830  flags=0200  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,12.6991,0,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (003F): Parameter 'd1'=150mm
+						*sketch = (001B): Sketch2D 'Sketch1'
+					ref_2 = (0278): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0278): 99B938AE
+				*entity3 = (0021): Point2D - (12.5,7.5)
+				*entity4 = (0022): Point2D - (12.5,-7.5)
+			*group = (003C): Group2D
+			*parameter = (003F): Parameter 'd1'=150mm
+			*entity1 = (0021): Point2D - (12.5,7.5)
+			*entity2 = (0022): Point2D - (12.5,-7.5)
+		objects[0033] = (0041): BoundaryPatch  flags=0200  index=0035  
+			*lst0[0000] = (0043): FaceBoundProxy
+		objects[0034] = (0042): FaceBoundOuter  flags=900200  index=0036 s32_0=2502    a1=(0001,0001)  
+			parts[0000] = (0176): Loop  operation=0008  faceIndex=0000
+				edges[0000] = (021A): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0007 typEntity=0002 u32_1=0000 point1AI=0004 typPt1=0001 u32_2=0000 point2AI=0003 typPt2=0001 posDir=True 
+					*sketch = (001B): Sketch2D 'Sketch1'
+				edges[0001] = (021B): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0008 typEntity=0002 u32_1=0000 point1AI=0003 typPt1=0001 u32_2=0000 point2AI=0005 typPt2=0001 posDir=True 
+					*sketch = (001B): Sketch2D 'Sketch1'
+				edges[0002] = (021C): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0009 typEntity=0002 u32_1=0000 point1AI=0005 typPt1=0001 u32_2=0000 point2AI=0002 typPt2=0001 posDir=True 
+					*sketch = (001B): Sketch2D 'Sketch1'
+				edges[0003] = (021D): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0006 typEntity=0002 u32_1=0000 point1AI=0002 typPt1=0001 u32_2=0000 point2AI=0004 typPt2=0001 posDir=True 
+					*sketch = (001B): Sketch2D 'Sketch1'
+			*sketch = (001B): Sketch2D 'Sketch1'
+			*proxy = (0041): BoundaryPatch
+		objects[0035] = (0043): FaceBoundProxy  flags=A1004200  index=0037  u8_0=00
+			next = (0177): NameTableKeyDef a0=(0000,0000)    ntKey=0000
+			refWrapper = (0178): AsmEntityWrapper index=0037 u8_0=04  u32_1=0013
+				*asm = (0152): ASM
+		objects[0036] = (000D): FxExtrude 'Extrusion1'  flags=6200  index=0038 s32_0=2502 outlineItem=0000  u32_1=0000
+			next = (0157): Label 'Extrusion1' a0=(0000,0000)    index=000D  uid={0CA91131-11D0-838B-0008-19B00524DC09}
+				next = (0208): A9F6B271 a0=(0000,0000)    
+					*owner = (000D): FxExtrude 'Extrusion1'
+					next = (026C): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=004 u16_1=000 
+						*owner = (000D): FxExtrude 'Extrusion1'
+						next = (02A3): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=008 u16_1=001 
+							*owner = (000D): FxExtrude 'Extrusion1'
+							next = (02AD): 086E7238 a0=(0000,0000)    txtUID="750F72AD-C960-4A64-B60F-623F6301144E" txt1="No Preset"
+								*owner = (000D): FxExtrude 'Extrusion1'
+							attr = (02AE): AE101F92  flags=37000200  index=0000 u32_0=0000  u32_1=0000 a=1 a2=(101,000,000) a3=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a4=(0000,0000,0000) a5=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.125,0) u8_0=00 a6=(000,2FC,000,000,000,100) a7=(0,0,0,0)   a8=(0,0,0,0,0,0) a9=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u16_0=000 a10=(0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,0,0,0,0)
+								ref_2 = (02B9): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+									*parameter = (0046): Parameter 'd3'=0°
+								ref_3 = (02BA): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+								*ref_4 = (02BA): 99B938AE
+							*fxDims = (004A): FeatureDimensions
+						attr = (02A4): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(101,000,000) a3=Vector (0.0, 0.0, 0.0) a4=(000,000,000) a5=Vector (0.0, 0.0, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a8=(00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.125,0,0,0,0) u8_0=01   a10=(0000,0000,006A) a11=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u8_1=01 a12=(0,0,0,0,0,0,1,0,0,0,0,0) u8_2=00 a13=(0,0,0,0,0,0) 
+							ref_1 = (02AF): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+								*parameter = (0045): Parameter 'd2'=5mm
+							ref_2 = (02B0): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+							*ref_3 = (02B0): 99B938AE
+						*fxDims = (004A): FeatureDimensions
+					*participant = (001B): Sketch2D 'Sketch1'
+				*participants[0000] = (001B): Sketch2D 'Sketch1'
+			*properties[0000] = (0044): PartFeatureOperation='NewBody'
+			*properties[0001] = (0041): BoundaryPatch
+			*properties[0002] = (001C): DirectionAxis dir=(0,0,1)
+			*properties[0003] = (0047): Boolean=(False, 0)
+			*properties[0004] = (0045): Parameter 'd2'=5mm
+			*properties[0005] = (0046): Parameter 'd3'=0°
+			*properties[0006] = (0048): ExtentType='Dimension'
+			*properties[0007] = (0049): Boolean=(False, 0)
+			*properties[000F] = (004A): FeatureDimensions
+			*properties[0013] = (004B): Parameter 'RDxVar0'=1
+			*properties[0014] = (004C): Boolean=(False, 0)
+			*properties[0015] = (004D): CEFD3973_Enum=0
+			*properties[0016] = (004E): Boolean=(True, 0)
+			*properties[0017] = (0041): BoundaryPatch
+			*properties[001A] = (004F): ObjectCollection 'Solid1'
+		objects[0037] = (0044): Enum PartFeatureOperation  flags=20200  index=0039 type=5   value=NewBody
+		objects[0038] = (0045): Parameter 'd2'  flags=34200  index=003A   valueNominal=0.5 valueModel=0.5   tolerance=NOMINAL u16_0=-1
+			unit = (0179): Unit   visible=True 
+				numerators[0000] = (021E): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (017A): ParameterValue  value=0.5 type=000
+				unit = (021F): Unit   visible=True 
+					numerators[0000] = (0279): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0039] = (0046): Parameter 'd3'  flags=34200  index=003B   valueNominal=0 valueModel=0   tolerance=NOMINAL u16_0=-1
+			unit = (017B): Unit   visible=True 
+				numerators[0000] = (0220): UnitDegree magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			formula = (017C): ParameterValue  value=0 type=002
+				unit = (0221): Unit   visible=True 
+					numerators[0000] = (027A): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+		objects[003A] = (0047): Boolean  flags=8024200  index=003C value=False
+		objects[003B] = (0048): Enum ExtentType  flags=20200  index=003D type=12   value=Dimension
+		objects[003C] = (0049): Boolean  flags=8024200  index=003E value=False
+		objects[003D] = (004A): FeatureDimensions  flags=0200  index=003F 
+			fxDimensions[0000] = (017D): FxDimension anchors=[[12.5,0,0],[12.5,0,0.5]] transformation= transformation={a0=|00+x|+000|0+00|000+| m=[[0, 0, 1, 125],[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 0, 10]]} u8_0=00 
+				*parameter = (0045): Parameter 'd2'=5mm
+			fxDimensions[0001] = (017E): FxDimension anchors=[[12.5,-7.5,0.5025],[12.5,-7.5,0.5],[12.5,-7.5,0.50125],[12.5,-7.5,0.5025],[12.5,-7.5,0.5025]] transformation= transformation={a0=|+00x|00-x|0+00|000+| m=[[1, 0, 0, 125],[0, 0, -1, -75],[0, 1, 0, 0],[0, 0, 0, 10]]} u8_0=01 
+				*parameter = (0046): Parameter 'd3'=0°
+		objects[003E] = (004B): Parameter 'RDxVar0'  flags=8024200  index=0040 valueNominal=0001 valueModel=0001
+		objects[003F] = (004C): Boolean  flags=8024200  index=0041 value=False
+		objects[0040] = (004D): Enum CEFD3973_Enum  flags=20200  index=0042 type=4   value=0
+		objects[0041] = (004E): Boolean  flags=8024200  index=0043 value=True
+		objects[0042] = (004F): ObjectCollection  flags=0000  index=0044  
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[0043] = (0050): ObjectCollectionDef  flags=0200  index=0045 s32_0=-1  
+			*items[0000] = (0051): BodyCollection 'Solid1'
+			*collection = (004F): ObjectCollection 'Solid1'
+		objects[0044] = (0051): BodyCollection  flags=0200  index=0046 
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[0045] = (0052): A31E29E0  flags=0200  index=0047 s32_0=-1   
+			lst0[0000] = (017F): 845212C7 u32_0=0000  u32_1=0002
+				*component = (0003): PartComponent
+			*owner = (000D): FxExtrude 'Extrusion1'
+			*body = (0051): BodyCollection 'Solid1'
+		objects[0046] = (0053): Transformation  flags=1020200  index=0048 transformation= transformation={a0=|+000|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 5],[0, 0, 0, 10]]}
+		objects[0047] = (0054): Sketch2D  flags=400200  index=0049 s32_0=4 numEntities=0011    a0=(0000,EFC2407C) 
+			next = (0180): Label 'Sketch2' a0=(0000,0000)    index=000F  uid={00000000-0000-0000-0000-000000000000}
+				next = (0222): A917F560 a0=(0000,0000)    
+					*owner = (0054): Sketch2D 'Sketch2'
+					next = (027B): A9F6B271 a0=(0000,0000)    
+						*owner = (0054): Sketch2D 'Sketch2'
+						next = (02AA): 07AB2269 u32_0=0000 u32_1=0000   u32_2=0000 uid={F508EF15-BE06-4BFF-8C79-1054482BF996}
+							*surface = (0054): Sketch2D 'Sketch2'
+						*participant = (000E): FxExtrude 'Extrusion2'
+					ref_2 = (027C): DBDD00E3 u32_0=0000 numEntities=0009  lst0=[]
+						*sketch = (0054): Sketch2D 'Sketch2'
+				*participants[0000] = (006F): ReferenceEdgeLoopId 'Projected Loop1'
+			*entities[0000] = (0059): Point2D - (0,0)
+			*entities[0001] = (0070): Point2D - (12.5,-7.5)
+			*entities[0002] = (0071): Point2D - (12.5,7.5)
+			*entities[0003] = (0072): Point2D - (-12.5,7.5)
+			*entities[0004] = (0073): Point2D - (-12.5,-7.5)
+			*entities[0005] = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entities[0006] = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entities[0007] = (0076): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*entities[0008] = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entities[0009] = (0078): Point2D - (-12,7)
+			*entities[000A] = (0079): Point2D - (12,7)
+			*entities[000B] = (007A): Line2D - (-12,7) - (12,7)
+			*entities[000C] = (007B): Geometric_Coincident2D - (-12,7)	(007A): Line2D
+			*entities[000D] = (007C): Geometric_Coincident2D - (12,7)	(007A): Line2D
+			*entities[000E] = (007D): Point2D - (12,-7)
+			*entities[000F] = (007E): Line2D - (12,7) - (12,-7)
+			*entities[0010] = (007F): Geometric_Coincident2D - (12,7)	(007E): Line2D
+			*entities[0011] = (0080): Geometric_Coincident2D - (12,-7)	(007E): Line2D
+			*entities[0012] = (0081): Point2D - (-12,-7)
+			*entities[0013] = (0082): Line2D - (12,-7) - (-12,-7)
+			*entities[0014] = (0083): Geometric_Coincident2D - (12,-7)	(0082): Line2D
+			*entities[0015] = (0084): Geometric_Coincident2D - (-12,-7)	(0082): Line2D
+			*entities[0016] = (0085): Line2D - (-12,-7) - (-12,7)
+			*entities[0017] = (0086): Geometric_Coincident2D - (-12,-7)	(0085): Line2D
+			*entities[0018] = (0087): Geometric_Coincident2D - (-12,7)	(0085): Line2D
+			*entities[0019] = (0088): Geometric_Offset2D
+			*entities[001A] = (0089): Geometric_Offset2D
+			*entities[001B] = (008A): Geometric_Offset2D
+			*entities[001C] = (008D): Dimension_Distance2D - d='d4', e1=(0075): Line2D, e2=(007A): Line2D
+			*transformation = (0053): Transformation
+			*direction = (0055): DirectionAxis dir=(0,0,1)
+		objects[0048] = (0055): DirectionAxis  flags=20200  index=004A flags2=0000 a=0 dir=Vector (0.0, 0.0, 1.0)
+		objects[0049] = (0056): Sketch2DPlacement  flags=0200  index=004B s32_0=2    u16_0=001    lst0=[[56,4294967295]] u8_0=01
+			*transformation2 = (0053): Transformation
+			*transformation3 = (001A): Transformation
+			*ref_3 = (0057): FaceItem
+		objects[004A] = (0057): FaceItem  flags=0000  index=004C indexRefs=(77) s32_0=-1
+		objects[004B] = (0058): 90874D55  flags=0200  index=004D s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0003]
+			creator = (0181): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0057): FaceItem
+		objects[004C] = (0059): Point2D  flags=30200  index=004E flags2=0040  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (0182): Styles a0=(0000,0000)    u32_0=0000 associativeID=0001 typEntity=0001
+				next = (0223): EntityReference a0=(0000,0000)    
+					*owner = (0059): Point2D - (0,0)
+					*ref_2 = (005A): Representation3DPoint
+			*sketch = (0054): Sketch2D 'Sketch2'
+		objects[004D] = (005A): Representation3DPoint  flags=0200  index=004F s32_0=-1   
+			*point2D = (0059): Point2D - (0,0)
+			*transformation = (0053): Transformation
+			*point3D = (0019): Point3D - (0,0,0)
+		objects[004E] = (005B): ProfileSelection  flags=0000  index=0050    number=0000
+			*face = (005D): FaceItem
+			*lst0[0000] = (005F): EdgeItem
+			*lst0[0001] = (0061): EdgeItem
+			*lst0[0002] = (0063): EdgeItem
+			*lst0[0003] = (0065): EdgeItem
+			*ref_2 = (005C): EE792053
+		objects[004F] = (005C): EE792053  flags=0200  index=0051 s32_0=-1    u32_0=0000 
+			*lst0[0000] = (005D): FaceItem
+			*lst0[0001] = (005F): EdgeItem
+			*lst0[0002] = (0061): EdgeItem
+			*lst0[0003] = (0063): EdgeItem
+			*lst0[0004] = (0065): EdgeItem
+			*lst0[0005] = (0067): C1887310
+			*lst0[0006] = (0069): C1887310
+			*lst0[0007] = (006B): C1887310
+			*lst0[0008] = (006D): C1887310
+			*ref_1 = (005B): ProfileSelection
+			*ref_2 = (0008): SurfaceBody 'Solid1'
+			*ref_4 = (0054): Sketch2D 'Sketch2'
+		objects[0050] = (005D): FaceItem  flags=0000  index=0052 indexRefs=(83) s32_0=-1
+		objects[0051] = (005E): 90874D55  flags=0200  index=0053 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0003]
+			creator = (0183): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (005D): FaceItem
+		objects[0052] = (005F): EdgeItem  flags=0000  index=0054 indexRefs=(85) s32_0=-1 u32_0=0000
+		objects[0053] = (0060): EdgeId  flags=0200  index=0055 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0007]
+			creator = (0184): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (005F): EdgeItem
+		objects[0054] = (0061): EdgeItem  flags=0000  index=0056 indexRefs=(87) s32_0=-1 u32_0=0000
+		objects[0055] = (0062): EdgeId  flags=0200  index=0057 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[000A]
+			creator = (0185): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0061): EdgeItem
+		objects[0056] = (0063): EdgeItem  flags=0000  index=0058 indexRefs=(89) s32_0=-1 u32_0=0000
+		objects[0057] = (0064): EdgeId  flags=0200  index=0059 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[000D]
+			creator = (0186): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0063): EdgeItem
+		objects[0058] = (0065): EdgeItem  flags=0000  index=005A indexRefs=(91) s32_0=-1 u32_0=0000
+		objects[0059] = (0066): EdgeId  flags=0200  index=005B s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[000F]
+			creator = (0187): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0065): EdgeItem
+		objects[005A] = (0067): C1887310  flags=0000  index=005C lst0=(93) s32_0=-1
+		objects[005B] = (0068): B8DBEF70  flags=0200  index=005D s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0004]
+			creator = (0188): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0067): C1887310
+		objects[005C] = (0069): C1887310  flags=0000  index=005E lst0=(95) s32_0=-1
+		objects[005D] = (006A): B8DBEF70  flags=0200  index=005F s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0005]
+			creator = (0189): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0069): C1887310
+		objects[005E] = (006B): C1887310  flags=0000  index=0060 lst0=(97) s32_0=-1
+		objects[005F] = (006C): B8DBEF70  flags=0200  index=0061 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0008]
+			creator = (018A): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (006B): C1887310
+		objects[0060] = (006D): C1887310  flags=0000  index=0062 lst0=(99) s32_0=-1
+		objects[0061] = (006E): B8DBEF70  flags=0200  index=0063 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[000B]
+			creator = (018B): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (006D): C1887310
+		objects[0062] = (006F): ReferenceEdgeLoopId 'Projected Loop1'  flags=0200  index=0064 u32_0=0002    
+			next = (018C): Label 'Projected Loop1' a0=(0000,0000)    index=000E  uid={00000000-0000-0000-0000-000000000000}
+			*ref_1 = (0054): Sketch2D 'Sketch2'
+			*ref_2 = (005B): ProfileSelection
+			*lst0[80000074] = (005F): EdgeItem
+			*lst0[80000075] = (0061): EdgeItem
+			*lst0[80000076] = (0063): EdgeItem
+			*lst0[80000077] = (0065): EdgeItem
+			*lst1[80000070] = (0067): C1887310
+			*lst1[80000071] = (0069): C1887310
+			*lst1[80000072] = (006B): C1887310
+			*lst1[80000073] = (006D): C1887310
+		objects[0063] = (0070): Point2D  flags=30200  index=0065 flags2=0040  pos=Vector (12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (018D): Styles a0=(0000,0000)    u32_0=0000 associativeID=0002 typEntity=0001
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*endPointOf[0001] = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+		objects[0064] = (0071): Point2D  flags=30200  index=0066 flags2=0040  pos=Vector (12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (018E): Styles a0=(0000,0000)    u32_0=0000 associativeID=0003 typEntity=0001
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*endPointOf[0001] = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+		objects[0065] = (0072): Point2D  flags=30200  index=0067 flags2=0040  pos=Vector (-12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (018F): Styles a0=(0000,0000)    u32_0=0000 associativeID=0004 typEntity=0001
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*endPointOf[0001] = (0076): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+		objects[0066] = (0073): Point2D  flags=30200  index=0068 flags2=0040  pos=Vector (-12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (0190): Styles a0=(0000,0000)    u32_0=0000 associativeID=0005 typEntity=0001
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (0076): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*endPointOf[0001] = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+		objects[0067] = (0074): Line2D  flags=30200  index=0069 flags2=0040   pos=Vector (12.5, -7.5, 0.0) dir=Vector (0.0, 1.0, 0.0)
+			next = (0191): Styles a0=(0000,0000)    u32_0=0000 associativeID=0006 typEntity=0002
+				next = (0224): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (12.5, -7.5, 0.0) dir=Vector (0.0, 1.0, 0.0)
+					*owner = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0070): Point2D - (12.5,-7.5)
+			*points[0001] = (0071): Point2D - (12.5,7.5)
+		objects[0068] = (0075): Line2D  flags=30200  index=006A flags2=0040   pos=Vector (12.5, 7.5, 0.0) dir=Vector (-1.0, 0.0, 0.0)
+			next = (0192): Styles a0=(0000,0000)    u32_0=0000 associativeID=0007 typEntity=0002
+				next = (0225): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (12.5, 7.5, 0.0) dir=Vector (-1.0, 0.0, 0.0)
+					*owner = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0071): Point2D - (12.5,7.5)
+			*points[0001] = (0072): Point2D - (-12.5,7.5)
+		objects[0069] = (0076): Line2D  flags=30200  index=006B flags2=0040   pos=Vector (-12.5, 7.5, 0.0) dir=Vector (0.0, -1.0, 0.0)
+			next = (0193): Styles a0=(0000,0000)    u32_0=0000 associativeID=0008 typEntity=0002
+				next = (0226): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (-12.5, 7.5, 0.0) dir=Vector (0.0, -1.0, 0.0)
+					*owner = (0076): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0072): Point2D - (-12.5,7.5)
+			*points[0001] = (0073): Point2D - (-12.5,-7.5)
+		objects[006A] = (0077): Line2D  flags=30200  index=006C flags2=0040   pos=Vector (-12.5, -7.5, 0.0) dir=Vector (1.0, 0.0, 0.0)
+			next = (0194): Styles a0=(0000,0000)    u32_0=0000 associativeID=0009 typEntity=0002
+				next = (0227): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (-12.5, -7.5, 0.0) dir=Vector (1.0, 0.0, 0.0)
+					*owner = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0073): Point2D - (-12.5,-7.5)
+			*points[0001] = (0070): Point2D - (12.5,-7.5)
+		objects[006B] = (0078): Point2D  flags=20200  index=006D flags2=0000  pos=Vector (-12.0, 6.999999999999997, 0.0)   u32_0=0000 lst1=()  
+			next = (0195): Styles a0=(0000,0000)    u32_0=0000 associativeID=000A typEntity=0001
+				next = (0228): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0078): Point2D - (-12,7)
+					*entity2 = (0078): Point2D - (-12,7)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (007A): Line2D - (-12,7) - (12,7)
+			*endPointOf[0001] = (0085): Line2D - (-12,-7) - (-12,7)
+		objects[006C] = (0079): Point2D  flags=20200  index=006E flags2=0000  pos=Vector (11.999999999999998, 7.0, 0.0)   u32_0=0000 lst1=()  
+			next = (0196): Styles a0=(0000,0000)    u32_0=0000 associativeID=000B typEntity=0001
+				next = (0229): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0079): Point2D - (12,7)
+					*entity2 = (0079): Point2D - (12,7)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (007A): Line2D - (-12,7) - (12,7)
+			*endPointOf[0001] = (007E): Line2D - (12,7) - (12,-7)
+		objects[006D] = (007A): Line2D  flags=20200  index=006F flags2=40000   pos=Vector (12.5, 7.0, 0.0) dir=Vector (1.0, 1.224646799147353e-16, 0.0)
+			next = (0197): Styles a0=(0000,0000)    u32_0=0000 associativeID=000C typEntity=0002
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0078): Point2D - (-12,7)
+			*points[0001] = (0079): Point2D - (12,7)
+		objects[006E] = (007B): Geometric_Coincident2D  flags=4208  index=0070 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (007A): Line2D - (-12,7) - (12,7)
+			*entity2 = (0078): Point2D - (-12,7)
+		objects[006F] = (007C): Geometric_Coincident2D  flags=4208  index=0071 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (007A): Line2D - (-12,7) - (12,7)
+			*entity2 = (0079): Point2D - (12,7)
+		objects[0070] = (007D): Point2D  flags=20200  index=0072 flags2=0000  pos=Vector (12.0, -6.999999999999997, 0.0)   u32_0=0000 lst1=()  
+			next = (0198): Styles a0=(0000,0000)    u32_0=0000 associativeID=000D typEntity=0001
+				next = (022A): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (007D): Point2D - (12,-7)
+					*entity2 = (007D): Point2D - (12,-7)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (007E): Line2D - (12,7) - (12,-7)
+			*endPointOf[0001] = (0082): Line2D - (12,-7) - (-12,-7)
+		objects[0071] = (007E): Line2D  flags=20200  index=0073 flags2=40000   pos=Vector (12.0, -7.5, 0.0) dir=Vector (1.224646799147353e-16, -1.0, 0.0)
+			next = (0199): Styles a0=(0000,0000)    u32_0=0000 associativeID=000E typEntity=0002
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0079): Point2D - (12,7)
+			*points[0001] = (007D): Point2D - (12,-7)
+		objects[0072] = (007F): Geometric_Coincident2D  flags=4208  index=0074 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (007E): Line2D - (12,7) - (12,-7)
+			*entity2 = (0079): Point2D - (12,7)
+		objects[0073] = (0080): Geometric_Coincident2D  flags=4208  index=0075 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (007E): Line2D - (12,7) - (12,-7)
+			*entity2 = (007D): Point2D - (12,-7)
+		objects[0074] = (0081): Point2D  flags=20200  index=0076 flags2=0000  pos=Vector (-11.999999999999998, -7.0, 0.0)   u32_0=0000 lst1=()  
+			next = (019A): Styles a0=(0000,0000)    u32_0=0000 associativeID=000F typEntity=0001
+				next = (022B): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (0081): Point2D - (-12,-7)
+					*entity2 = (0081): Point2D - (-12,-7)
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*endPointOf[0000] = (0082): Line2D - (12,-7) - (-12,-7)
+			*endPointOf[0001] = (0085): Line2D - (-12,-7) - (-12,7)
+		objects[0075] = (0082): Line2D  flags=20200  index=0077 flags2=40000   pos=Vector (-12.5, -7.0, 0.0) dir=Vector (-1.0, -1.224646799147353e-16, 0.0)
+			next = (019B): Styles a0=(0000,0000)    u32_0=0000 associativeID=0010 typEntity=0002
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (007D): Point2D - (12,-7)
+			*points[0001] = (0081): Point2D - (-12,-7)
+		objects[0076] = (0083): Geometric_Coincident2D  flags=4208  index=0078 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (0082): Line2D - (12,-7) - (-12,-7)
+			*entity2 = (007D): Point2D - (12,-7)
+		objects[0077] = (0084): Geometric_Coincident2D  flags=4208  index=0079 flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (0082): Line2D - (12,-7) - (-12,-7)
+			*entity2 = (0081): Point2D - (-12,-7)
+		objects[0078] = (0085): Line2D  flags=20200  index=007A flags2=40000   pos=Vector (-12.0, 7.5, 0.0) dir=Vector (-1.224646799147353e-16, 1.0, 0.0)
+			next = (019C): Styles a0=(0000,0000)    u32_0=0000 associativeID=0011 typEntity=0002
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*points[0000] = (0081): Point2D - (-12,-7)
+			*points[0001] = (0078): Point2D - (-12,7)
+		objects[0079] = (0086): Geometric_Coincident2D  flags=4208  index=007B flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (0085): Line2D - (-12,-7) - (-12,7)
+			*entity2 = (0081): Point2D - (-12,-7)
+		objects[007A] = (0087): Geometric_Coincident2D  flags=4208  index=007C flags2=-1  lst0={}    
+			*group = (008B): Group2D
+			*entity1 = (0085): Line2D - (-12,-7) - (-12,7)
+			*entity2 = (0078): Point2D - (-12,7)
+		objects[007B] = (0088): Geometric_Offset2D  flags=4208  index=007D flags2=-1  lst0={}      
+			*group = (008B): Group2D
+			*entity1 = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entity2 = (007E): Line2D - (12,7) - (12,-7)
+			*entity3 = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entity4 = (007A): Line2D - (-12,7) - (12,7)
+		objects[007C] = (0089): Geometric_Offset2D  flags=4208  index=007E flags2=-1  lst0={}      
+			*group = (008B): Group2D
+			*entity1 = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entity2 = (0082): Line2D - (12,-7) - (-12,-7)
+			*entity3 = (0074): Line2D - (12.5,-7.5) - (12.5,7.5)
+			*entity4 = (007E): Line2D - (12,7) - (12,-7)
+		objects[007D] = (008A): Geometric_Offset2D  flags=4208  index=007F flags2=-1  lst0={}      
+			*group = (008B): Group2D
+			*entity1 = (0076): Line2D - (-12.5,7.5) - (-12.5,-7.5)
+			*entity2 = (0085): Line2D - (-12,-7) - (-12,7)
+			*entity3 = (0077): Line2D - (-12.5,-7.5) - (12.5,-7.5)
+			*entity4 = (0082): Line2D - (12,-7) - (-12,-7)
+		objects[007E] = (008B): Group2D  flags=0200  index=0080 s32_0=-1 s32_1=12  entries={80000074:0004,80000075:0004,80000076:0004,80000077:0004,80000078:0000,80000079:0000,8000007A:0000,8000007B:0000,8000007C:0000,8000007D:0000,8000007E:0000,8000007F:0000,80000080:0000,80000081:0000,80000082:0000,80000083:0000,80000084:0000,80000085:0000,80000086:0000,80000087:0000,80000088:0000,80000089:0000,8000008A:0000,8000008D:0000} u32_0=0000
+			*constrains[0000] = (007B): Geometric_Coincident2D - (-12,7)	(007A): Line2D
+			*constrains[0001] = (0088): Geometric_Offset2D
+			*constrains[0002] = (007C): Geometric_Coincident2D - (12,7)	(007A): Line2D
+			*constrains[0003] = (0087): Geometric_Coincident2D - (-12,7)	(0085): Line2D
+			*constrains[0004] = (0089): Geometric_Offset2D
+			*constrains[0005] = (0080): Geometric_Coincident2D - (12,-7)	(007E): Line2D
+			*constrains[0006] = (007F): Geometric_Coincident2D - (12,7)	(007E): Line2D
+			*constrains[0007] = (008A): Geometric_Offset2D
+			*constrains[0008] = (0086): Geometric_Coincident2D - (-12,-7)	(0085): Line2D
+			*constrains[0009] = (0084): Geometric_Coincident2D - (-12,-7)	(0082): Line2D
+			*constrains[000A] = (0083): Geometric_Coincident2D - (12,-7)	(0082): Line2D
+			*constrains[000B] = (008D): Dimension_Distance2D - d='d4', e1=(0075): Line2D, e2=(007A): Line2D
+		objects[007F] = (008C): Parameter 'd4'  flags=34200  index=0081   valueNominal=0.5 valueModel=0.5   tolerance=NOMINAL u16_0=-1
+			unit = (019D): Unit   visible=True 
+				numerators[0000] = (022C): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (019E): ParameterValue  value=0.5 type=000
+				unit = (022D): Unit   visible=True 
+					numerators[0000] = (027D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0080] = (008D): Dimension_Distance2D  flags=4208  index=0082 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (0.0, 7.5, 0.0) a2=Vector (0.0, 2.5, 0.0)
+			next = (019F): EEE03AF5 a0=(0000,0000)     u16_0=006   u32_0=0000 a1=Vector (0.5, 0.5, 0.0) p1=Vector (0.0, 7.5, 0.0) p2=Vector (0.0, 6.999999999999998, 0.0) a2=Vector (0.5000000000000018, 0.0, 0.0)
+				entity2 = (022E): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (0.0, 7.5, 0.0) a4=(000,000,000) a5=Vector (nan, 8.108e-320, 0.0) a6=(000,003,000) s32_0=-1 a7=(-1,0,0,0,-1,0,0,0,7.25,0,0,7.25,0,0,7.5,0,0,7,0,0,7.5,0,0,2.5,0,0,7.5,0,0,7,0) a8=(00,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.0279417,0.00698541,0.0521289,0.0709314,0) u8_0=01   a10=(0000,0000,006A) a11=(0,7.5,0,0,7,0,0,7.5,0,0,7,0,0,7.25,0,0,0,0) u8_1=01 a12=(-1,0,0,0,7.25,0,0,-1,0,0,0,0) u8_2=00 a13=(0,7.5,0,0,7,0) 
+					ref_1 = (027E): 39A41830  flags=0200  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,0,7.25,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (008C): Parameter 'd4'=5mm
+						*sketch = (0054): Sketch2D 'Sketch2'
+					ref_2 = (027F): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (027F): 99B938AE
+				*entity3 = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+				*entity4 = (007A): Line2D - (-12,7) - (12,7)
+			*group = (008B): Group2D
+			*parameter = (008C): Parameter 'd4'=5mm
+			*entity1 = (0075): Line2D - (12.5,7.5) - (-12.5,7.5)
+			*entity2 = (007A): Line2D - (-12,7) - (12,7)
+		objects[0081] = (000E): FxExtrude 'Extrusion2'  flags=6200  index=0088 s32_0=2502 outlineItem=0000  u32_1=0000
+			next = (0158): Label 'Extrusion2' a0=(0000,0000)    index=0011  uid={0CA91131-11D0-838B-0008-19B00524DC09}
+				next = (0209): A9F6B271 a0=(0000,0000)    
+					*owner = (000E): FxExtrude 'Extrusion2'
+					next = (026D): 086E7238 a0=(0000,0000)    txtUID="750F72AD-C960-4A64-B60F-623F6301144E" txt1="No Preset"
+						*owner = (000E): FxExtrude 'Extrusion2'
+						next = (02A5): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=004 u16_1=000 
+							*owner = (000E): FxExtrude 'Extrusion2'
+							next = (02B1): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=008 u16_1=001 
+								*owner = (000E): FxExtrude 'Extrusion2'
+								attr = (02BB): AE101F92  flags=37000200  index=0000 u32_0=0000  u32_1=0000 a=1 a2=(101,000,000) a3=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a4=(0000,0000,0000) a5=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.125,0) u8_0=00 a6=(000,2FC,000,000,000,100) a7=(0,0,0,0)   a8=(0,0,0,0,0,0) a9=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u16_0=000 a10=(0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,0,0,0,0)
+									ref_2 = (02C3): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+										*parameter = (0090): Parameter 'd6'=0°
+									ref_3 = (02C4): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+									*ref_4 = (02C4): 99B938AE
+								*fxDims = (0094): FeatureDimensions
+							attr = (02B2): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(101,000,000) a3=Vector (0.0, 0.0, 0.0) a4=(000,000,000) a5=Vector (0.0, 0.0, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a8=(00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.125,0,0,0,0) u8_0=01   a10=(0000,0000,006A) a11=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u8_1=01 a12=(0,0,0,0,0,0,1,0,0,0,0,0) u8_2=00 a13=(0,0,0,0,0,0) 
+								ref_1 = (02BC): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+									*parameter = (008F): Parameter 'd5'=30mm
+								ref_2 = (02BD): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+								*ref_3 = (02BD): 99B938AE
+							*fxDims = (0094): FeatureDimensions
+					*participant = (0054): Sketch2D 'Sketch2'
+				*participants[0000] = (0054): Sketch2D 'Sketch2'
+			*properties[0000] = (008E): PartFeatureOperation='Join'
+			*properties[0001] = (00EB): BoundaryPatch
+			*properties[0002] = (0055): DirectionAxis dir=(0,0,1)
+			*properties[0003] = (0091): Boolean=(False, 0)
+			*properties[0004] = (008F): Parameter 'd5'=30mm
+			*properties[0005] = (0090): Parameter 'd6'=0°
+			*properties[0006] = (0092): ExtentType='Dimension'
+			*properties[0007] = (0093): Boolean=(False, 0)
+			*properties[000F] = (0094): FeatureDimensions
+			*properties[0013] = (0095): Parameter 'RDxVar1'=1
+			*properties[0014] = (0096): Boolean=(False, 0)
+			*properties[0015] = (0097): CEFD3973_Enum=0
+			*properties[0016] = (0098): Boolean=(True, 0)
+			*properties[0017] = (00EB): BoundaryPatch
+			*properties[001A] = (00EF): ObjectCollection 'Solid1'
+		objects[0082] = (008E): Enum PartFeatureOperation  flags=20200  index=0089 type=5   value=Join
+		objects[0083] = (008F): Parameter 'd5'  flags=34200  index=008A   valueNominal=3 valueModel=3   tolerance=NOMINAL u16_0=-1
+			unit = (01A0): Unit   visible=True 
+				numerators[0000] = (022F): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01A1): ParameterValue  value=3 type=000
+				unit = (0230): Unit   visible=True 
+					numerators[0000] = (0280): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0084] = (0090): Parameter 'd6'  flags=34200  index=008B   valueNominal=0 valueModel=0   tolerance=NOMINAL u16_0=-1
+			unit = (01A2): Unit   visible=True 
+				numerators[0000] = (0231): UnitDegree magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			formula = (01A3): ParameterValue  value=0 type=002
+				unit = (0232): Unit   visible=True 
+					numerators[0000] = (0281): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+		objects[0085] = (0091): Boolean  flags=8024200  index=008C value=False
+		objects[0086] = (0092): Enum ExtentType  flags=20200  index=008D type=12   value=Dimension
+		objects[0087] = (0093): Boolean  flags=8024200  index=008E value=False
+		objects[0088] = (0094): FeatureDimensions  flags=0200  index=008F 
+			fxDimensions[0000] = (01A4): FxDimension anchors=[[0,7.5,0.5],[0,7.5,3.5]] transformation= transformation={a0=|-000|00+x|0+0x|000+| m=[[-1, 0, 0, 0],[0, 0, 1, 75],[0, 1, 0, 5],[0, 0, 0, 10]]} u8_0=00 
+				*parameter = (008F): Parameter 'd5'=30mm
+			fxDimensions[0001] = (01A5): FxDimension anchors=[[-12,7,3.515],[-12,7,3.5],[-12,7,3.5075],[-12,7,3.515],[-12,7,3.515]] transformation= transformation={a0=|00+x|+00x|0+0x|000+| m=[[0, 0, 1, -120],[1, 0, 0, 70],[0, 1, 0, 5],[0, 0, 0, 10]]} u8_0=01 
+				*parameter = (0090): Parameter 'd6'=0°
+		objects[0089] = (0095): Parameter 'RDxVar1'  flags=8024200  index=0090 valueNominal=0001 valueModel=0001
+		objects[008A] = (0096): Boolean  flags=8024200  index=0091 value=False
+		objects[008B] = (0097): Enum CEFD3973_Enum  flags=20200  index=0092 type=4   value=0
+		objects[008C] = (0098): Boolean  flags=8024200  index=0093 value=True
+		objects[008D] = (0099): Transformation  flags=1020200  index=0098 transformation= transformation={a0=|+000|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 5],[0, 0, 0, 10]]}
+		objects[008E] = (009A): Sketch2D  flags=400200  index=0099 s32_0=4 numEntities=0011    a0=(0000,D1270722) 
+			next = (01A6): Label 'Sketch3' a0=(0000,0000)    index=0013  uid={00000000-0000-0000-0000-000000000000}
+				next = (0233): A917F560 a0=(0000,0000)    
+					*owner = (009A): Sketch2D 'Sketch3'
+					next = (0282): A9F6B271 a0=(0000,0000)    
+						*owner = (009A): Sketch2D 'Sketch3'
+						next = (02AB): 07AB2269 u32_0=0000 u32_1=0000   u32_2=0000 uid={9A66805A-8349-4E17-A006-2CC927E121E6}
+							*surface = (009A): Sketch2D 'Sketch3'
+						*participant = (000F): FxExtrude 'Extrusion3'
+					ref_2 = (0283): DBDD00E3 u32_0=0000 numEntities=000E  lst0=[]
+						*sketch = (009A): Sketch2D 'Sketch3'
+				*participants[0000] = (00B5): ReferenceEdgeLoopId 'Projected Loop2'
+			*entities[0000] = (009F): Point2D - (0,0)
+			*entities[0001] = (00B6): Point2D - (-12,7)
+			*entities[0002] = (00B7): Point2D - (-12,-7)
+			*entities[0003] = (00B8): Point2D - (12,-7)
+			*entities[0004] = (00B9): Point2D - (12,7)
+			*entities[0005] = (00BA): Line2D - (-12,7) - (-12,-7)
+			*entities[0006] = (00BB): Line2D - (-12,-7) - (12,-7)
+			*entities[0007] = (00BC): Line2D - (12,-7) - (12,7)
+			*entities[0008] = (00BD): Line2D - (12,7) - (-12,7)
+			*entities[0009] = (00BE): Point2D - (0,0)
+			*entities[000A] = (00BF): Geometric_Coincident2D - (0,0)	(00BE): Point2D
+			*entities[000B] = (00C0): Circle2D - (0,0), r=1.85
+			*entities[000C] = (00C1): Geometric_Radius2D - o=(00C0): Circle2D, c=(00BE)
+			*entities[000D] = (00C3): Dimension_Diameter2D
+			*transformation = (0099): Transformation
+			*direction = (009B): DirectionAxis dir=(0,0,1)
+		objects[008F] = (009B): DirectionAxis  flags=20200  index=009A flags2=0000 a=0 dir=Vector (0.0, 0.0, 1.0)
+		objects[0090] = (009C): Sketch2DPlacement  flags=0200  index=009B s32_0=2    u16_0=001    lst0=[[56,4294967295]] u8_0=01
+			*transformation2 = (0099): Transformation
+			*transformation3 = (001A): Transformation
+			*ref_3 = (009D): FaceItem
+		objects[0091] = (009D): FaceItem  flags=0000  index=009C indexRefs=(157) s32_0=-1
+		objects[0092] = (009E): 90874D55  flags=0200  index=009D s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0003]
+			creator = (01A7): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (009D): FaceItem
+		objects[0093] = (009F): Point2D  flags=30200  index=009E flags2=0040  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (01A8): Styles a0=(0000,0000)    u32_0=0000 associativeID=0001 typEntity=0001
+				next = (0234): EntityReference a0=(0000,0000)    
+					*owner = (009F): Point2D - (0,0)
+					next = (0284): C89EF3C0 a0=(0000,0000)    u32_0=0000 pos=Vector (0.0, 0.0, 0.0)
+						*owner = (009F): Point2D - (0,0)
+					*ref_2 = (00A0): Representation3DPoint
+			*sketch = (009A): Sketch2D 'Sketch3'
+		objects[0094] = (00A0): Representation3DPoint  flags=0200  index=009F s32_0=-1   
+			*point2D = (009F): Point2D - (0,0)
+			*transformation = (0099): Transformation
+			*point3D = (0019): Point3D - (0,0,0)
+		objects[0095] = (00A1): ProfileSelection  flags=0000  index=00A0    number=0000
+			*face = (00A3): FaceItem
+			*lst0[0000] = (00A5): EdgeItem
+			*lst0[0001] = (00A7): EdgeItem
+			*lst0[0002] = (00A9): EdgeItem
+			*lst0[0003] = (00AB): EdgeItem
+			*ref_2 = (00A2): EE792053
+		objects[0096] = (00A2): EE792053  flags=0200  index=00A1 s32_0=-1    u32_0=0000 
+			*lst0[0000] = (00A3): FaceItem
+			*lst0[0001] = (00A5): EdgeItem
+			*lst0[0002] = (00A7): EdgeItem
+			*lst0[0003] = (00A9): EdgeItem
+			*lst0[0004] = (00AB): EdgeItem
+			*lst0[0005] = (00AD): C1887310
+			*lst0[0006] = (00AF): C1887310
+			*lst0[0007] = (00B1): C1887310
+			*lst0[0008] = (00B3): C1887310
+			*ref_1 = (00A1): ProfileSelection
+			*ref_2 = (0008): SurfaceBody 'Solid1'
+			*ref_4 = (009A): Sketch2D 'Sketch3'
+		objects[0097] = (00A3): FaceItem  flags=0000  index=00A2 indexRefs=(163) s32_0=-1
+		objects[0098] = (00A4): 90874D55  flags=0200  index=00A3 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0003]
+			creator = (01A9): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00A3): FaceItem
+		objects[0099] = (00A5): EdgeItem  flags=0000  index=00A4 indexRefs=(165) s32_0=-1 u32_0=0000
+		objects[009A] = (00A6): EdgeId  flags=0200  index=00A5 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[0016]
+			creator = (01AA): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00A5): EdgeItem
+		objects[009B] = (00A7): EdgeItem  flags=0000  index=00A6 indexRefs=(167) s32_0=-1 u32_0=0000
+		objects[009C] = (00A8): EdgeId  flags=0200  index=00A7 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[0019]
+			creator = (01AB): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00A7): EdgeItem
+		objects[009D] = (00A9): EdgeItem  flags=0000  index=00A8 indexRefs=(169) s32_0=-1 u32_0=0000
+		objects[009E] = (00AA): EdgeId  flags=0200  index=00A9 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[001B]
+			creator = (01AC): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00A9): EdgeItem
+		objects[009F] = (00AB): EdgeItem  flags=0000  index=00AA indexRefs=(171) s32_0=-1 u32_0=0000
+		objects[00A0] = (00AC): EdgeId  flags=0200  index=00AB s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[001C]
+			creator = (01AD): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00AB): EdgeItem
+		objects[00A1] = (00AD): C1887310  flags=0000  index=00AC lst0=(173) s32_0=-1
+		objects[00A2] = (00AE): B8DBEF70  flags=0200  index=00AD s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[0013]
+			creator = (01AE): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00AD): C1887310
+		objects[00A3] = (00AF): C1887310  flags=0000  index=00AE lst0=(175) s32_0=-1
+		objects[00A4] = (00B0): B8DBEF70  flags=0200  index=00AF s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[0015]
+			creator = (01AF): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00AF): C1887310
+		objects[00A5] = (00B1): C1887310  flags=0000  index=00B0 lst0=(177) s32_0=-1
+		objects[00A6] = (00B2): B8DBEF70  flags=0200  index=00B1 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[0018]
+			creator = (01B0): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00B1): C1887310
+		objects[00A7] = (00B3): C1887310  flags=0000  index=00B2 lst0=(179) s32_0=-1
+		objects[00A8] = (00B4): B8DBEF70  flags=0200  index=00B3 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038,0088) lst1=() u8_2=00  ntEntry=0004[001A]
+			creator = (01B1): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00B3): C1887310
+		objects[00A9] = (00B5): ReferenceEdgeLoopId 'Projected Loop2'  flags=0200  index=00B4 u32_0=0002    
+			next = (01B2): Label 'Projected Loop2' a0=(0000,0000)    index=0012  uid={00000000-0000-0000-0000-000000000000}
+			*ref_1 = (009A): Sketch2D 'Sketch3'
+			*ref_2 = (00A1): ProfileSelection
+			*lst0[800000BA] = (00A5): EdgeItem
+			*lst0[800000BB] = (00A7): EdgeItem
+			*lst0[800000BC] = (00A9): EdgeItem
+			*lst0[800000BD] = (00AB): EdgeItem
+			*lst1[800000B6] = (00AD): C1887310
+			*lst1[800000B7] = (00AF): C1887310
+			*lst1[800000B8] = (00B1): C1887310
+			*lst1[800000B9] = (00B3): C1887310
+		objects[00AA] = (00B6): Point2D  flags=30200  index=00B5 flags2=0040  pos=Vector (-12.0, 6.999999999999997, 0.0)   u32_0=0000 lst1=()  
+			next = (01B3): Styles a0=(0000,0000)    u32_0=0000 associativeID=0002 typEntity=0001
+				next = (0235): C89EF3C0 a0=(0000,0000)    u32_0=0000 pos=Vector (-12.0, 6.999999999999997, 0.0)
+					*owner = (00B6): Point2D - (-12,7)
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*endPointOf[0000] = (00BA): Line2D - (-12,7) - (-12,-7)
+			*endPointOf[0001] = (00BD): Line2D - (12,7) - (-12,7)
+		objects[00AB] = (00B7): Point2D  flags=30200  index=00B6 flags2=0040  pos=Vector (-11.999999999999998, -7.0, 0.0)   u32_0=0000 lst1=()  
+			next = (01B4): Styles a0=(0000,0000)    u32_0=0000 associativeID=0003 typEntity=0001
+				next = (0236): C89EF3C0 a0=(0000,0000)    u32_0=0000 pos=Vector (-11.999999999999998, -7.0, 0.0)
+					*owner = (00B7): Point2D - (-12,-7)
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*endPointOf[0000] = (00BA): Line2D - (-12,7) - (-12,-7)
+			*endPointOf[0001] = (00BB): Line2D - (-12,-7) - (12,-7)
+		objects[00AC] = (00B8): Point2D  flags=30200  index=00B7 flags2=0040  pos=Vector (12.0, -6.999999999999997, 0.0)   u32_0=0000 lst1=()  
+			next = (01B5): Styles a0=(0000,0000)    u32_0=0000 associativeID=0004 typEntity=0001
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*endPointOf[0000] = (00BB): Line2D - (-12,-7) - (12,-7)
+			*endPointOf[0001] = (00BC): Line2D - (12,-7) - (12,7)
+		objects[00AD] = (00B9): Point2D  flags=30200  index=00B8 flags2=0040  pos=Vector (11.999999999999998, 7.0, 0.0)   u32_0=0000 lst1=()  
+			next = (01B6): Styles a0=(0000,0000)    u32_0=0000 associativeID=0005 typEntity=0001
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*endPointOf[0000] = (00BC): Line2D - (12,-7) - (12,7)
+			*endPointOf[0001] = (00BD): Line2D - (12,7) - (-12,7)
+		objects[00AE] = (00BA): Line2D  flags=30200  index=00B9 flags2=0040   pos=Vector (-12.0, 6.999999999999997, 0.0) dir=Vector (1.2688263138573222e-16, -1.0, 0.0)
+			next = (01B7): Styles a0=(0000,0000)    u32_0=0000 associativeID=0006 typEntity=0002
+				next = (0237): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (-12.0, 6.999999999999997, 0.0) dir=Vector (1.2688263138573222e-16, -1.0, 0.0)
+					*owner = (00BA): Line2D - (-12,7) - (-12,-7)
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*points[0000] = (00B6): Point2D - (-12,7)
+			*points[0001] = (00B7): Point2D - (-12,-7)
+		objects[00AF] = (00BB): Line2D  flags=30200  index=00BA flags2=0040   pos=Vector (-11.999999999999998, -7.0, 0.0) dir=Vector (1.0, 1.1102230246251565e-16, 0.0)
+			next = (01B8): Styles a0=(0000,0000)    u32_0=0000 associativeID=0007 typEntity=0002
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*points[0000] = (00B7): Point2D - (-12,-7)
+			*points[0001] = (00B8): Point2D - (12,-7)
+		objects[00B0] = (00BC): Line2D  flags=30200  index=00BB flags2=0040   pos=Vector (12.0, -6.999999999999997, 0.0) dir=Vector (-1.2688263138573222e-16, 1.0, 0.0)
+			next = (01B9): Styles a0=(0000,0000)    u32_0=0000 associativeID=0008 typEntity=0002
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*points[0000] = (00B8): Point2D - (12,-7)
+			*points[0001] = (00B9): Point2D - (12,7)
+		objects[00B1] = (00BD): Line2D  flags=30200  index=00BC flags2=0040   pos=Vector (11.999999999999998, 7.0, 0.0) dir=Vector (-1.0, -1.1102230246251565e-16, 0.0)
+			next = (01BA): Styles a0=(0000,0000)    u32_0=0000 associativeID=0009 typEntity=0002
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*points[0000] = (00B9): Point2D - (12,7)
+			*points[0001] = (00B6): Point2D - (-12,7)
+		objects[00B2] = (00BE): Point2D  flags=20200  index=00C7 flags2=0000  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (01BB): Styles a0=(0000,0000)    u32_0=0000 associativeID=000D typEntity=0001
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*centerOf[0000] = (00C0): Circle2D - (0,0), r=1.85
+		objects[00B3] = (00BF): Geometric_Coincident2D  flags=4208  index=00C8 flags2=-1  lst0={}    
+			*group = (0128): Group2D
+			*entity1 = (009F): Point2D - (0,0)
+			*entity2 = (00BE): Point2D - (0,0)
+		objects[00B4] = (00C0): Circle2D  flags=20200  index=00C9 flags2=0000    r=1.85 u8_0=01
+			next = (01BC): Styles a0=(0000,0000)    u32_0=0000 associativeID=000E typEntity=0002
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*center = (00BE): Point2D - (0,0)
+		objects[00B5] = (00C1): Geometric_Radius2D  flags=4208  index=00CA flags2=-1  lst0={}    
+			*group = (0128): Group2D
+			*entity = (00C0): Circle2D - (0,0), r=1.85
+			*center = (00BE): Point2D - (0,0)
+		objects[00B6] = (00C2): Parameter 'd8'  flags=34200  index=00CC   valueNominal=3.7 valueModel=3.7   tolerance=NOMINAL u16_0=-1
+			unit = (01BD): Unit   visible=True 
+				numerators[0000] = (0238): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01BE): ParameterValue  value=3.7 type=000
+				unit = (0239): Unit   visible=True 
+					numerators[0000] = (0285): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00B7] = (00C3): Dimension_Diameter2D  flags=4208  index=00CD flags2=-1  lst0={}     a0=(0000,0000,0000,0000)
+			next = (01BF): 26F369B7 a0=(0000,0000)     u16_0=001  a1=(0000,0000) a2=Vector (5.232905887717, 0.0, 0.0)
+				ref_1 = (023A): 7F4A3E30 flags=3000200  index=0000 flags2=0000  u32_1=0000 a=1 a0=(101,000,000) a1=(0.920058,-1.60499,0,-0.920058,1.60499,0) u32_2=0002 s32_0=-1 a2=(0.867562,0.497329,0,0.497329,-0.867562,0) u32_3=0000 s32_1=0 a3=(1.53359,-2.67526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.920058,-1.60499,0,-0.920058,1.60499,0) u16_0=000 f64_0=0 a4=(000,300,000) b=(01,00) a5=(0,0.415641,0,0.267867,0.186003,0) u8_1=01   a6=(0000,0000,016A) a7=(0.920058,-1.60499,0,-0.920058,1.60499,0,1.53359,-2.67526,0,3.95354,-2.67526,0,3.81961,-2.67526,0,0,0,0) u8_2=00 a8=(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0) u8_3=00  a9=(0,0,0,0,0,1,1,0,-0,1.85,0,6.28319) u8_4=00 a10=(000,000,000,000,000) a11=(0.920058,-1.60499,0,0,0,0,-1)
+					ref_1 = (0286): 39A41830  flags=0200  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,3.81961,-2.67526,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (00C2): Parameter 'd8'=37mm
+						*sketch = (009A): Sketch2D 'Sketch3'
+					ref_2 = (0287): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0287): 99B938AE
+				*ref_2 = (00C0): Circle2D - (0,0), r=1.85
+			*group = (0128): Group2D
+			*parameter = (00C2): Parameter 'd8'=37mm
+			*circle = (00C0): Circle2D - (0,0), r=1.85
+		objects[00B8] = (00C4): BoundaryPatch  flags=0200  index=00D0  
+			*lst0[0000] = (00C6): FaceBoundProxy
+		objects[00B9] = (00C5): FaceBoundOuter  flags=900200  index=00D1 s32_0=2502    a1=(0001,0001)  
+			parts[0000] = (01C0): Loop  operation=0008  faceIndex=0000
+				edges[0000] = (023B): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=000E typEntity=0002 u32_1=0000 point1AI=0000 typPt1=0000 u32_2=0000 point2AI=0000 typPt2=0000 posDir=True 
+					*sketch = (009A): Sketch2D 'Sketch3'
+			*sketch = (009A): Sketch2D 'Sketch3'
+			*proxy = (00C4): BoundaryPatch
+		objects[00BA] = (00C6): FaceBoundProxy  flags=A1004200  index=00D2  u8_0=00
+			next = (01C1): NameTableKeyDef a0=(0000,0000)    ntKey=0000
+			refWrapper = (01C2): AsmEntityWrapper index=00D2 u8_0=04  u32_1=0209
+				*asm = (0152): ASM
+		objects[00BB] = (000F): FxExtrude 'Extrusion3'  flags=6200  index=00D3 s32_0=2502 outlineItem=0000  u32_1=0000
+			next = (0159): Label 'Extrusion3' a0=(0000,0000)    index=0016  uid={0CA91131-11D0-838B-0008-19B00524DC09}
+				next = (020A): A9F6B271 a0=(0000,0000)    
+					*owner = (000F): FxExtrude 'Extrusion3'
+					next = (026E): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=004 u16_1=000 
+						*owner = (000F): FxExtrude 'Extrusion3'
+						next = (02A6): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=008 u16_1=001 
+							*owner = (000F): FxExtrude 'Extrusion3'
+							next = (02B3): 086E7238 a0=(0000,0000)    txtUID="750F72AD-C960-4A64-B60F-623F6301144E" txt1="No Preset"
+								*owner = (000F): FxExtrude 'Extrusion3'
+							attr = (02B4): AE101F92  flags=37000200  index=0000 u32_0=0000  u32_1=0000 a=1 a2=(101,000,000) a3=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a4=(0000,0000,0000) a5=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.125,0) u8_0=00 a6=(000,2FC,000,000,000,100) a7=(0,0,0,0)   a8=(0,0,0,0,0,0) a9=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u16_0=000 a10=(0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,0,0,0,0)
+								ref_2 = (02BE): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+									*parameter = (00C9): Parameter 'd10'=0°
+								ref_3 = (02BF): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+								*ref_4 = (02BF): 99B938AE
+							*fxDims = (00CD): FeatureDimensions
+						attr = (02A7): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(101,000,000) a3=Vector (0.0, 0.0, 0.0) a4=(000,000,000) a5=Vector (0.0, 0.0, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a8=(00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.125,0,0,0,0) u8_0=01   a10=(0000,0000,006A) a11=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u8_1=01 a12=(0,0,0,0,0,0,1,0,0,0,0,0) u8_2=00 a13=(0,0,0,0,0,0) 
+							ref_1 = (02B5): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+								*parameter = (00C8): Parameter 'd9'=50mm
+							ref_2 = (02B6): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+							*ref_3 = (02B6): 99B938AE
+						*fxDims = (00CD): FeatureDimensions
+					*participant = (009A): Sketch2D 'Sketch3'
+				*participants[0000] = (009A): Sketch2D 'Sketch3'
+			*properties[0000] = (00C7): PartFeatureOperation='Cut'
+			*properties[0001] = (00C4): BoundaryPatch
+			*properties[0002] = (009B): DirectionAxis dir=(0,0,1)
+			*properties[0003] = (00CA): Boolean=(True, 0)
+			*properties[0004] = (00C8): Parameter 'd9'=50mm
+			*properties[0005] = (00C9): Parameter 'd10'=0°
+			*properties[0006] = (00CB): ExtentType='All'
+			*properties[0007] = (00CC): Boolean=(False, 0)
+			*properties[000F] = (00CD): FeatureDimensions
+			*properties[0013] = (00CE): Parameter 'RDxVar2'=1
+			*properties[0014] = (00CF): Boolean=(False, 0)
+			*properties[0015] = (00D0): CEFD3973_Enum=0
+			*properties[0016] = (00D1): Boolean=(True, 0)
+			*properties[0017] = (00C4): BoundaryPatch
+			*properties[001A] = (00D2): ObjectCollection 'Solid1'
+		objects[00BC] = (00C7): Enum PartFeatureOperation  flags=20200  index=00D4 type=5   value=Cut
+		objects[00BD] = (00C8): Parameter 'd9'  flags=8034200  index=00D5   valueNominal=5 valueModel=5   tolerance=NOMINAL u16_0=-1
+			unit = (01C3): Unit   visible=True 
+				numerators[0000] = (023C): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01C4): ParameterValue  value=5 type=000
+				unit = (023D): Unit   visible=True 
+					numerators[0000] = (0288): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00BE] = (00C9): Parameter 'd10'  flags=34200  index=00D6   valueNominal=0 valueModel=0   tolerance=NOMINAL u16_0=-1
+			unit = (01C5): Unit   visible=True 
+				numerators[0000] = (023E): UnitDegree magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			formula = (01C6): ParameterValue  value=0 type=002
+				unit = (023F): Unit   visible=True 
+					numerators[0000] = (0289): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+		objects[00BF] = (00CA): Boolean  flags=8024200  index=00D7 value=True
+		objects[00C0] = (00CB): Enum ExtentType  flags=20200  index=00D8 type=12   value=All
+		objects[00C1] = (00CC): Boolean  flags=8024200  index=00D9 value=False
+		objects[00C2] = (00CD): FeatureDimensions  flags=0200  index=00DA 
+			fxDimensions[0000] = (01C7): FxDimension anchors=[] transformation= transformation={a0=|+000|0+00|00+0|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 10]]} u8_0=00 
+				*parameter = (00C8): Parameter 'd9'=50mm
+			fxDimensions[0001] = (01C8): FxDimension anchors=[[-1.85,-2.2656e-16,-0.0025],[-1.85,-2.2656e-16,0],[-1.85,-2.2656e-16,-0.00125],[-1.85,-2.2656e-16,-0.0025],[-1.85,-2.2656e-16,-0.0025]] transformation= transformation={a0=|+0xx|x0-x|0+0x|000+| m=[[1, 0, 0, -18.5],[0, 0, -1, 0],[0, 1, 0, 5],[0, 0, 0, 10]]} u8_0=01 
+				*parameter = (00C9): Parameter 'd10'=0°
+		objects[00C3] = (00CE): Parameter 'RDxVar2'  flags=8024200  index=00DB valueNominal=0001 valueModel=0001
+		objects[00C4] = (00CF): Boolean  flags=8024200  index=00DC value=False
+		objects[00C5] = (00D0): Enum CEFD3973_Enum  flags=20200  index=00DD type=4   value=0
+		objects[00C6] = (00D1): Boolean  flags=8024200  index=00DE value=True
+		objects[00C7] = (00D2): ObjectCollection  flags=0000  index=00DF  
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[00C8] = (00D3): ObjectCollectionDef  flags=0200  index=00E0 s32_0=-1  
+			*items[0000] = (00D4): BodyCollection 'Solid1'
+			*collection = (00D2): ObjectCollection 'Solid1'
+		objects[00C9] = (00D4): BodyCollection  flags=0200  index=00E1 
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[00CA] = (00D5): A31E29E0  flags=0200  index=00E2 s32_0=-1   
+			lst0[0000] = (01C9): 845212C7 u32_0=0000  u32_1=0002
+				*component = (0003): PartComponent
+			*owner = (000F): FxExtrude 'Extrusion3'
+			*body = (00D4): BodyCollection 'Solid1'
+		objects[00CB] = (00D6): Transformation  flags=1020200  index=00E3 transformation= transformation={a0=|-000|0+00|00-0|000+| m=[[-1, 0, 0, 0],[0, 1, 0, 0],[0, 0, -1, 0],[0, 0, 0, 10]]}
+		objects[00CC] = (00D7): Sketch2D  flags=2400200  index=00E4 s32_0=4 numEntities=000F    a0=(0000,23CE49B2) 
+			next = (01CA): Label 'Sketch4' a0=(0000,0000)    index=0019  uid={00000000-0000-0000-0000-000000000000}
+				next = (0240): A917F560 a0=(0000,0000)    
+					*owner = (00D7): Sketch2D 'Sketch4'
+					next = (028A): A9F6B271 a0=(0000,0000)    
+						*owner = (00D7): Sketch2D 'Sketch4'
+						next = (02AC): 07AB2269 u32_0=0000 u32_1=0000   u32_2=0000 uid={D4EB9A82-F4EA-48E5-8CE6-93C227984418}
+							*surface = (00D7): Sketch2D 'Sketch4'
+						*participant = (0010): FxExtrude 'Extrusion4'
+					ref_2 = (028B): DBDD00E3 u32_0=0000 numEntities=0005  lst0=[]
+						*sketch = (00D7): Sketch2D 'Sketch4'
+			*entities[0000] = (00DC): Point2D - (0,0)
+			*entities[0001] = (00DE): Point2D - (-6.5,1.56549e-15)
+			*entities[0002] = (00DF): Point2D - (6,-9.72343e-16)
+			*entities[0003] = (00F3): Circle2D - (-6.5,1.56549e-15), r=1.85
+			*entities[0004] = (00F4): Geometric_Radius2D - o=(00F3): Circle2D, c=(00DE)
+			*entities[0005] = (00F5): Circle2D - (6,-9.72343e-16), r=1.85
+			*entities[0006] = (00F6): Geometric_Radius2D - o=(00F5): Circle2D, c=(00DF)
+			*entities[0007] = (00F8): Dimension_Diameter2D
+			*entities[0008] = (00FA): Dimension_Diameter2D
+			*entities[0009] = (00FC): Dimension_Distance2D - d='d17', (-6.5,1.56549e-15), (6,-9.72343e-16)
+			*entities[000A] = (00FE): Point2D - (12.5,7.5)
+			*entities[000B] = (0102): Point2D - (12.5,-7.5)
+			*entities[000C] = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+			*entities[000D] = (010B): Dimension_Distance2D - d='d18', (6,-9.72343e-16)	(0106): Line2D
+			*entities[000E] = (010C): Point2D - (-12.5,-7.5)
+			*entities[000F] = (0110): Point2D - (-12.5,7.5)
+			*entities[0010] = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+			*entities[0011] = (0119): Dimension_Distance2D - d='d19', (-6.5,1.56549e-15)	(0114): Line2D
+			*entities[0012] = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+			*entities[0013] = (011F): Dimension_Distance2D - d='d20', (-6.5,1.56549e-15)	(011A): Line2D
+			*transformation = (00D6): Transformation
+			*direction = (00D8): DirectionAxis dir=(0,0,-1)
+		objects[00CD] = (00D8): DirectionAxis  flags=20200  index=00E5 flags2=0000 a=0 dir=Vector (0.0, 0.0, -1.0)
+		objects[00CE] = (00D9): Sketch2DPlacement  flags=0200  index=00E6 s32_0=2    u16_0=101    lst0=[[56,4294967295]] u8_0=01
+			*transformation2 = (00D6): Transformation
+			*transformation3 = (001A): Transformation
+			*ref_3 = (00DA): FaceItem
+		objects[00CF] = (00DA): FaceItem  flags=0000  index=00E7 indexRefs=(232) s32_0=-1
+		objects[00D0] = (00DB): 90874D55  flags=0200  index=00E8 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[001E]
+			creator = (01CB): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (00DA): FaceItem
+		objects[00D1] = (00DC): Point2D  flags=30200  index=00E9 flags2=0040  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (01CC): Styles a0=(0000,0000)    u32_0=0000 associativeID=0001 typEntity=0001
+				next = (0241): EntityReference a0=(0000,0000)    
+					*owner = (00DC): Point2D - (0,0)
+					*ref_2 = (00DD): Representation3DPoint
+			*sketch = (00D7): Sketch2D 'Sketch4'
+		objects[00D2] = (00DD): Representation3DPoint  flags=0200  index=00EA s32_0=-1   
+			*point2D = (00DC): Point2D - (0,0)
+			*transformation = (00D6): Transformation
+			*point3D = (0019): Point3D - (0,0,0)
+		objects[00D3] = (00DE): Point2D  flags=20200  index=00EC flags2=40000  pos=Vector (-6.500000000000001, 1.5654937406138202e-15, 0.0)   u32_0=0000 lst1=()  
+			next = (01CD): Styles a0=(0000,0000)    u32_0=0000 associativeID=0002 typEntity=0001
+				next = (0242): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (00DE): Point2D - (-6.5,1.56549e-15)
+					*entity2 = (00DE): Point2D - (-6.5,1.56549e-15)
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*centerOf[0000] = (00F3): Circle2D - (-6.5,1.56549e-15), r=1.85
+		objects[00D4] = (00DF): Point2D  flags=20200  index=00EF flags2=40000  pos=Vector (6.000000000000001, -9.723425354552576e-16, 0.0)   u32_0=0000 lst1=()  
+			next = (01CE): Styles a0=(0000,0000)    u32_0=0000 associativeID=0004 typEntity=0001
+				next = (0243): BFD09C43 a0=(0000,0000)     a1=(0,0,0,0) u32_0=0000
+					*owner = (00DF): Point2D - (6,-9.72343e-16)
+					*entity2 = (00DF): Point2D - (6,-9.72343e-16)
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*centerOf[0000] = (00F5): Circle2D - (6,-9.72343e-16), r=1.85
+		objects[00D5] = (0010): FxExtrude 'Extrusion4'  flags=406200  index=00F8 s32_0=2502 outlineItem=0000  u32_1=0000
+			next = (015A): Label 'Extrusion4' a0=(0000,0000)    index=001D  uid={0CA91131-11D0-838B-0008-19B00524DC09}
+				next = (020B): A9F6B271 a0=(0000,0000)    
+					*owner = (0010): FxExtrude 'Extrusion4'
+					next = (026F): 086E7238 a0=(0000,0000)    txtUID="750F72AD-C960-4A64-B60F-623F6301144E" txt1="No Preset"
+						*owner = (0010): FxExtrude 'Extrusion4'
+						next = (02A8): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=004 u16_1=000 
+							*owner = (0010): FxExtrude 'Extrusion4'
+							next = (02B7): FeatureDimensionStateAttr a0=(0000,0000)     u16_0=008 u16_1=001 
+								*owner = (0010): FxExtrude 'Extrusion4'
+								attr = (02C0): AE101F92  flags=37000200  index=0000 u32_0=0000  u32_1=0000 a=1 a2=(101,000,000) a3=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a4=(0000,0000,0000) a5=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.125,0) u8_0=00 a6=(000,2FC,000,000,000,100) a7=(0,0,0,0)   a8=(0,0,0,0,0,0) a9=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u16_0=000 a10=(0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,1,1,0,0,1,0,6.28319,0,0,0,0,0,0,0,0,0)
+									ref_2 = (02C5): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+										*parameter = (00E2): Parameter 'd12'=0°
+									ref_3 = (02C6): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+									*ref_4 = (02C6): 99B938AE
+								*fxDims = (00E6): FeatureDimensions
+							attr = (02B8): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(101,000,000) a3=Vector (0.0, 0.0, 0.0) a4=(000,000,000) a5=Vector (0.0, 0.0, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) a8=(00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.125,0,0,0,0) u8_0=01   a10=(0000,0000,006A) a11=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) u8_1=01 a12=(0,0,0,0,0,0,1,0,0,0,0,0) u8_2=00 a13=(0,0,0,0,0,0) 
+								ref_1 = (02C1): 99B938B0  flags=0200  index=0000 s32_0=-1 a0=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003,0000,0000,0000,0000,0000) typ=0000 a1=[] a2=Vector (0.0, 0.0, 0.0) a3=(0002,0002) a4=(1,0,0,0,0,0) a5=(000,000,000,000,000,000)  a6=(0000,0000) a7=(0003,0003) a8=(0FE4,0000)
+									*parameter = (00E1): Parameter 'd11'=0mm
+								ref_2 = (02C2): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+								*ref_3 = (02C2): 99B938AE
+							*fxDims = (00E6): FeatureDimensions
+					*participant = (00D7): Sketch2D 'Sketch4'
+				*participants[0000] = (00D7): Sketch2D 'Sketch4'
+			*properties[0000] = (00E0): PartFeatureOperation='Cut'
+			*properties[0001] = (0120): BoundaryPatch
+			*properties[0002] = (00D8): DirectionAxis dir=(0,0,-1)
+			*properties[0003] = (00E3): Boolean=(True, 0)
+			*properties[0004] = (00E1): Parameter 'd11'=0mm
+			*properties[0005] = (00E2): Parameter 'd12'=0°
+			*properties[0006] = (00E4): ExtentType='All'
+			*properties[0007] = (00E5): Boolean=(False, 0)
+			*properties[000F] = (00E6): FeatureDimensions
+			*properties[0013] = (00E7): Parameter 'RDxVar3'=1
+			*properties[0014] = (00E8): Boolean=(False, 0)
+			*properties[0015] = (00E9): CEFD3973_Enum=0
+			*properties[0016] = (00EA): Boolean=(True, 0)
+			*properties[0017] = (0120): BoundaryPatch
+			*properties[001A] = (0124): ObjectCollection 'Solid1'
+		objects[00D6] = (00E0): Enum PartFeatureOperation  flags=20200  index=00F9 type=5   value=Cut
+		objects[00D7] = (00E1): Parameter 'd11'  flags=8034200  index=00FA   valueNominal=0 valueModel=0   tolerance=NOMINAL u16_0=-1
+			unit = (01CF): Unit   visible=True 
+				numerators[0000] = (0244): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01D0): ParameterValue  value=0 type=003
+				unit = (0245): Unit   visible=True 
+					numerators[0000] = (028C): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00D8] = (00E2): Parameter 'd12'  flags=34200  index=00FB   valueNominal=0 valueModel=0   tolerance=NOMINAL u16_0=-1
+			unit = (01D1): Unit   visible=True 
+				numerators[0000] = (0246): UnitDegree magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+			formula = (01D2): ParameterValue  value=0 type=002
+				unit = (0247): Unit   visible=True 
+					numerators[0000] = (028D): UnitGrad magnitude=1 factor=1 Unit="°" UnitOffset=0 UnitFactor=0.0174533 UnitSupportet=True
+		objects[00D9] = (00E3): Boolean  flags=8024200  index=00FC value=True
+		objects[00DA] = (00E4): Enum ExtentType  flags=20200  index=00FD type=12   value=All
+		objects[00DB] = (00E5): Boolean  flags=8024200  index=00FE value=False
+		objects[00DC] = (00E6): FeatureDimensions  flags=0200  index=00FF 
+			fxDimensions[0000] = (01D3): FxDimension anchors=[] transformation= transformation={a0=|+000|0+00|00+0|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 10]]} u8_0=00 
+				*parameter = (00E1): Parameter 'd11'=0mm
+			fxDimensions[0001] = (01D4): FxDimension anchors=[[-4.15,-1.1989e-15,0.5025],[-4.15,-1.1989e-15,0.5],[-4.15,-1.1989e-15,0.50125],[-4.15,-1.1989e-15,0.5025],[-4.15,-1.1989e-15,0.5025]] transformation= transformation={a0=|+0xx|x0-x|0+00|000+| m=[[1, 0, 0, -41.5],[0, 0, -1, 0],[0, 1, 0, 0],[0, 0, 0, 10]]} u8_0=01 
+				*parameter = (00E2): Parameter 'd12'=0°
+		objects[00DD] = (00E7): Parameter 'RDxVar3'  flags=8024200  index=0100 valueNominal=0001 valueModel=0001
+		objects[00DE] = (00E8): Boolean  flags=8024200  index=0101 value=False
+		objects[00DF] = (00E9): Enum CEFD3973_Enum  flags=20200  index=0102 type=4   value=0
+		objects[00E0] = (00EA): Boolean  flags=8024200  index=0103 value=True
+		objects[00E1] = (00EB): BoundaryPatch  flags=0200  index=0108  
+			*lst0[0000] = (00ED): FaceBoundProxy
+			*lst0[0001] = (00EE): FaceBoundProxy
+		objects[00E2] = (00EC): FaceBoundOuter  flags=900200  index=0109 s32_0=2502    a1=(0002,0002)  
+			parts[0000] = (01D5): Loop  operation=0008  faceIndex=0000
+				edges[0000] = (0248): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0007 typEntity=0002 u32_1=0000 point1AI=0003 typPt1=0001 u32_2=0000 point2AI=0004 typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0001] = (0249): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0008 typEntity=0002 u32_1=0000 point1AI=0004 typPt1=0001 u32_2=0000 point2AI=0005 typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0002] = (024A): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0009 typEntity=0002 u32_1=0000 point1AI=0005 typPt1=0001 u32_2=0000 point2AI=0002 typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0003] = (024B): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0006 typEntity=0002 u32_1=0000 point1AI=0002 typPt1=0001 u32_2=0000 point2AI=0003 typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+			parts[0001] = (01D6): Loop  operation=0000  faceIndex=0001
+				edges[0000] = (024C): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=000E typEntity=0002 u32_1=0000 point1AI=000B typPt1=0001 u32_2=0000 point2AI=000D typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0001] = (024D): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0010 typEntity=0002 u32_1=0000 point1AI=000D typPt1=0001 u32_2=0000 point2AI=000F typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0002] = (024E): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0011 typEntity=0002 u32_1=0000 point1AI=000F typPt1=0001 u32_2=0000 point2AI=000A typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+				edges[0003] = (024F): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=000C typEntity=0002 u32_1=0000 point1AI=000A typPt1=0001 u32_2=0000 point2AI=000B typPt2=0001 posDir=True 
+					*sketch = (0054): Sketch2D 'Sketch2'
+			*sketch = (0054): Sketch2D 'Sketch2'
+			*proxy = (00EB): BoundaryPatch
+		objects[00E3] = (00ED): FaceBoundProxy  flags=A1004200  index=010A  u8_0=00
+			next = (01D7): NameTableKeyDef a0=(0000,0000)    ntKey=0000
+			refWrapper = (01D8): AsmEntityWrapper index=010A u8_0=04  u32_1=01CF
+				*asm = (0152): ASM
+		objects[00E4] = (00EE): FaceBoundProxy  flags=21004200  index=010B  u8_0=00
+			next = (01D9): NameTableKeyDef a0=(0000,0000)    ntKey=0001
+			refWrapper = (01DA): AsmEntityWrapper index=010B u8_0=04  u32_1=01D0
+				*asm = (0152): ASM
+		objects[00E5] = (00EF): ObjectCollection  flags=0000  index=010C  
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[00E6] = (00F0): ObjectCollectionDef  flags=0200  index=010D s32_0=-1  
+			*items[0000] = (00F1): BodyCollection 'Solid1'
+			*collection = (00EF): ObjectCollection 'Solid1'
+		objects[00E7] = (00F1): BodyCollection  flags=0200  index=010E 
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[00E8] = (00F2): A31E29E0  flags=0200  index=010F s32_0=-1   
+			lst0[0000] = (01DB): 845212C7 u32_0=0000  u32_1=0002
+				*component = (0003): PartComponent
+			*owner = (000E): FxExtrude 'Extrusion2'
+			*body = (00F1): BodyCollection 'Solid1'
+		objects[00E9] = (00F3): Circle2D  flags=20200  index=0110 flags2=40000    r=1.85 u8_0=01
+			next = (01DC): Styles a0=(0000,0000)    u32_0=0000 associativeID=0006 typEntity=0002
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*center = (00DE): Point2D - (-6.5,1.56549e-15)
+		objects[00EA] = (00F4): Geometric_Radius2D  flags=4208  index=0111 flags2=-1  lst0={}    
+			*group = (00FD): Group2D
+			*entity = (00F3): Circle2D - (-6.5,1.56549e-15), r=1.85
+			*center = (00DE): Point2D - (-6.5,1.56549e-15)
+		objects[00EB] = (00F5): Circle2D  flags=20200  index=0115 flags2=40000    r=1.85 u8_0=01
+			next = (01DD): Styles a0=(0000,0000)    u32_0=0000 associativeID=0007 typEntity=0002
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*center = (00DF): Point2D - (6,-9.72343e-16)
+		objects[00EC] = (00F6): Geometric_Radius2D  flags=4208  index=0116 flags2=-1  lst0={}    
+			*group = (00FD): Group2D
+			*entity = (00F5): Circle2D - (6,-9.72343e-16), r=1.85
+			*center = (00DF): Point2D - (6,-9.72343e-16)
+		objects[00ED] = (00F7): Parameter 'd15'  flags=34200  index=0122   valueNominal=3.7 valueModel=3.7   tolerance=NOMINAL u16_0=-1
+			unit = (01DE): Unit   visible=True 
+				numerators[0000] = (0250): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01DF): ParameterValue  value=3.7 type=000
+				unit = (0251): Unit   visible=True 
+					numerators[0000] = (028E): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00EE] = (00F8): Dimension_Diameter2D  flags=4208  index=0123 flags2=-1  lst0={}     a0=(0000,0000,0000,0000)
+			next = (01E0): 26F369B7 a0=(0000,0000)     u16_0=001  a1=(0000,0000) a2=Vector (2.3202051894109847, 0.0, 0.0)
+				ref_1 = (0252): 7F4A3E30 flags=3000200  index=0000 flags2=0000  u32_1=0000 a=1 a0=(101,000,000) a1=(4.73977,1.35437,0,7.26023,-1.35437,0) u32_2=0002 s32_0=-1 a2=(-0.732092,-0.681206,0,-0.681206,0.732092,0) u32_3=0000 s32_1=0 a3=(2.75857,3.48357,0,6,-9.72343e-16,0,0,0,0,0,0,0,0,0,0,0,0,0,4.73977,1.35437,0,7.26023,-1.35437,0) u16_0=000 f64_0=0 a4=(000,300,000) b=(01,00) a5=(0,0.159259,0,0.0596599,0.0414269,0) u8_1=01   a6=(0000,0000,016A) a7=(4.73977,1.35437,0,7.26023,-1.35437,0,2.75857,3.48357,0,1.85281,3.48357,0,1.88264,3.48357,0,0,0,0) u8_2=00 a8=(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0) u8_3=00  a9=(6,-9.72343e-16,0,0,0,1,1,0,-0,1.85,0,6.28319) u8_4=00 a10=(000,BDBB,D9D7,7CDF,BDDB) a11=(4.73977,1.35437,0,6,-9.72343e-16,0,-1)
+					ref_1 = (028F): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,1.88264,3.48357,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (00F7): Parameter 'd15'=37mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (0290): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0290): 99B938AE
+				*ref_2 = (00F5): Circle2D - (6,-9.72343e-16), r=1.85
+			*group = (00FD): Group2D
+			*parameter = (00F7): Parameter 'd15'=37mm
+			*circle = (00F5): Circle2D - (6,-9.72343e-16), r=1.85
+		objects[00EF] = (00F9): Parameter 'd16'  flags=34200  index=0133   valueNominal=3.7 valueModel=3.7   tolerance=NOMINAL u16_0=-1
+			unit = (01E1): Unit   visible=True 
+				numerators[0000] = (0253): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01E2): ParameterValue  value=3.7 type=000
+				unit = (0254): Unit   visible=True 
+					numerators[0000] = (0291): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00F0] = (00FA): Dimension_Diameter2D  flags=4208  index=0134 flags2=-1  lst0={}     a0=(0000,0000,0000,0000)
+			next = (01E3): 26F369B7 a0=(0000,0000)     u16_0=001  a1=(0000,0000) a2=Vector (1.3063521793484887, 0.0, 0.0)
+				ref_1 = (0255): 7F4A3E30 flags=3000200  index=0000 flags2=0000  u32_1=0000 a=1 a0=(101,000,000) a1=(-6.01646,1.78569,0,-6.98354,-1.78569,0) u32_2=0002 s32_0=-1 a2=(-0.965238,0.261373,0,0.261373,0.965238,0) u32_3=0000 s32_1=0 a3=(-5.60446,3.30718,0,-6.5,1.56549e-15,0,0,0,0,0,0,0,0,0,0,0,0,0,-6.01646,1.78569,0,-6.98354,-1.78569,0) u16_0=000 f64_0=0 a4=(000,300,000) b=(01,00) a5=(0,0.159259,0,0.0596599,0.0414269,0) u8_1=01   a6=(0000,0000,016A) a7=(-6.01646,1.78569,0,-6.98354,-1.78569,0,-5.60446,3.30718,0,-4.69871,3.30718,0,-4.72854,3.30718,0,0,0,0) u8_2=00 a8=(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0) u8_3=00  a9=(-6.5,1.56549e-15,0,0,0,1,1,0,-0,1.85,0,6.28319) u8_4=00 a10=(000,BDBB,D9D7,7CDF,3DDB) a11=(-6.01646,1.78569,0,-6.5,1.56549e-15,0,-1)
+					ref_1 = (0292): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,-4.72854,3.30718,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (00F9): Parameter 'd16'=37mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (0293): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0293): 99B938AE
+				*ref_2 = (00F3): Circle2D - (-6.5,1.56549e-15), r=1.85
+			*group = (00FD): Group2D
+			*parameter = (00F9): Parameter 'd16'=37mm
+			*circle = (00F3): Circle2D - (-6.5,1.56549e-15), r=1.85
+		objects[00F1] = (00FB): Parameter 'd17'  flags=34200  index=0135   valueNominal=12.5 valueModel=12.5   tolerance=NOMINAL u16_0=-1
+			unit = (01E4): Unit   visible=True 
+				numerators[0000] = (0256): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01E5): ParameterValue  value=12.5 type=FFFF
+				unit = (0257): Unit   visible=True 
+					numerators[0000] = (0294): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00F2] = (00FC): Dimension_Distance2D  flags=4208  index=0136 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (01E6): EEE03AF5 a0=(0000,0000)     u16_0=00A   u32_0=0000 a1=Vector (0.0, 0.0, 0.0) p1=Vector (-6.500000000000001, 1.5654937406138202e-15, 0.0) p2=Vector (6.000000000000001, -9.723425354552576e-16, 0.0) a2=Vector (0.0, 4.974241873795707, 0.0)
+				entity2 = (0258): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (-6.500000000000001, 1.5654937406138202e-15, 0.0) a4=(001,000,000) a5=Vector (-9.97906561905692e-289, 2.38817e-319, 0.0) a6=(000,002,000) s32_0=-1 a7=(0,1,0,1,-0,0,0,-0.621358,4.97424,0,-0.25,4.97424,0,-6.5,5.15756,0,6,5.15756,0,-6.5,-9.72343e-16,0,6,-9.72343e-16,0,-6.5,4.97424,0,6,4.97424,0) a8=(01,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.183319,0.0458297,0.0894898,0.0414269,0) u8_0=01   a10=(0000,0000,006A) a11=(-6.5,4.97424,0,6,4.97424,0,-6.5,4.97424,0,6,4.97424,0,-0.621358,4.97424,0,0,0,0) u8_1=01 a12=(0,1,0,-0.25,4.97424,0,1,0,0,0,0,0) u8_2=00 a13=(-6.5,0.0458297,0,6,0.0458297,0) 
+					ref_1 = (0295): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,-0.621358,4.97424,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (00FB): Parameter 'd17'=125mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (0296): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (0296): 99B938AE
+				*entity3 = (00DE): Point2D - (-6.5,1.56549e-15)
+				*entity4 = (00DF): Point2D - (6,-9.72343e-16)
+			*group = (00FD): Group2D
+			*parameter = (00FB): Parameter 'd17'=125mm
+			*entity1 = (00DE): Point2D - (-6.5,1.56549e-15)
+			*entity2 = (00DF): Point2D - (6,-9.72343e-16)
+		objects[00F3] = (00FD): Group2D  flags=0200  index=0137 s32_0=-1 s32_1=8  entries={800000DE:0000,800000DF:0000,800000F3:0000,800000F4:0000,800000F5:0000,800000F6:0000,800000F8:0000,800000FA:0000,800000FC:0000,80000106:0004,8000010B:0000,80000114:0004,80000119:0000,8000011A:0004,8000011F:0000} u32_0=0000
+			*constrains[0000] = (00FC): Dimension_Distance2D - d='d17', (-6.5,1.56549e-15), (6,-9.72343e-16)
+			*constrains[0001] = (00F4): Geometric_Radius2D - o=(00F3): Circle2D, c=(00DE)
+			*constrains[0002] = (00F6): Geometric_Radius2D - o=(00F5): Circle2D, c=(00DF)
+			*constrains[0003] = (00FA): Dimension_Diameter2D
+			*constrains[0004] = (00F8): Dimension_Diameter2D
+			*constrains[0005] = (010B): Dimension_Distance2D - d='d18', (6,-9.72343e-16)	(0106): Line2D
+			*constrains[0006] = (0119): Dimension_Distance2D - d='d19', (-6.5,1.56549e-15)	(0114): Line2D
+			*constrains[0007] = (011F): Dimension_Distance2D - d='d20', (-6.5,1.56549e-15)	(011A): Line2D
+		objects[00F4] = (00FE): Point2D  flags=30200  index=0138 flags2=0040  pos=Vector (12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (01E7): Styles a0=(0000,0000)    u32_0=0000 associativeID=0009 typEntity=0001
+				next = (0259): EntityReference a0=(0000,0000)    
+					*owner = (00FE): Point2D - (12.5,7.5)
+					*ref_2 = (00FF): 60406697
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*endPointOf[0000] = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+		objects[00F5] = (00FF): 60406697  flags=0200  index=0139 s32_0=-1   
+			*ref_1 = (00FE): Point2D - (12.5,7.5)
+			*ref_2 = (00D6): Transformation
+			*ref_3 = (0100): C1887310
+		objects[00F6] = (0100): C1887310  flags=0000  index=013A lst0=(315) s32_0=-1
+		objects[00F7] = (0101): B8DBEF70  flags=0200  index=013B s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0023]
+			creator = (01E8): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0100): C1887310
+		objects[00F8] = (0102): Point2D  flags=30200  index=013C flags2=0040  pos=Vector (12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (01E9): Styles a0=(0000,0000)    u32_0=0000 associativeID=000A typEntity=0001
+				next = (025A): EntityReference a0=(0000,0000)    
+					*owner = (0102): Point2D - (12.5,-7.5)
+					*ref_2 = (0103): 60406697
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*endPointOf[0000] = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+			*endPointOf[0001] = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+		objects[00F9] = (0103): 60406697  flags=0200  index=013D s32_0=-1   
+			*ref_1 = (0102): Point2D - (12.5,-7.5)
+			*ref_2 = (00D6): Transformation
+			*ref_3 = (0104): C1887310
+		objects[00FA] = (0104): C1887310  flags=0000  index=013E lst0=(319) s32_0=-1
+		objects[00FB] = (0105): B8DBEF70  flags=0200  index=013F s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0024]
+			creator = (01EA): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0104): C1887310
+		objects[00FC] = (0106): Line2D  flags=30200  index=0140 flags2=0040   pos=Vector (12.5, 7.5, 0.0) dir=Vector (0.0, -1.0, 0.0)
+			next = (01EB): Styles a0=(0000,0000)    u32_0=0000 associativeID=000B typEntity=0002
+				next = (025B): EntityReference a0=(0000,0000)    
+					*owner = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+					next = (0297): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (12.5, 7.5, 0.0) dir=Vector (0.0, -1.0, 0.0)
+						*owner = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+					*ref_2 = (0107): 64DE16F3
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*points[0000] = (00FE): Point2D - (12.5,7.5)
+			*points[0001] = (0102): Point2D - (12.5,-7.5)
+		objects[00FD] = (0107): 64DE16F3  flags=0200  index=0141 s32_0=3    u16_0=017
+			*entity = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+			*transformation = (00D6): Transformation
+			*edge = (0108): EdgeItem
+		objects[00FE] = (0108): EdgeItem  flags=0000  index=0142 indexRefs=(323) s32_0=-1 u32_0=0000
+		objects[00FF] = (0109): EdgeId  flags=0200  index=0143 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0025]
+			creator = (01EC): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0108): EdgeItem
+		objects[0100] = (010A): Parameter 'd18'  flags=34200  index=0144   valueNominal=6.5 valueModel=6.5   tolerance=NOMINAL u16_0=-1
+			unit = (01ED): Unit   visible=True 
+				numerators[0000] = (025C): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01EE): ParameterValue  value=6.5 type=FFFF
+				unit = (025D): Unit   visible=True 
+					numerators[0000] = (0298): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0101] = (010B): Dimension_Distance2D  flags=4208  index=0145 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (01EF): EEE03AF5 a0=(0000,0000)     u16_0=009   u32_0=0000 a1=Vector (0.3260481230774782, 0.0, 0.0) p1=Vector (12.5, 2.6092781538378267, 0.0) p2=Vector (6.000000000000001, -9.723425354552576e-16, 0.0) a2=Vector (6.499999999999999, 8.881784197001252e-16, 0.0)
+				entity2 = (025E): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (12.5, 2.6092781538378267, 0.0) a4=(001,000,000) a5=Vector (-9.97906561905692e-289, 2.38817e-319, 0.0) a6=(000,003,000) s32_0=-1 a7=(0,-1,0,-1,0,0,0,9.95257,2.60928,0,9.25,2.60928,0,12.5,2.60928,0,6,2.79217,0,12.5,2.60928,0,6,2.60928,0,12.5,2.60928,0,6,2.60928,0) a8=(00,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.182891,0.0457228,0.0596599,0.0413302,0) u8_0=01   a10=(0000,0000,006A) a11=(12.5,2.60928,0,6,2.60928,0,12.5,2.60928,0,6,2.60928,0,9.95257,2.60928,0,0,0,0) u8_1=01 a12=(0,-1,0,9.25,2.60928,0,-1,0,0,0,0,0) u8_2=00 a13=(12.5,2.60928,0,6,0.0457228,0) 
+					ref_1 = (0299): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,9.95257,2.60928,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (010A): Parameter 'd18'=65mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (029A): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (029A): 99B938AE
+				*entity3 = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+				*entity4 = (00DF): Point2D - (6,-9.72343e-16)
+			*group = (00FD): Group2D
+			*parameter = (010A): Parameter 'd18'=65mm
+			*entity1 = (0106): Line2D - (12.5,7.5) - (12.5,-7.5)
+			*entity2 = (00DF): Point2D - (6,-9.72343e-16)
+		objects[0102] = (010C): Point2D  flags=30200  index=0146 flags2=0040  pos=Vector (-12.5, -7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (01F0): Styles a0=(0000,0000)    u32_0=0000 associativeID=000C typEntity=0001
+				next = (025F): EntityReference a0=(0000,0000)    
+					*owner = (010C): Point2D - (-12.5,-7.5)
+					*ref_2 = (010D): 60406697
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*endPointOf[0000] = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+			*endPointOf[0001] = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+		objects[0103] = (010D): 60406697  flags=0200  index=0147 s32_0=-1   
+			*ref_1 = (010C): Point2D - (-12.5,-7.5)
+			*ref_2 = (00D6): Transformation
+			*ref_3 = (010E): C1887310
+		objects[0104] = (010E): C1887310  flags=0000  index=0148 lst0=(329) s32_0=-1
+		objects[0105] = (010F): B8DBEF70  flags=0200  index=0149 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0026]
+			creator = (01F1): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (010E): C1887310
+		objects[0106] = (0110): Point2D  flags=30200  index=014A flags2=0040  pos=Vector (-12.5, 7.5, 0.0)   u32_0=0000 lst1=()  
+			next = (01F2): Styles a0=(0000,0000)    u32_0=0000 associativeID=000D typEntity=0001
+				next = (0260): EntityReference a0=(0000,0000)    
+					*owner = (0110): Point2D - (-12.5,7.5)
+					*ref_2 = (0111): 60406697
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*endPointOf[0000] = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+		objects[0107] = (0111): 60406697  flags=0200  index=014B s32_0=-1   
+			*ref_1 = (0110): Point2D - (-12.5,7.5)
+			*ref_2 = (00D6): Transformation
+			*ref_3 = (0112): C1887310
+		objects[0108] = (0112): C1887310  flags=0000  index=014C lst0=(333) s32_0=-1
+		objects[0109] = (0113): B8DBEF70  flags=0200  index=014D s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0027]
+			creator = (01F3): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0112): C1887310
+		objects[010A] = (0114): Line2D  flags=30200  index=014E flags2=0040   pos=Vector (-12.5, -7.5, 0.0) dir=Vector (0.0, 1.0, 0.0)
+			next = (01F4): Styles a0=(0000,0000)    u32_0=0000 associativeID=000E typEntity=0002
+				next = (0261): EntityReference a0=(0000,0000)    
+					*owner = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+					next = (029B): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (-12.5, -7.5, 0.0) dir=Vector (0.0, 1.0, 0.0)
+						*owner = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+					*ref_2 = (0115): 64DE16F3
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*points[0000] = (010C): Point2D - (-12.5,-7.5)
+			*points[0001] = (0110): Point2D - (-12.5,7.5)
+		objects[010B] = (0115): 64DE16F3  flags=0200  index=014F s32_0=3    u16_0=017
+			*entity = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+			*transformation = (00D6): Transformation
+			*edge = (0116): EdgeItem
+		objects[010C] = (0116): EdgeItem  flags=0000  index=0150 indexRefs=(337) s32_0=-1 u32_0=0000
+		objects[010D] = (0117): EdgeId  flags=0200  index=0151 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0028]
+			creator = (01F5): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (0116): EdgeItem
+		objects[010E] = (0118): Parameter 'd19'  flags=34200  index=0152   valueNominal=6 valueModel=6   tolerance=NOMINAL u16_0=-1
+			unit = (01F6): Unit   visible=True 
+				numerators[0000] = (0262): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01F7): ParameterValue  value=6 type=FFFF
+				unit = (0263): Unit   visible=True 
+					numerators[0000] = (029C): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[010F] = (0119): Dimension_Distance2D  flags=4208  index=0153 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (01F8): EEE03AF5 a0=(0000,0000)     u16_0=009   u32_0=0000 a1=Vector (0.6465886603279678, 0.0, 0.0) p1=Vector (-12.5, 2.198829904919517, 0.0) p2=Vector (-6.500000000000001, 1.5654937406138202e-15, 0.0) a2=Vector (5.999999999999999, 4.440892098500626e-16, 0.0)
+				entity2 = (0264): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (-12.5, 2.198829904919517, 0.0) a4=(001,000,000) a5=Vector (2.612492481098241e-60, 7.6975e-320, 0.0) a6=(000,003,000) s32_0=-1 a7=(0,1,0,1,-0,0,0,-9.67076,2.19883,0,-9.5,2.19883,0,-12.5,2.19883,0,-6.5,2.38201,0,-12.5,2.19883,0,-6.5,2.19883,0,-12.5,2.19883,0,-6.5,2.19883,0) a8=(00,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.183176,0.0457941,0.0596599,0.0413947,0) u8_0=01   a10=(0000,0000,006A) a11=(-12.5,2.19883,0,-6.5,2.19883,0,-12.5,2.19883,0,-6.5,2.19883,0,-9.67076,2.19883,0,0,0,0) u8_1=01 a12=(0,1,0,-9.5,2.19883,0,1,0,0,0,0,0) u8_2=00 a13=(-12.5,2.19883,0,-6.5,0.0457941,0) 
+					ref_1 = (029D): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,-9.67076,2.19883,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (0118): Parameter 'd19'=60mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (029E): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (029E): 99B938AE
+				*entity3 = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+				*entity4 = (00DE): Point2D - (-6.5,1.56549e-15)
+			*group = (00FD): Group2D
+			*parameter = (0118): Parameter 'd19'=60mm
+			*entity1 = (0114): Line2D - (-12.5,-7.5) - (-12.5,7.5)
+			*entity2 = (00DE): Point2D - (-6.5,1.56549e-15)
+		objects[0110] = (011A): Line2D  flags=30200  index=0154 flags2=0040   pos=Vector (12.5, -7.5, 0.0) dir=Vector (-1.0, 0.0, 0.0)
+			next = (01F9): Styles a0=(0000,0000)    u32_0=0000 associativeID=000F typEntity=0002
+				next = (0265): EntityReference a0=(0000,0000)    
+					*owner = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+					next = (029F): D5F19E40 a0=(0000,0000)    u32_0=0000 pos=Vector (12.5, -7.5, 0.0) dir=Vector (-1.0, 0.0, 0.0)
+						*owner = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+					*ref_2 = (011B): 64DE16F3
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*points[0000] = (0102): Point2D - (12.5,-7.5)
+			*points[0001] = (010C): Point2D - (-12.5,-7.5)
+		objects[0111] = (011B): 64DE16F3  flags=0200  index=0155 s32_0=3    u16_0=017
+			*entity = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+			*transformation = (00D6): Transformation
+			*edge = (011C): EdgeItem
+		objects[0112] = (011C): EdgeItem  flags=0000  index=0156 indexRefs=(343) s32_0=-1 u32_0=0000
+		objects[0113] = (011D): EdgeId  flags=0200  index=0157 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[0029]
+			creator = (01FA): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=088 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (011C): EdgeItem
+		objects[0114] = (011E): Parameter 'd20'  flags=34200  index=0158   valueNominal=7.5 valueModel=7.5   tolerance=NOMINAL u16_0=-1
+			unit = (01FB): Unit   visible=True 
+				numerators[0000] = (0266): UnitMilliMeter magnitude=1 factor=1 Unit="mm" UnitOffset=0 UnitFactor=0.1 UnitSupportet=True
+			formula = (01FC): ParameterValue  value=7.5 type=FFFF
+				unit = (0267): Unit   visible=True 
+					numerators[0000] = (02A0): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[0115] = (011F): Dimension_Distance2D  flags=4208  index=0159 flags2=-1  lst0={}   u32_0=0000   a0=(0000,0000,0000,0000) a1=Vector (1.7976931348623157e+308, 0.0, 0.0) a2=Vector (1.7976931348623157e+308, 0.0, 0.0)
+			next = (01FD): EEE03AF5 a0=(0000,0000)     u16_0=009   u32_0=0000 a1=Vector (0.6354567528694017, 0.0, 0.0) p1=Vector (-3.3864188217350435, -7.5, 0.0) p2=Vector (-6.500000000000001, 1.5654937406138202e-15, 0.0) a2=Vector (7.500000000000002, 1.7763568394002505e-15, 0.0)
+				entity2 = (0268): E1D3D023  flags=3000200  index=0000 flags2=0000  a1=(0,0,1.875) a2=(100,000,000) a3=Vector (-3.3864188217350435, -7.5, 0.0) a4=(001,000,000) a5=Vector (2.612492481098241e-60, 7.6975e-320, 0.0) a6=(000,003,000) s32_0=-1 a7=(-1,0,0,0,1,-0,0,-3.38642,-4.32987,0,-3.38642,-3.75,0,-3.38642,-7.5,0,-2.8712,1.56549e-15,0,-3.38642,-7.5,0,-3.38642,1.77636e-15,0,-3.38642,-7.5,0,-3.38642,1.77636e-15,0) a8=(00,01,00,00,00,00,00,00,00,00,00,00,00,03,00,00,01,00) a9=(0,0.515222,0.128806,0.0596599,0.0405893,0) u8_0=01   a10=(0000,0000,006A) a11=(-3.38642,-7.5,0,-3.38642,1.77636e-15,0,-3.38642,-7.5,0,-3.38642,1.77636e-15,0,-3.38642,-4.32987,0,0,0,0) u8_1=01 a12=(-1,0,0,-3.38642,-3.75,0,0,1,0,0,0,0) u8_2=00 a13=(-3.38642,-7.5,0,-6.37119,1.56549e-15,0) 
+					ref_1 = (02A1): 39A41830  flags=0210  index=0000 s32_0=-1 a2=(0000,0000,0000,0000,0000,0000,0000,0000,0000,0001,0000,0000,0003) a3=Vector (0.0, 0.0, 0.0) txt0="" a4=(0000,0000,0000,A7F9,A7FB) a5=(1,0,0,-3.38642,-4.32987,0) a6=(000,000,000,000,000,000)   u32_0=0000 a7=(0003,0003) a8=(0FE4,0000) 
+						*parameter1 = (011E): Parameter 'd20'=75mm
+						*sketch = (00D7): Sketch2D 'Sketch4'
+					ref_2 = (02A2): 99B938AE  flags=0200  index=0000 a1=Vector (0.25, 0.1, 0.0) u32_0=0010 u32_1=0000
+					*ref_3 = (02A2): 99B938AE
+				*entity3 = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+				*entity4 = (00DE): Point2D - (-6.5,1.56549e-15)
+			*group = (00FD): Group2D
+			*parameter = (011E): Parameter 'd20'=75mm
+			*entity1 = (011A): Line2D - (12.5,-7.5) - (-12.5,-7.5)
+			*entity2 = (00DE): Point2D - (-6.5,1.56549e-15)
+		objects[0116] = (0120): BoundaryPatch  flags=0200  index=015A  
+			*lst0[0000] = (0122): FaceBoundProxy
+			*lst0[0001] = (0123): FaceBoundProxy
+		objects[0117] = (0121): FaceBoundOuter  flags=900200  index=015B s32_0=2502    a1=(0002,0002)  
+			parts[0000] = (01FE): Loop  operation=0008  faceIndex=0000
+				edges[0000] = (0269): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0007 typEntity=0002 u32_1=0000 point1AI=0000 typPt1=0000 u32_2=0000 point2AI=0000 typPt2=0000 posDir=True 
+					*sketch = (00D7): Sketch2D 'Sketch4'
+			parts[0001] = (01FF): Loop  operation=0008  faceIndex=0001
+				edges[0000] = (026A): SketchEntityRef a0=(0000,0000) u32_0=0000 entityAI=0006 typEntity=0002 u32_1=0000 point1AI=0000 typPt1=0000 u32_2=0000 point2AI=0000 typPt2=0000 posDir=True 
+					*sketch = (00D7): Sketch2D 'Sketch4'
+			*sketch = (00D7): Sketch2D 'Sketch4'
+			*proxy = (0120): BoundaryPatch
+		objects[0118] = (0122): FaceBoundProxy  flags=A1004200  index=015C  u8_0=00
+			next = (0200): NameTableKeyDef a0=(0000,0000)    ntKey=0000
+			refWrapper = (0201): AsmEntityWrapper index=015C u8_0=04  u32_1=0207
+				*asm = (0152): ASM
+		objects[0119] = (0123): FaceBoundProxy  flags=A1004200  index=015D  u8_0=00
+			next = (0202): NameTableKeyDef a0=(0000,0000)    ntKey=0001
+			refWrapper = (0203): AsmEntityWrapper index=015D u8_0=04  u32_1=0208
+				*asm = (0152): ASM
+		objects[011A] = (0124): ObjectCollection  flags=0000  index=015E  
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[011B] = (0125): ObjectCollectionDef  flags=0200  index=015F s32_0=-1  
+			*items[0000] = (0126): BodyCollection 'Solid1'
+			*collection = (0124): ObjectCollection 'Solid1'
+		objects[011C] = (0126): BodyCollection  flags=0200  index=0160 
+			*items[0000] = (0008): SurfaceBody 'Solid1'
+		objects[011D] = (0127): A31E29E0  flags=0200  index=0161 s32_0=-1   
+			lst0[0000] = (0204): 845212C7 u32_0=0000  u32_1=0002
+				*component = (0003): PartComponent
+			*owner = (0010): FxExtrude 'Extrusion4'
+			*body = (0126): BodyCollection 'Solid1'
+		objects[011E] = (0128): Group2D  flags=0200  index=0182 s32_0=-1 s32_1=3  entries={8000009F:0004,800000BE:0000,800000BF:0000,800000C0:0000,800000C1:0000,800000C3:0000} u32_0=0000
+			*constrains[0000] = (00BF): Geometric_Coincident2D - (0,0)	(00BE): Point2D
+			*constrains[0001] = (00C1): Geometric_Radius2D - o=(00C0): Circle2D, c=(00BE)
+			*constrains[0002] = (00C3): Dimension_Diameter2D
+		objects[011F] = (0129): Transformation  flags=1020200  index=0183 transformation= transformation={a0=|-000|0+00|00-0|000+| m=[[-1, 0, 0, 0],[0, 1, 0, 0],[0, 0, -1, 0],[0, 0, 0, 10]]}
+		objects[0120] = (0011): Sketch2D 'Sketch5'  flags=4200  index=0184 s32_0=4 numEntities=0001    a0=(0000,5A24003B) 
+			next = (015B): Label 'Sketch5' a0=(0000,0000)    index=001E  uid={00000000-0000-0000-0000-000000000000}
+			*entities[0000] = (012E): Point2D - (0,0)
+			*transformation = (0129): Transformation
+			*direction = (012A): DirectionAxis dir=(0,0,-1)
+		objects[0121] = (012A): DirectionAxis  flags=20200  index=0185 flags2=0000 a=0 dir=Vector (0.0, 0.0, -1.0)
+		objects[0122] = (012B): Sketch2DPlacement  flags=0200  index=0186 s32_0=2    u16_0=101    lst0=[[56,4294967295]] u8_0=01
+			*transformation2 = (0129): Transformation
+			*transformation3 = (001A): Transformation
+			*ref_3 = (012C): FaceItem
+		objects[0123] = (012C): FaceItem  flags=0000  index=0187 indexRefs=(392) s32_0=-1
+		objects[0124] = (012D): 90874D55  flags=0200  index=0188 s32_0=-1 u8_0=05  wireIndex=0002 u32_1=0002 lst0=(0038) lst1=() u8_2=00  ntEntry=0004[001E]
+			creator = (0205): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0F8 u16_0=8000
+			*body = (0008): SurfaceBody 'Solid1'
+			*owner = (012C): FaceItem
+		objects[0125] = (012E): Point2D  flags=30200  index=0189 flags2=0040  pos=Vector (0.0, 0.0, 0.0)   u32_0=0000 lst1=()  
+			next = (0206): Styles a0=(0000,0000)    u32_0=0000 associativeID=0001 typEntity=0001
+				next = (026B): EntityReference a0=(0000,0000)    
+					*owner = (012E): Point2D - (0,0)
+					*ref_2 = (012F): Representation3DPoint
+			*sketch = (0011): Sketch2D 'Sketch5'
+		objects[0126] = (012F): Representation3DPoint  flags=0200  index=018A s32_0=-1   
+			*point2D = (012E): Point2D - (0,0)
+			*transformation = (0129): Transformation
+			*point3D = (0019): Point3D - (0,0,0)
+		*parameters[RDxVar0] = (004B): Parameter 'RDxVar0'=1
+		*parameters[RDxVar1] = (0095): Parameter 'RDxVar1'=1
+		*parameters[RDxVar2] = (00CE): Parameter 'RDxVar2'=1
+		*parameters[RDxVar3] = (00E7): Parameter 'RDxVar3'=1
+		*parameters[d0] = (003D): Parameter 'd0'=250mm
+		*parameters[d1] = (003F): Parameter 'd1'=150mm
+		*parameters[d10] = (00C9): Parameter 'd10'=0°
+		*parameters[d11] = (00E1): Parameter 'd11'=0mm
+		*parameters[d12] = (00E2): Parameter 'd12'=0°
+		*parameters[d15] = (00F7): Parameter 'd15'=37mm
+		*parameters[d16] = (00F9): Parameter 'd16'=37mm
+		*parameters[d17] = (00FB): Parameter 'd17'=125mm
+		*parameters[d18] = (010A): Parameter 'd18'=65mm
+		*parameters[d19] = (0118): Parameter 'd19'=60mm
+		*parameters[d2] = (0045): Parameter 'd2'=5mm
+		*parameters[d20] = (011E): Parameter 'd20'=75mm
+		*parameters[d3] = (0046): Parameter 'd3'=0°
+		*parameters[d4] = (008C): Parameter 'd4'=5mm
+		*parameters[d5] = (008F): Parameter 'd5'=30mm
+		*parameters[d6] = (0090): Parameter 'd6'=0°
+		*parameters[d8] = (00C2): Parameter 'd8'=37mm
+		*parameters[d9] = (00C8): Parameter 'd9'=50mm
+	nameTable = (0004): NameTable  lastIdx=002A 
+		entries[0003] = (0130): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0000,000C,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0004] = (0131): 2E04A208 u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0004,0009) a2=(0000,0000) a3=() a4=(0000,0000,0000)
+		entries[0005] = (0132): 2E04A208 u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0003,0009) a2=(0000,0000) a3=() a4=(0000,0000,0000)
+		entries[0006] = (0133): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0007,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0007] = (0134): 9BB4281C u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0004] to=0004[0005] u8_0=01 lst1=[[56,4294967295]] lst2=[[0004[0003],3],[0004[0006],5]] lst3=[[56,4294967295]] edge=0004[0003] a1=(0000,0007,000A) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0008] = (0135): 2E04A208 u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0005,0009) a2=(0000,0000) a3=() a4=(0000,0000,0000)
+		entries[0009] = (0136): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0008,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[000A] = (0137): 9BB4281C u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0005] to=0004[0008] u8_0=01 lst1=[[56,4294967295]] lst2=[[0004[0003],3],[0004[0009],5]] lst3=[[56,4294967295]] edge=0004[0003] a1=(0000,0008,000A) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[000B] = (0138): 2E04A208 u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0002,0009) a2=(0000,0000) a3=() a4=(0000,0000,0000)
+		entries[000C] = (0139): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0009,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[000D] = (013A): 9BB4281C u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0008] to=0004[000B] u8_0=01 lst1=[[56,4294967295]] lst2=[[0004[0003],3],[0004[000C],5]] lst3=[[56,4294967295]] edge=0004[0003] a1=(0000,0009,000A) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[000E] = (013B): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0006,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[000F] = (013C): 9BB4281C u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[000B] to=0004[0004] u8_0=01 lst1=[[56,4294967295]] lst2=[[0004[0003],3],[0004[000E],5]] lst3=[[56,4294967295]] edge=0004[0003] a1=(0000,0006,000A) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0011] = (013D): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[136,4294967295]] entries=[] a1=(0000,0011,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0012] = (013E): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[136,4294967295]] entries=[] a1=(0000,000C,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0013] = (013F): 05C619B6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 b1=True entries=[0004[0011],0004[0012],0004[0003]] edge=0004[0011] lst2=[[0004[0003],1]] a5=[] a6=[]
+		entries[0014] = (0140): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[136,4294967295]] entries=[] a1=(0000,0010,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0015] = (0141): 05C619B6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 b1=True entries=[0004[0003],0004[0014],0004[0011]] edge=0004[0014] lst2=[[0004[0003],1]] a5=[] a6=[]
+		entries[0016] = (0142): BF32E0A6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0013] to=0004[0015] u8_0=01 lst1=[[136,4294967295]] lst2=[[0004[0011],4]] entries=[0004[0003],0004[0011]]
+		entries[0017] = (0143): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[136,4294967295]] entries=[] a1=(0000,000E,0014,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0018] = (0144): 05C619B6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 b1=True entries=[0004[0003],0004[0017],0004[0014]] edge=0004[0017] lst2=[[0004[0003],1]] a5=[] a6=[]
+		entries[0019] = (0145): BF32E0A6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0015] to=0004[0018] u8_0=01 lst1=[[136,4294967295]] lst2=[[0004[0014],4]] entries=[0004[0003],0004[0014]]
+		entries[001A] = (0146): 05C619B6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 b1=True entries=[0004[0003],0004[0012],0004[0017]] edge=0004[0012] lst2=[[0004[0003],1]] a5=[] a6=[]
+		entries[001B] = (0147): BF32E0A6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0018] to=0004[001A] u8_0=01 lst1=[[136,4294967295]] lst2=[[0004[0017],4]] entries=[0004[0003],0004[0017]]
+		entries[001C] = (0148): BF32E0A6 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[001A] to=0004[0013] u8_0=01 lst1=[[136,4294967295]] lst2=[[0004[0012],4]] entries=[0004[0003],0004[0012]]
+		entries[001E] = (0149): 0645C2A5 u32_0=0005  a0=(0,0,0,0,0,250) s32_1=0 lst1=[[56,4294967295]] entries=[] a1=(0000,0000,0004,0000) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0023] = (014A): 90F4820A u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0005,0001)
+		entries[0024] = (014B): 90F4820A u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0002,0001)
+		entries[0025] = (014C): F4360D18 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0023] to=0004[0024] u8_0=01 lst1=[] lst2=[] lst3=[[56,4294967295]] edge=0004[000C] a1=(0000,0009,0002) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0026] = (014D): 90F4820A u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0004,0001)
+		entries[0027] = (014E): 90F4820A u32_0=0001  a0=(0,0,0,0,0,250) s32_0=0 lst1=[[56,4294967295]] a1=(0000,0003,0001)
+		entries[0028] = (014F): F4360D18 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0026] to=0004[0027] u8_0=01 lst1=[] lst2=[] lst3=[[56,4294967295]] edge=0004[0006] a1=(0000,0007,0002) a2=() a3=() a4=() a5=(0000,0000,0000)
+		entries[0029] = (0150): F4360D18 u32_0=0001  a0=(0,0,0,0,0,250) s32_1=0 from=0004[0024] to=0004[0026] u8_0=01 lst1=[] lst2=[] lst3=[[56,4294967295]] edge=0004[000E] a1=(0000,0006,0002) a2=() a3=() a4=() a5=(0000,0000,0000)
+	display = (0005): DisplayDecimals  u32_0=0000  length=003 angle=002 u16_0=000
+	*ref_3 = (0003): PartComponent
+	faceMerges = (0006): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+		nameTable = (0151): NameTable  lastIdx=0000 
+	mdlTxnMgr = (0007): ModelerTxnMgr  flags=0000   u32_0=0002 u32_1=0003 lst_1=[80000003 0038 [(0002,01,0002),(0003,00,0000)],80000003 0088 [(0002,01,0014),(0003,00,0008)],80000003 00D3 [(0002,01,0025),(0003,00,001F)],80000003 00F8 [(0002,01,002C),(0003,00,0021)],80000003 80000038 [(0002,01,0004),(0003,00,0001)],80000003 80000088 [(0002,01,0015),(0003,00,0009)],80000003 800000D3 [(0002,01,002C),(0003,00,0020)],80000003 800000F8 [(0002,01,002D),(0003,00,0022)]] u32_2=0000
+		asm = (0152): ASM u32_0=0357 schema=002B fmt="ASM BinaryFile4" SAT=<Acis.AcisReader object at 0x7fa8c9a466d0> nameMatches={7:[-58 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $45 43 0 7 0 2 #,-65 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $48 43 0 7 0 2 #,-76 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $52 43 0 7 0 2 #],12:[-72 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $51 43 0 12 0 2 #],6:[-79 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $53 43 0 6 0 2 #,-89 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $57 43 0 6 0 2 #,-100 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $64 43 0 6 0 2 #],14:[-82 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $54 43 0 14 0 2 #,-111 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $71 43 0 14 0 2 #],8:[-86 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $56 43 0 8 0 2 #,-97 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $63 43 0 8 0 2 #],4:[-92 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $59 43 0 4 0 1 #,-105 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $67 43 0 4 0 1 #],3:[-94 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $60 43 0 3 0 1 #,-103 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $66 43 0 3 0 1 #],17:[-108 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $70 43 0 17 0 2 #],9:[-119 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $85 43 0 9 0 2 #,-125 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $96 43 0 9 0 2 #],5:[-121 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $87 43 0 5 0 1 #,-127 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $98 43 0 5 0 1 #],2:[-123 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $90 43 0 2 0 1 #,-129 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $101 43 0 2 0 1 #],16:[-131 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $107 43 0 16 0 2 #]} dcAttributes={} selectedKey=80000152 delta_state=2 
+	*ref_4 = (0008): SurfaceBody 'Solid1'
+	ref_5 = (0009): 077D9583 a0=(0000,0000) 
+(02C7): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02C8): NameTable  lastIdx=0000 
+(02C9): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02CA): NameTable  lastIdx=0000 
+(02CB): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02CC): NameTable  lastIdx=0000 
+(02CD): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02CE): NameTable  lastIdx=0000 
+(02CF): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02D0): NameTable  lastIdx=0000 
+(02D1): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (02D2): NameTable  lastIdx=0000 

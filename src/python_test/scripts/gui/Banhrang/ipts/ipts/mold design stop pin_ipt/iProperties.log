@@ -1,0 +1,47 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 15 -            PreviousVersion: '2'
+ 16 -                LastSavedBy: 'Administrator'
+ 17 -              LastSavedDate: 2020/02/21 17:08:09.153437
+ 18 -                         18: '882D23DC-477E-089B-360C-0EB5B56A7622'
+ 21 -                         21: '70DCAF4A-490B-DF47-02CA-B9ACEEB53559'
+ 22 -               BuildVersion: 250183000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2007/09/05 00:00:00.000000
+  5 -                 PartNumber: 'Mold Design Stop Pin'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: '41C34874-4C6D-43F4-80EE-7248C0BD2ACE'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'mxwang'
+ 46 -          ExternalPropRevId: 'EB745AFB-3582-457E-977C-0F17EE888D72'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2021 (Build 250183000, 183)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2015\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'mxwang'
+ 17 -                  Thumbnail: PNG: 512 x 512
+
+Inventor User Defined Properties:
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Miscellaneous</Category><StyleName>Default</StyleName><Protein><MaterialId>InvGen-071</MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+

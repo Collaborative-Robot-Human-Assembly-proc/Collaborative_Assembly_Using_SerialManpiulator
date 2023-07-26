@@ -1,0 +1,69 @@
+[2021]
+(0001): 189B3560 'PmDefault'  grIdx=0020
+	lst0[0000] = (0006): DF9CA7B0 'PmDefault'   lst0=[] u16=000 val=""
+		ref_0 = (0005): F7676AB1 'AS 1112 (2) - Metric M8  Type 8'flags=0012 u8_0=00 u8_4=00 a0=(000,000,000,000,004)  index=000C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0016 u8_3=00 u32_0=0000
+			*items[0000] = (001E): 9E77CCC1
+			*items[0001] = (000A): FolderBodies
+			*items[0002] = (0009): FolderBodies
+			*items[0003] = (001F): 18BAA333
+			*items[0004] = (0014): FolderBrowser 'Origin'
+			*items[0005] = (000B): FxUnknown 'Body'
+			*items[0006] = (000D): FxUnknown 'Chamfer1'
+			*items[0007] = (000F): FxUnknown 'Thread'
+			*items[0008] = (0010): FxUnknown ''
+			*items[0009] = (0011): FxUnknown ''
+			*items[000A] = (0007): 3dObject 'Work Axis1'
+			*items[000B] = (0008): 3dObject 'Work Plane1'
+			*items[000C] = (0012): EndOfPart
+(0002): EntryManager  u32_0=000C
+	entries[0001] = (0007): 3dObject 'Work Axis1'flags=0004 u16_0=001 a0=(000,000,02F)  index=0001 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0019 u8_3=00 u32_0=0000 u8_5=01
+	entries[0002] = (0008): 3dObject 'Work Plane1'flags=0004 u16_0=001 a0=(000,000,030)  index=0002 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001A u8_3=00 u32_0=0000 u8_5=00
+	entries[0003] = (0009): FolderBodiesflags=0200 u16_0=002 a0=(000,000,032)  index=0003 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001C u8_3=00 u32_0=0000
+	entries[0004] = (000A): FolderBodiesflags=0400 u16_0=003 a0=(000,000,033)  index=0004 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001D u8_3=00 u32_0=0000
+		*items[0000] = (0013): Body 'Solid1'
+	entries[0005] = (000B): FxUnknown 'Body'flags=0000 u16_0=004 a0=(000,000,016)  index=0005 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000F u8_3=00 u32_0=0000 uid_0={0CA91131-11D0-838B-0008-19B00524DC09} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (001C): Sketch2D 'Sketch1'
+	entries[0006] = (000C): Sketch2D 'Sketch2'flags=4004 u16_0=005 a0=(000,000,017)  index=0006 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0010 u8_3=00 u32_0=0000
+	entries[0007] = (000D): FxUnknown 'Chamfer1'flags=0000 u16_0=006 a0=(000,000,018)  index=0007 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0011 u8_3=00 u32_0=0000 uid_0={0054015F-11D2-1C25-6000-67B79B49EBB0} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (000C): Sketch2D 'Sketch2'
+	entries[0008] = (000E): Sketch2D 'Sketch3'flags=4004 u16_0=007 a0=(000,000,027)  index=0008 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0012 u8_3=00 u32_0=0000
+	entries[0009] = (000F): FxUnknown 'Thread'flags=0000 u16_0=008 a0=(000,000,028)  index=0009 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0013 u8_3=00 u32_0=0000 uid_0={1F757D1A-11D2-549C-A000-20803603C8C9} u32_2=0000 txt_0="" s32_0=-1
+		*items[0000] = (000E): Sketch2D 'Sketch3'
+	entries[000A] = (0010): FxUnknown ''flags=0000 u16_0=002 a0=(000,000,029)  index=000A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0014 u8_3=00 u32_0=0000 uid_0={F900713F-11D2-6F8B-6000-F0A89DCCEFB0} u32_2=0000 txt_0="" s32_0=-1
+	entries[000B] = (0011): FxUnknown ''flags=0000 u16_0=003 a0=(000,000,02A)  index=000B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0015 u8_3=00 u32_0=0000 uid_0={F900713F-11D2-6F8B-6000-F0A89DCCEFB0} u32_2=0000 txt_0="" s32_0=-1
+	*entries[000C] = (0005): F7676AB1 'AS 1112 (2) - Metric M8  Type 8'
+	entries[000D] = (0012): EndOfPartflags=0000 u16_0=004 a0=(000,000,005)  index=000D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000D u8_3=00 u32_0=0000
+	entries[000E] = (0013): Body 'Solid1'flags=0400 u16_0=001 a0=(000,000,034)  index=000E a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001E u8_3=00 u32_0=0000 dcCreatorIdx=0002 a5=(0000,0001)
+		*items[0000] = (000B): FxUnknown 'Body'
+		*items[0001] = (000D): FxUnknown 'Chamfer1'
+		*items[0002] = (000F): FxUnknown 'Thread'
+		*items[0003] = (0010): FxUnknown ''
+		*items[0004] = (0011): FxUnknown ''
+	entries[000F] = (0014): FolderBrowser 'Origin'flags=0200 u16_0=000 a0=(000,000,010)  index=000F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000C u8_3=00 u32_0=0000
+		*items[0000] = (0015): 3dObject 'YZ Plane'
+		*items[0001] = (0016): 3dObject 'XZ Plane'
+		*items[0002] = (0017): 3dObject
+		*items[0003] = (0018): 3dObject 'X Axis'
+		*items[0004] = (0019): 3dObject 'Y Axis'
+		*items[0005] = (001A): 3dObject 'Z Axis'
+		*items[0006] = (001B): 3dObject 'Center Point'
+	entries[0010] = (0015): 3dObject 'YZ Plane'flags=0004 u16_0=000 a0=(000,000,009)  index=0010 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0005 u8_3=00 u32_0=0000 u8_5=08
+	entries[0011] = (0016): 3dObject 'XZ Plane'flags=0004 u16_0=000 a0=(000,000,00A)  index=0011 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0006 u8_3=00 u32_0=0000 u8_5=07
+	entries[0012] = (0017): 3dObjectflags=0004 u16_0=000 a0=(000,000,00B)  index=0012 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0007 u8_3=00 u32_0=0000 u8_5=06
+	entries[0013] = (0018): 3dObject 'X Axis'flags=0004 u16_0=000 a0=(000,000,00C)  index=0013 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0008 u8_3=00 u32_0=0000 u8_5=09
+	entries[0014] = (0019): 3dObject 'Y Axis'flags=0004 u16_0=000 a0=(000,000,00D)  index=0014 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0009 u8_3=00 u32_0=0000 u8_5=0A
+	entries[0015] = (001A): 3dObject 'Z Axis'flags=0004 u16_0=000 a0=(000,000,00E)  index=0015 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000A u8_3=00 u32_0=0000 u8_5=0B
+	entries[0016] = (001B): 3dObject 'Center Point'flags=0004 u16_0=000 a0=(000,000,00F)  index=0016 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000B u8_3=00 u32_0=0000 u8_5=0C
+	entries[0017] = (001C): Sketch2D 'Sketch1'flags=4004 u16_0=001 a0=(000,000,013)  index=0017 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000E u8_3=00 u32_0=0000
+(0003): Hospitala0=(000,000,023)  u8_0=00
+(0004): 189B3560 'NbDefault'  grIdx=0000
+	lst0[0000] = (001D): DF9CA7B0 'NbDefault'   lst0=[] u16=000 val=""
+		ref_0 = (0020): NBxEntry 'Engineer's Notebook'  index=0018 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0017 u8_3=00 u32_0=0000 str0="NBxNotebook" a4=(000,000,000) u8_4=00
+(001E): 9E77CCC1  index=000C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0004 u8_3=00 u32_0=0000 txt_1="PartInterfaceFolderEntry" b0=00
+	lst0[0000] = (0021): PartInterfaceInsert 'Insert In1'  index=0019 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0001 u8_3=00 u32_0=0000 txt_1="PartInsertInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0001] = (0022): PartInterfaceInsert 'Insert Back1'  index=001A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0002 u8_3=00 u32_0=0000 txt_1="PartInsertInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0002] = (0023): PartInterfaceMate 'Align1'  index=001B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0003 u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+	lst0[0003] = (0024): PartInterfaceMate 'Align 2D'  index=001C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001B u8_3=00 u32_0=0000 txt_1="PartMateInterfaceDefEntry" b0=00 a4=(0001,0000)
+(001F): 18BAA333flags=0000 u16_0=002 a0=(000,000,035)  index=000C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001F u8_3=00 u32_0=0000
+	*items[0000] = (0025): B4278FFF
+(0025): B4278FFFflags=0000 u16_0=003 a0=(000,000,036)  index=0000 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0020 u8_3=00 u32_0=0000 aX=(11 00 00 00 01 00 00 00)

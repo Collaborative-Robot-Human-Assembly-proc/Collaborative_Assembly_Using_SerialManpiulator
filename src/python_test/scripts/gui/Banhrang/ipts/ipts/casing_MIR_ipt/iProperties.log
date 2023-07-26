@@ -1,0 +1,47 @@
+Design Tracking Control:
+ 13 -                NextVersion: '4'
+ 14 -             CurrentVersion: '3'
+ 15 -            PreviousVersion: '2'
+ 16 -                LastSavedBy: 'mahmo'
+ 17 -              LastSavedDate: 2023/06/24 15:29:49.612985
+ 18 -                         18: 'AEA73066-4449-EE09-9A2F-1F8E4CBCBBDD'
+ 21 -                         21: 'A947D684-4FCF-DD89-D103-66B6A5B07360'
+ 22 -               BuildVersion: 250183000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2023/06/22 00:00:00.000000
+  5 -                 PartNumber: 'casing_MIR'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: '43F1D749-B82B-4488-B448-6F85744C2893'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'mahmo'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2021 (Build 250183000, 183)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2015\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'mahmo'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Miscellaneous</Category><StyleName>Default</StyleName><Protein><MaterialId>InvGen-071</MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+

@@ -1,0 +1,457 @@
+SAT history_stream: 2 2 0 1 $-1  $0  $0  -1:
+0 delta_state 2 1 0 $-1  $-1  $0  $-1  0 11
+	BulletinBoard: 0
+		$-1   $1    // inserted:   -1 body $-1 0 $-1 $2 $-1 $-1 #
+		$-1   $2    // inserted:   -2 lump $-1 -1 $-1 $-1 $3 $1 #
+		$-1   $3    // inserted:   -3 shell $-1 -1 $-1 $-1 $-1 $4 $-1 $2 #
+		$-1   $4    // inserted:   -4 face $5 -1 $-1 $6 $7 $3 $-1 $8 reversed single #
+		$-1   $5    // inserted:   -5 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $9 $-1 $4 43 $10 $11 #
+		$-1   $9    // inserted:   -9 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $5 $4 43 1 233 -1 36 0 20 0 0 0 0 0 0 0 #
+		$-1   $6    // inserted:   -6 face $12 -1 $-1 $13 $14 $3 $-1 $15 reversed single #
+		$-1   $8    // inserted:   -8 cone-surface $-1 -1 $-1 120 -70 0 -0 -0 -1 0.4 0 -0 1 I I -0 1 0.4 reversed I I I I #
+		$-1   $7    // inserted:   -7 loop $-1 -1 $-1 $16 $17 $4 #
+		$-1   $10   // inserted:   -10 straight-curve $-1 -1 $-1 124 -70 0 0 0 1 I I #
+		$-1   $11   // inserted:   -11 ellipse-curve $-1 -1 $-1 120 -70 0 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $12   // inserted:   -12 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $18 $-1 $6 43 $19 $20 #
+		$-1   $18   // inserted:   -18 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $12 $6 43 1 233 -1 34 0 20 0 0 0 0 0 0 0 #
+		$-1   $13   // inserted:   -13 face $21 -1 $-1 $22 $23 $3 $-1 $24 reversed single #
+		$-1   $15   // inserted:   -15 cone-surface $-1 -1 $-1 -120 -70 0 -0 -0 -1 0.4 0 -0 1 I I -0 1 0.4 reversed I I I I #
+		$-1   $14   // inserted:   -14 loop $-1 -1 $-1 $25 $26 $6 #
+		$-1   $16   // inserted:   -16 loop $-1 -1 $-1 $-1 $27 $4 #
+		$-1   $17   // inserted:   -17 coedge $-1 -1 $-1 $28 $29 $30 $31 forward $7 0 $-1 #
+		$-1   $19   // inserted:   -19 straight-curve $-1 -1 $-1 -116 -70 0 0 0 1 I I #
+		$-1   $20   // inserted:   -20 ellipse-curve $-1 -1 $-1 -120 -70 0 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $21   // inserted:   -21 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $32 $-1 $13 43 $33 $34 #
+		$-1   $32   // inserted:   -32 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $21 $13 43 1 233 -1 32 0 20 0 0 0 0 0 0 0 #
+		$-1   $22   // inserted:   -22 face $35 -1 $-1 $36 $37 $3 $-1 $38 reversed single #
+		$-1   $24   // inserted:   -24 cone-surface $-1 -1 $-1 120 70 0 -0 -0 -1 0.4 0 -0 1 I I -0 1 0.4 reversed I I I I #
+		$-1   $23   // inserted:   -23 loop $-1 -1 $-1 $39 $40 $13 #
+		$-1   $25   // inserted:   -25 loop $-1 -1 $-1 $-1 $41 $6 #
+		$-1   $26   // inserted:   -26 coedge $-1 -1 $-1 $42 $43 $44 $45 forward $14 0 $-1 #
+		$-1   $27   // inserted:   -27 coedge $-1 -1 $-1 $27 $27 $46 $47 forward $16 0 $-1 #
+		$-1   $29   // inserted:   -29 coedge $-1 -1 $-1 $17 $48 $51 $52 forward $7 0 $-1 #
+		$-1   $28   // inserted:   -28 coedge $-1 -1 $-1 $48 $17 $49 $50 forward $7 0 $-1 #
+		$-1   $30   // inserted:   -30 coedge $-1 -1 $-1 $53 $54 $17 $31 reversed $55 0 $-1 #
+		$-1   $31   // inserted:   -31 edge $-1 -1 $-1 $56 -3.5 $57 -0.5 $30 $58 forward @7 unknown #
+		$-1   $33   // inserted:   -33 straight-curve $-1 -1 $-1 124 70 0 0 0 1 I I #
+		$-1   $34   // inserted:   -34 ellipse-curve $-1 -1 $-1 120 70 0 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $35   // inserted:   -35 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $59 $-1 $22 43 $60 $61 #
+		$-1   $59   // inserted:   -59 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $35 $22 43 1 233 -1 21 0 20 0 0 0 0 0 0 0 #
+		$-1   $36   // inserted:   -36 face $62 -1 $-1 $63 $64 $3 $-1 $65 forward single #
+		$-1   $38   // inserted:   -38 cone-surface $-1 -1 $-1 -120 70 0 -0 -0 -1 0.4 0 -0 1 I I -0 1 0.4 reversed I I I I #
+		$-1   $37   // inserted:   -37 loop $-1 -1 $-1 $66 $67 $22 #
+		$-1   $39   // inserted:   -39 loop $-1 -1 $-1 $-1 $68 $13 #
+		$-1   $40   // inserted:   -40 coedge $-1 -1 $-1 $69 $70 $71 $72 forward $23 0 $-1 #
+		$-1   $41   // inserted:   -41 coedge $-1 -1 $-1 $41 $41 $73 $74 forward $25 0 $-1 #
+		$-1   $43   // inserted:   -43 coedge $-1 -1 $-1 $26 $75 $78 $79 forward $14 0 $-1 #
+		$-1   $42   // inserted:   -42 coedge $-1 -1 $-1 $75 $26 $76 $77 forward $14 0 $-1 #
+		$-1   $44   // inserted:   -44 coedge $-1 -1 $-1 $80 $81 $26 $45 reversed $64 0 $-1 #
+		$-1   $45   // inserted:   -45 edge $-1 -1 $-1 $82 -3.5 $83 -0.5 $44 $84 forward @7 unknown #
+		$-1   $46   // inserted:   -46 coedge $-1 -1 $-1 $46 $46 $27 $47 reversed $85 0 $-1 #
+		$-1   $47   // inserted:   -47 edge $-1 -1 $-1 $86 0 $86 6.28319 $46 $87 forward @7 unknown #
+		$-1   $48   // inserted:   -48 coedge $-1 -1 $-1 $29 $28 $88 $89 forward $7 0 $-1 #
+		$-1   $51   // inserted:   -51 coedge $-1 -1 $-1 $95 $96 $29 $52 reversed $97 0 $-1 #
+		$-1   $52   // inserted:   -52 edge $-1 -1 $-1 $98 -3.14159 $56 1.5708 $51 $99 forward @7 unknown #
+		$-1   $49   // inserted:   -49 coedge $-1 -1 $-1 $90 $91 $28 $50 reversed $92 0 $-1 #
+		$-1   $50   // inserted:   -50 edge $-1 -1 $-1 $57 1.5708 $93 3.14159 $49 $94 forward @7 unknown #
+		$-1   $54   // inserted:   -54 coedge $-1 -1 $-1 $30 $100 $90 $102 reversed $55 0 $-1 #
+		$-1   $53   // inserted:   -53 coedge $-1 -1 $-1 $100 $30 $96 $101 reversed $55 0 $-1 #
+		$-1   $55   // inserted:   -55 loop $-1 -1 $-1 $-1 $30 $103 #
+		$-1   $56   // inserted:   -56 vertex $-1 -1 $-1 $31 0 $104 #
+		$-1   $57   // inserted:   -57 vertex $-1 -1 $-1 $102 0 $105 #
+		$-1   $58   // inserted:   -58 straight-curve $-1 -1 $-1 120 -66 0 0 0 -1 I I #
+		$-1   $60   // inserted:   -60 straight-curve $-1 -1 $-1 -116 70 0 0 0 1 I I #
+		$-1   $61   // inserted:   -61 ellipse-curve $-1 -1 $-1 -120 70 0 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $62   // inserted:   -62 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $106 $-1 $36 43 2 24 -1 136 -1 16 0 20 0 0 0 0 0 0 0 #
+		$-1   $106  // inserted:   -106 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $-1 $62 $36 43 $161 $-1 #
+		$-1   $63   // inserted:   -63 face $107 -1 $-1 $108 $109 $3 $-1 $110 forward single #
+		$-1   $65   // inserted:   -65 plane-surface $-1 -1 $-1 120 -70 5 -1.11022e-16 1 0 -1 -1.11022e-16 0 forward_v I I I I #
+		$-1   $64   // inserted:   -64 loop $-1 -1 $-1 $-1 $88 $36 #
+		$-1   $66   // inserted:   -66 loop $-1 -1 $-1 $-1 $111 $22 #
+		$-1   $67   // inserted:   -67 coedge $-1 -1 $-1 $112 $113 $114 $115 forward $37 0 $-1 #
+		$-1   $68   // inserted:   -68 coedge $-1 -1 $-1 $68 $68 $116 $117 forward $39 0 $-1 #
+		$-1   $70   // inserted:   -70 coedge $-1 -1 $-1 $40 $118 $121 $122 forward $23 0 $-1 #
+		$-1   $69   // inserted:   -69 coedge $-1 -1 $-1 $118 $40 $119 $120 forward $23 0 $-1 #
+		$-1   $71   // inserted:   -71 coedge $-1 -1 $-1 $123 $124 $40 $72 reversed $125 0 $-1 #
+		$-1   $72   // inserted:   -72 edge $-1 -1 $-1 $126 -3.5 $127 -0.5 $71 $128 forward @7 unknown #
+		$-1   $73   // inserted:   -73 coedge $-1 -1 $-1 $73 $73 $41 $74 reversed $129 0 $-1 #
+		$-1   $74   // inserted:   -74 edge $-1 -1 $-1 $130 0 $130 6.28319 $73 $131 forward @7 unknown #
+		$-1   $75   // inserted:   -75 coedge $-1 -1 $-1 $43 $42 $132 $133 forward $14 0 $-1 #
+		$-1   $78   // inserted:   -78 coedge $-1 -1 $-1 $137 $95 $43 $79 reversed $97 0 $-1 #
+		$-1   $79   // inserted:   -79 edge $-1 -1 $-1 $138 1.5708 $82 6.28319 $78 $139 forward @7 unknown #
+		$-1   $76   // inserted:   -76 coedge $-1 -1 $-1 $91 $134 $42 $77 reversed $92 0 $-1 #
+		$-1   $77   // inserted:   -77 edge $-1 -1 $-1 $83 0 $135 1.5708 $76 $136 forward @7 unknown #
+		$-1   $81   // inserted:   -81 coedge $-1 -1 $-1 $44 $88 $91 $141 reversed $64 0 $-1 #
+		$-1   $80   // inserted:   -80 coedge $-1 -1 $-1 $88 $44 $95 $140 reversed $64 0 $-1 #
+		$-1   $82   // inserted:   -82 vertex $-1 -1 $-1 $45 0 $142 #
+		$-1   $83   // inserted:   -83 vertex $-1 -1 $-1 $141 0 $143 #
+		$-1   $84   // inserted:   -84 straight-curve $-1 -1 $-1 -116 -70 0 0 0 -1 I I #
+		$-1   $85   // inserted:   -85 loop $-1 -1 $-1 $129 $46 $144 #
+		$-1   $86   // inserted:   -86 vertex $-1 -1 $-1 $47 0 $145 #
+		$-1   $87   // inserted:   -87 ellipse-curve $-1 -1 $-1 120 -70 0 -0 -0 -1 0.4 0 -0 1 I I #
+		$-1   $88   // inserted:   -88 coedge $-1 -1 $-1 $81 $80 $48 $89 reversed $64 0 $-1 #
+		$-1   $89   // inserted:   -89 edge $-1 -1 $-1 $93 0.5 $98 3.5 $88 $146 forward @7 unknown #
+		$-1   $96   // inserted:   -96 coedge $-1 -1 $-1 $51 $121 $53 $101 forward $97 0 $-1 #
+		$-1   $95   // inserted:   -95 coedge $-1 -1 $-1 $78 $51 $80 $140 forward $97 0 $-1 #
+		$-1   $97   // inserted:   -97 loop $-1 -1 $-1 $-1 $51 $63 #
+		$-1   $98   // inserted:   -98 vertex $-1 -1 $-1 $140 0 $150 #
+		$-1   $99   // inserted:   -99 ellipse-curve $-1 -1 $-1 120 -70 35 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $91   // inserted:   -91 coedge $-1 -1 $-1 $49 $76 $81 $141 forward $92 0 $-1 #
+		$-1   $90   // inserted:   -90 coedge $-1 -1 $-1 $119 $49 $54 $102 forward $92 0 $-1 #
+		$-1   $92   // inserted:   -92 loop $-1 -1 $-1 $147 $49 $148 #
+		$-1   $93   // inserted:   -93 vertex $-1 -1 $-1 $50 1 $149 #
+		$-1   $94   // inserted:   -94 ellipse-curve $-1 -1 $-1 120 -70 5 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $100  // inserted:   -100 coedge $-1 -1 $-1 $54 $53 $118 $151 reversed $55 0 $-1 #
+		$-1   $102  // inserted:   -102 edge $155 -1 $-1 $57 -10.1 $156 3.1 $90 $157 forward @7 unknown #
+		$-1   $101  // inserted:   -101 edge $152 -1 $-1 $153 0.4 $56 13.6 $53 $154 forward @7 unknown #
+		$-1   $103  // inserted:   -103 face $158 -1 $-1 $159 $55 $3 $-1 $160 forward single #
+		$-1   $104  // inserted:   -104 point $-1 -1 $-1 120 -66 35 #
+		$-1   $105  // inserted:   -105 point $-1 -1 $-1 120 -66 5 #
+		$-1   $161  // inserted:   -161 straight-curve $-1 -1 $-1 125 75 5 0 0 1 I I #
+		$-1   $107  // inserted:   -107 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $63 43 2 24 -1 136 -1 0 0 12 0 0 0 0 0 0 0 #
+		$-1   $108  // inserted:   -108 face $162 -1 $-1 $163 $164 $3 $-1 $165 forward single #
+		$-1   $110  // inserted:   -110 plane-surface $-1 -1 $-1 0 0 35 0 0 1 1 0 0 forward_v I I I I #
+		$-1   $109  // inserted:   -109 loop $-1 -1 $-1 $97 $166 $63 #
+		$-1   $111  // inserted:   -111 coedge $-1 -1 $-1 $111 $111 $167 $168 forward $66 0 $-1 #
+		$-1   $113  // inserted:   -113 coedge $-1 -1 $-1 $67 $169 $172 $173 forward $37 0 $-1 #
+		$-1   $112  // inserted:   -112 coedge $-1 -1 $-1 $169 $67 $170 $171 forward $37 0 $-1 #
+		$-1   $114  // inserted:   -114 coedge $-1 -1 $-1 $124 $123 $67 $115 reversed $125 0 $-1 #
+		$-1   $115  // inserted:   -115 edge $-1 -1 $-1 $174 0.5 $175 3.5 $114 $176 forward @7 unknown #
+		$-1   $116  // inserted:   -116 coedge $-1 -1 $-1 $116 $116 $68 $117 reversed $177 0 $-1 #
+		$-1   $117  // inserted:   -117 edge $-1 -1 $-1 $178 0 $178 6.28319 $116 $179 forward @7 unknown #
+		$-1   $118  // inserted:   -118 coedge $-1 -1 $-1 $70 $69 $100 $151 forward $23 0 $-1 #
+		$-1   $121  // inserted:   -121 coedge $-1 -1 $-1 $96 $182 $70 $122 reversed $97 0 $-1 #
+		$-1   $122  // inserted:   -122 edge $-1 -1 $-1 $153 -1.5708 $126 3.14159 $121 $183 forward @7 unknown #
+		$-1   $119  // inserted:   -119 coedge $-1 -1 $-1 $180 $90 $69 $120 reversed $92 0 $-1 #
+		$-1   $120  // inserted:   -120 edge $-1 -1 $-1 $127 -3.14159 $156 -1.5708 $119 $181 forward @7 unknown #
+		$-1   $124  // inserted:   -124 coedge $-1 -1 $-1 $71 $114 $180 $185 reversed $125 0 $-1 #
+		$-1   $123  // inserted:   -123 coedge $-1 -1 $-1 $114 $71 $182 $184 reversed $125 0 $-1 #
+		$-1   $125  // inserted:   -125 loop $-1 -1 $-1 $-1 $71 $159 #
+		$-1   $126  // inserted:   -126 vertex $-1 -1 $-1 $72 0 $186 #
+		$-1   $127  // inserted:   -127 vertex $-1 -1 $-1 $185 0 $187 #
+		$-1   $128  // inserted:   -128 straight-curve $-1 -1 $-1 116 70 0 0 0 -1 I I #
+		$-1   $129  // inserted:   -129 loop $-1 -1 $-1 $177 $73 $144 #
+		$-1   $130  // inserted:   -130 vertex $-1 -1 $-1 $74 0 $188 #
+		$-1   $131  // inserted:   -131 ellipse-curve $-1 -1 $-1 -120 -70 0 -0 -0 -1 0.4 0 -0 1 I I #
+		$-1   $132  // inserted:   -132 coedge $-1 -1 $-1 $189 $190 $75 $133 reversed $164 0 $-1 #
+		$-1   $133  // inserted:   -133 edge $-1 -1 $-1 $135 0.5 $138 3.5 $132 $191 forward @7 unknown #
+		$-1   $137  // inserted:   -137 coedge $-1 -1 $-1 $170 $78 $190 $194 forward $97 0 $-1 #
+		$-1   $138  // inserted:   -138 vertex $-1 -1 $-1 $194 0 $195 #
+		$-1   $139  // inserted:   -139 ellipse-curve $-1 -1 $-1 -120 -70 35 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $134  // inserted:   -134 coedge $-1 -1 $-1 $76 $172 $189 $192 forward $92 0 $-1 #
+		$-1   $135  // inserted:   -135 vertex $-1 -1 $-1 $77 1 $193 #
+		$-1   $136  // inserted:   -136 ellipse-curve $-1 -1 $-1 -120 -70 5 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $141  // inserted:   -141 edge $-1 -1 $-1 $83 -17.6 $93 5.6 $91 $198 forward @7 unknown #
+		$-1   $140  // inserted:   -140 edge $196 -1 $-1 $98 0.4 $82 23.6 $80 $197 forward @7 unknown #
+		$-1   $142  // inserted:   -142 point $-1 -1 $-1 -116 -70 35 #
+		$-1   $143  // inserted:   -143 point $-1 -1 $-1 -116 -70 5 #
+		$-1   $144  // inserted:   -144 face $199 -1 $-1 $-1 $85 $3 $-1 $200 reversed single #
+		$-1   $145  // inserted:   -145 point $-1 -1 $-1 124 -70 0 #
+		$-1   $146  // inserted:   -146 straight-curve $-1 -1 $-1 116 -70 0 0 0 1 I I #
+		$-1   $150  // inserted:   -150 point $-1 -1 $-1 116 -70 35 #
+		$-1   $147  // inserted:   -147 loop $-1 -1 $-1 $201 $202 $148 #
+		$-1   $148  // inserted:   -148 face $203 -1 $-1 $144 $92 $3 $-1 $204 forward single #
+		$-1   $149  // inserted:   -149 point $-1 -1 $-1 116 -70 5 #
+		$-1   $151  // inserted:   -151 edge $-1 -1 $-1 $156 0.5 $153 3.5 $100 $205 forward @7 unknown #
+		$-1   $155  // inserted:   -155 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $-1 $102 43 1 169 -1 27 0 #
+		$-1   $156  // inserted:   -156 vertex $-1 -1 $-1 $120 1 $207 #
+		$-1   $157  // inserted:   -157 straight-curve $-1 -1 $-1 120 35 5 -1.26883e-16 1 0 I I #
+		$-1   $152  // inserted:   -152 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $101 43 2 24 -1 136 -1 14 0 10 0 0 0 0 0 0 0 #
+		$-1   $153  // inserted:   -153 vertex $-1 -1 $-1 $101 0 $206 #
+		$-1   $154  // inserted:   -154 straight-curve $-1 -1 $-1 120 70 35 1.26883e-16 -1 0 I I #
+		$-1   $158  // inserted:   -158 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $208 $-1 $103 43 $161 $-1 #
+		$-1   $208  // inserted:   -208 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $158 $103 43 2 24 -1 136 -1 14 0 20 0 0 0 0 0 0 0 #
+		$-1   $159  // inserted:   -159 face $209 -1 $-1 $210 $125 $3 $-1 $211 forward single #
+		$-1   $160  // inserted:   -160 plane-surface $-1 -1 $-1 120 70 5 -1 -1.26883e-16 0 1.26883e-16 -1 0 forward_v I I I I #
+		$-1   $162  // inserted:   -162 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $212 $-1 $108 43 2 24 -1 136 -1 17 0 20 0 0 0 0 0 0 0 #
+		$-1   $212  // inserted:   -212 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $-1 $162 $108 43 $161 $-1 #
+		$-1   $163  // inserted:   -163 face $213 -1 $-1 $214 $215 $3 $-1 $216 reversed single #
+		$-1   $165  // inserted:   -165 plane-surface $-1 -1 $-1 -120 -70 5 1 1.26883e-16 -0 -1.26883e-16 1 0 forward_v I I I I #
+		$-1   $164  // inserted:   -164 loop $-1 -1 $-1 $-1 $132 $108 #
+		$-1   $166  // inserted:   -166 coedge $-1 -1 $-1 $217 $218 $219 $220 forward $109 0 $-1 #
+		$-1   $167  // inserted:   -167 coedge $-1 -1 $-1 $167 $167 $111 $168 reversed $221 0 $-1 #
+		$-1   $168  // inserted:   -168 edge $-1 -1 $-1 $222 0 $222 6.28319 $167 $223 forward @7 unknown #
+		$-1   $169  // inserted:   -169 coedge $-1 -1 $-1 $113 $112 $224 $225 forward $37 0 $-1 #
+		$-1   $172  // inserted:   -172 coedge $-1 -1 $-1 $134 $180 $113 $173 reversed $92 0 $-1 #
+		$-1   $173  // inserted:   -173 edge $-1 -1 $-1 $228 -1.5708 $174 -4.44089e-15 $172 $229 forward @7 unknown #
+		$-1   $170  // inserted:   -170 coedge $-1 -1 $-1 $182 $137 $112 $171 reversed $97 0 $-1 #
+		$-1   $171  // inserted:   -171 edge $-1 -1 $-1 $175 -6.66134e-15 $226 4.71239 $170 $227 forward @7 unknown #
+		$-1   $174  // inserted:   -174 vertex $-1 -1 $-1 $115 0 $230 #
+		$-1   $175  // inserted:   -175 vertex $-1 -1 $-1 $184 0 $231 #
+		$-1   $176  // inserted:   -176 straight-curve $-1 -1 $-1 -116 70 0 0 0 1 I I #
+		$-1   $177  // inserted:   -177 loop $-1 -1 $-1 $221 $116 $144 #
+		$-1   $178  // inserted:   -178 vertex $-1 -1 $-1 $117 0 $232 #
+		$-1   $179  // inserted:   -179 ellipse-curve $-1 -1 $-1 120 70 0 -0 -0 -1 0.4 0 -0 1 I I #
+		$-1   $182  // inserted:   -182 coedge $-1 -1 $-1 $121 $170 $123 $184 forward $97 0 $-1 #
+		$-1   $183  // inserted:   -183 ellipse-curve $-1 -1 $-1 120 70 35 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $180  // inserted:   -180 coedge $-1 -1 $-1 $172 $119 $124 $185 forward $92 0 $-1 #
+		$-1   $181  // inserted:   -181 ellipse-curve $-1 -1 $-1 120 70 5 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $185  // inserted:   -185 edge $-1 -1 $-1 $127 -17.6 $174 5.6 $180 $235 forward @7 unknown #
+		$-1   $184  // inserted:   -184 edge $233 -1 $-1 $175 0.4 $126 23.6 $123 $234 forward @7 unknown #
+		$-1   $186  // inserted:   -186 point $-1 -1 $-1 116 70 35 #
+		$-1   $187  // inserted:   -187 point $-1 -1 $-1 116 70 5 #
+		$-1   $188  // inserted:   -188 point $-1 -1 $-1 -116 -70 0 #
+		$-1   $190  // inserted:   -190 coedge $-1 -1 $-1 $132 $224 $137 $194 reversed $164 0 $-1 #
+		$-1   $189  // inserted:   -189 coedge $-1 -1 $-1 $224 $132 $134 $192 reversed $164 0 $-1 #
+		$-1   $191  // inserted:   -191 straight-curve $-1 -1 $-1 -120 -66 0 0 0 1 I I #
+		$-1   $194  // inserted:   -194 edge $238 -1 $-1 $138 0.4 $226 13.6 $190 $239 forward @7 unknown #
+		$-1   $195  // inserted:   -195 point $-1 -1 $-1 -120 -66 35 #
+		$-1   $192  // inserted:   -192 edge $236 -1 $-1 $228 -10.1 $135 3.1 $134 $237 forward @7 unknown #
+		$-1   $193  // inserted:   -193 point $-1 -1 $-1 -120 -66 5 #
+		$-1   $198  // inserted:   -198 straight-curve $-1 -1 $-1 60 -70 5 1 1.11022e-16 -0 I I #
+		$-1   $196  // inserted:   -196 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $140 43 2 24 -1 136 -1 16 0 10 0 0 0 0 0 0 0 #
+		$-1   $197  // inserted:   -197 straight-curve $-1 -1 $-1 120 -70 35 -1 -1.11022e-16 0 I I #
+		$-1   $199  // inserted:   -199 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $240 $-1 $144 43 1 95 -1 1 1 #
+		$-1   $240  // inserted:   -240 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $276 $199 $144 43 1 105 -1 1 1 #
+		$-1   $276  // inserted:   -276 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $319 $240 $144 43 1 232 -1 30 1 #
+		$-1   $319  // inserted:   -319 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $276 $144 43 2 24 -1 56 -1 0 0 4 0 0 0 0 0 0 0 #
+		$-1   $200  // inserted:   -200 plane-surface $-1 -1 $-1 0 0 0 0 0 1 1 0 0 forward_v I I I I #
+		$-1   $201  // inserted:   -201 loop $-1 -1 $-1 $241 $242 $148 #
+		$-1   $202  // inserted:   -202 coedge $-1 -1 $-1 $202 $202 $243 $244 forward $147 0 $-1 #
+		$-1   $203  // inserted:   -203 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $245 $-1 $148 43 1 157 -1 3 1 #
+		$-1   $245  // inserted:   -245 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $282 $203 $148 43 1 163 -1 3 1 #
+		$-1   $282  // inserted:   -282 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $325 $245 $148 43 1 77 -1 3 1 #
+		$-1   $325  // inserted:   -325 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $363 $282 $148 43 1 83 -1 3 1 #
+		$-1   $363  // inserted:   -363 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $325 $148 43 2 24 -1 56 -1 0 0 12 0 0 0 0 0 0 0 #
+		$-1   $204  // inserted:   -204 plane-surface $-1 -1 $-1 0 0 5 0 0 1 1 0 0 forward_v I I I I #
+		$-1   $205  // inserted:   -205 straight-curve $-1 -1 $-1 120 66 0 0 0 1 I I #
+		$-1   $207  // inserted:   -207 point $-1 -1 $-1 120 66 5 #
+		$-1   $206  // inserted:   -206 point $-1 -1 $-1 120 66 35 #
+		$-1   $209  // inserted:   -209 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $246 $-1 $159 43 $161 $-1 #
+		$-1   $246  // inserted:   -246 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $209 $159 43 2 24 -1 136 -1 12 0 20 0 0 0 0 0 0 0 #
+		$-1   $210  // inserted:   -210 face $247 -1 $-1 $248 $249 $3 $-1 $250 forward single #
+		$-1   $211  // inserted:   -211 plane-surface $-1 -1 $-1 -120 70 5 1.11022e-16 -1 0 1 1.11022e-16 0 forward_v I I I I #
+		$-1   $213  // inserted:   -213 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $251 $-1 $163 43 $252 $253 #
+		$-1   $251  // inserted:   -251 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $213 $163 43 2 24 -1 248 -1 7 0 20 0 0 0 0 0 0 0 #
+		$-1   $214  // inserted:   -214 face $254 -1 $-1 $255 $256 $3 $-1 $257 reversed single #
+		$-1   $216  // inserted:   -216 cone-surface $-1 -1 $-1 -60 -9.72343e-15 0 -0 -0 1 -1.85 0 0 1 I I 0 1 1.85 forward I I I I #
+		$-1   $215  // inserted:   -215 loop $-1 -1 $-1 $258 $243 $163 #
+		$-1   $218  // inserted:   -218 coedge $-1 -1 $-1 $166 $259 $262 $263 forward $109 0 $-1 #
+		$-1   $217  // inserted:   -217 coedge $-1 -1 $-1 $259 $166 $260 $261 forward $109 0 $-1 #
+		$-1   $219  // inserted:   -219 coedge $-1 -1 $-1 $264 $265 $166 $220 reversed $266 0 $-1 #
+		$-1   $220  // inserted:   -220 edge $267 -1 $-1 $268 0 $269 25 $219 $270 forward @7 unknown #
+		$-1   $221  // inserted:   -221 loop $-1 -1 $-1 $271 $167 $144 #
+		$-1   $222  // inserted:   -222 vertex $-1 -1 $-1 $168 0 $272 #
+		$-1   $223  // inserted:   -223 ellipse-curve $-1 -1 $-1 -120 70 0 -0 -0 -1 0.4 0 -0 1 I I #
+		$-1   $224  // inserted:   -224 coedge $-1 -1 $-1 $190 $189 $169 $225 reversed $164 0 $-1 #
+		$-1   $225  // inserted:   -225 edge $-1 -1 $-1 $226 -3.5 $228 -0.5 $224 $273 forward @7 unknown #
+		$-1   $228  // inserted:   -228 vertex $-1 -1 $-1 $192 0 $275 #
+		$-1   $229  // inserted:   -229 ellipse-curve $-1 -1 $-1 -120 70 5 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $226  // inserted:   -226 vertex $-1 -1 $-1 $171 1 $274 #
+		$-1   $227  // inserted:   -227 ellipse-curve $-1 -1 $-1 -120 70 35 -0 -0 1 0.4 0 -0 1 I I #
+		$-1   $230  // inserted:   -230 point $-1 -1 $-1 -116 70 5 #
+		$-1   $231  // inserted:   -231 point $-1 -1 $-1 -116 70 35 #
+		$-1   $232  // inserted:   -232 point $-1 -1 $-1 124 70 0 #
+		$-1   $235  // inserted:   -235 straight-curve $-1 -1 $-1 -60 70 5 -1 -1.11022e-16 0 I I #
+		$-1   $233  // inserted:   -233 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $184 43 2 24 -1 136 -1 12 0 10 0 0 0 0 0 0 0 #
+		$-1   $234  // inserted:   -234 straight-curve $-1 -1 $-1 -120 70 35 1 1.11022e-16 0 I I #
+		$-1   $238  // inserted:   -238 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $194 43 2 24 -1 136 -1 17 0 10 0 0 0 0 0 0 0 #
+		$-1   $239  // inserted:   -239 straight-curve $-1 -1 $-1 -120 -70 35 -1.26883e-16 1 0 I I #
+		$-1   $236  // inserted:   -236 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $-1 $192 43 1 165 -1 22 0 #
+		$-1   $237  // inserted:   -237 straight-curve $-1 -1 $-1 -120 -35 5 1.26883e-16 -1 0 I I #
+		$-1   $241  // inserted:   -241 loop $-1 -1 $-1 $-1 $277 $148 #
+		$-1   $242  // inserted:   -242 coedge $-1 -1 $-1 $242 $242 $278 $279 forward $201 0 $-1 #
+		$-1   $243  // inserted:   -243 coedge $-1 -1 $-1 $243 $243 $202 $244 reversed $215 0 $-1 #
+		$-1   $244  // inserted:   -244 edge $-1 -1 $-1 $280 -3.14159 $280 3.14159 $202 $281 forward @7 unknown #
+		$-1   $247  // inserted:   -247 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $210 43 2 24 -1 56 -1 6 0 20 0 0 0 0 0 0 0 #
+		$-1   $248  // inserted:   -248 face $283 -1 $-1 $284 $285 $3 $-1 $286 forward single #
+		$-1   $250  // inserted:   -250 plane-surface $-1 -1 $-1 -125 -75 0 0 -1 0 1 0 0 forward_v I I I I #
+		$-1   $249  // inserted:   -249 loop $-1 -1 $-1 $-1 $287 $210 #
+		$-1   $252  // inserted:   -252 straight-curve $-1 -1 $-1 -78.5 -9.72343e-15 0 0 0 1 I I #
+		$-1   $253  // inserted:   -253 ellipse-curve $-1 -1 $-1 -60 -9.72343e-15 0 -0 -0 -1 -1.85 0 0 1 I I #
+		$-1   $254  // inserted:   -254 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $288 $-1 $214 43 $289 $290 #
+		$-1   $288  // inserted:   -288 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $254 $214 43 2 24 -1 248 -1 6 0 20 0 0 0 0 0 0 0 #
+		$-1   $255  // inserted:   -255 face $291 -1 $-1 $103 $292 $3 $-1 $293 reversed single #
+		$-1   $257  // inserted:   -257 cone-surface $-1 -1 $-1 65 1.56549e-14 0 -0 -0 1 -1.85 0 0 1 I I 0 1 1.85 forward I I I I #
+		$-1   $256  // inserted:   -256 loop $-1 -1 $-1 $294 $278 $214 #
+		$-1   $258  // inserted:   -258 loop $-1 -1 $-1 $-1 $295 $163 #
+		$-1   $259  // inserted:   -259 coedge $-1 -1 $-1 $218 $217 $296 $297 forward $109 0 $-1 #
+		$-1   $262  // inserted:   -262 coedge $-1 -1 $-1 $303 $304 $218 $263 reversed $305 0 $-1 #
+		$-1   $263  // inserted:   -263 edge $306 -1 $-1 $307 0 $268 15 $262 $308 forward @7 unknown #
+		$-1   $260  // inserted:   -260 coedge $-1 -1 $-1 $298 $299 $217 $261 reversed $285 0 $-1 #
+		$-1   $261  // inserted:   -261 edge $300 -1 $-1 $269 0 $301 15 $260 $302 forward @7 unknown #
+		$-1   $265  // inserted:   -265 coedge $-1 -1 $-1 $219 $309 $298 $311 forward $266 0 $-1 #
+		$-1   $264  // inserted:   -264 coedge $-1 -1 $-1 $309 $219 $304 $310 reversed $266 0 $-1 #
+		$-1   $266  // inserted:   -266 loop $-1 -1 $-1 $-1 $309 $284 #
+		$-1   $267  // inserted:   -267 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $312 $-1 $220 43 1 171 -1 23 0 #
+		$-1   $312  // inserted:   -312 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $267 $220 43 2 24 -1 136 -1 7 0 10 0 0 0 0 0 0 0 #
+		$-1   $268  // inserted:   -268 vertex $313 -1 $-1 $310 1 $314 #
+		$-1   $269  // inserted:   -269 vertex $315 -1 $-1 $311 1 $316 #
+		$-1   $270  // inserted:   -270 straight-curve $-1 -1 $-1 125 75 35 -1 0 0 I I #
+		$-1   $271  // inserted:   -271 loop $-1 -1 $-1 $317 $318 $144 #
+		$-1   $272  // inserted:   -272 point $-1 -1 $-1 -116 70 0 #
+		$-1   $273  // inserted:   -273 straight-curve $-1 -1 $-1 -120 66 0 0 0 -1 I I #
+		$-1   $275  // inserted:   -275 point $-1 -1 $-1 -120 66 5 #
+		$-1   $274  // inserted:   -274 point $-1 -1 $-1 -120 66 35 #
+		$-1   $277  // inserted:   -277 coedge $-1 -1 $-1 $277 $277 $320 $321 forward $241 0 $-1 #
+		$-1   $278  // inserted:   -278 coedge $-1 -1 $-1 $278 $278 $242 $279 reversed $256 0 $-1 #
+		$-1   $279  // inserted:   -279 edge $-1 -1 $-1 $322 -3.14159 $322 3.14159 $242 $323 forward @7 unknown #
+		$-1   $280  // inserted:   -280 vertex $-1 -1 $-1 $244 0 $324 #
+		$-1   $281  // inserted:   -281 ellipse-curve $-1 -1 $-1 -60 -9.72343e-15 5 -0 -0 -1 -1.85 0 0 1 I I #
+		$-1   $283  // inserted:   -283 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $248 43 2 24 -1 56 -1 9 0 20 0 0 0 0 0 0 0 #
+		$-1   $284  // inserted:   -284 face $326 -1 $-1 $327 $266 $3 $-1 $328 forward single #
+		$-1   $286  // inserted:   -286 plane-surface $-1 -1 $-1 -125 75 0 -1 0 0 0 -1 0 forward_v I I I I #
+		$-1   $285  // inserted:   -285 loop $-1 -1 $-1 $-1 $329 $248 #
+		$-1   $287  // inserted:   -287 coedge $-1 -1 $-1 $330 $331 $332 $333 forward $249 0 $-1 #
+		$-1   $289  // inserted:   -289 straight-curve $-1 -1 $-1 46.5 1.56549e-14 0 0 0 1 I I #
+		$-1   $290  // inserted:   -290 ellipse-curve $-1 -1 $-1 65 1.56549e-14 0 -0 -0 -1 -1.85 0 0 1 I I #
+		$-1   $291  // inserted:   -291 NMx_Feature_Orientation-NamingMatching-attrib $-1 -1 $334 $-1 $255 43 $335 $336 #
+		$-1   $334  // inserted:   -334 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $291 $255 43 2 24 -1 211 -1 14 0 20 0 0 0 0 0 0 0 #
+		$-1   $293  // inserted:   -293 cone-surface $-1 -1 $-1 0 0 5 -0 -0 -1 1.85 0 0 1 I I 0 1 1.85 forward I I I I #
+		$-1   $292  // inserted:   -292 loop $-1 -1 $-1 $337 $338 $255 #
+		$-1   $294  // inserted:   -294 loop $-1 -1 $-1 $-1 $339 $214 #
+		$-1   $295  // inserted:   -295 coedge $-1 -1 $-1 $295 $295 $318 $340 reversed $258 0 $-1 #
+		$-1   $296  // inserted:   -296 coedge $-1 -1 $-1 $331 $330 $259 $297 reversed $249 0 $-1 #
+		$-1   $297  // inserted:   -297 edge $341 -1 $-1 $301 0 $307 25 $296 $342 forward @7 unknown #
+		$-1   $304  // inserted:   -304 coedge $-1 -1 $-1 $262 $346 $264 $310 forward $305 0 $-1 #
+		$-1   $303  // inserted:   -303 coedge $-1 -1 $-1 $346 $262 $330 $347 reversed $305 0 $-1 #
+		$-1   $305  // inserted:   -305 loop $-1 -1 $-1 $-1 $346 $327 #
+		$-1   $306  // inserted:   -306 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $263 43 2 24 -1 136 -1 6 0 10 0 0 0 0 0 0 0 #
+		$-1   $307  // inserted:   -307 vertex $348 -1 $-1 $347 1 $349 #
+		$-1   $308  // inserted:   -308 straight-curve $-1 -1 $-1 125 -75 35 0 1 0 I I #
+		$-1   $299  // inserted:   -299 coedge $-1 -1 $-1 $260 $329 $331 $343 forward $285 0 $-1 #
+		$-1   $298  // inserted:   -298 coedge $-1 -1 $-1 $329 $260 $265 $311 reversed $285 0 $-1 #
+		$-1   $300  // inserted:   -300 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $261 43 2 24 -1 136 -1 8 0 10 0 0 0 0 0 0 0 #
+		$-1   $301  // inserted:   -301 vertex $344 -1 $-1 $343 1 $345 #
+		$-1   $302  // inserted:   -302 straight-curve $-1 -1 $-1 -125 75 35 0 -1 0 I I #
+		$-1   $309  // inserted:   -309 coedge $-1 -1 $-1 $265 $264 $350 $351 forward $266 0 $-1 #
+		$-1   $311  // inserted:   -311 edge $-1 -1 $-1 $354 0 $269 3.5 $265 $355 forward @7 unknown #
+		$-1   $310  // inserted:   -310 edge $-1 -1 $-1 $352 0 $268 3.5 $304 $353 forward @7 unknown #
+		$-1   $313  // inserted:   -313 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $356 $-1 $268 43 1 164 -1 21 1 #
+		$-1   $356  // inserted:   -356 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $389 $313 $268 43 1 171 -1 21 1 #
+		$-1   $389  // inserted:   -389 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $356 $268 43 2 24 -1 136 -1 3 0 9 0 0 0 0 0 0 0 #
+		$-1   $314  // inserted:   -314 point $-1 -1 $-1 125 75 35 #
+		$-1   $315  // inserted:   -315 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $357 $-1 $269 43 1 167 -1 22 1 #
+		$-1   $357  // inserted:   -357 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $390 $315 $269 43 1 171 -1 22 1 #
+		$-1   $390  // inserted:   -390 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $357 $269 43 2 24 -1 136 -1 4 0 9 0 0 0 0 0 0 0 #
+		$-1   $316  // inserted:   -316 point $-1 -1 $-1 -125 75 35 #
+		$-1   $317  // inserted:   -317 loop $-1 -1 $-1 $358 $359 $144 #
+		$-1   $318  // inserted:   -318 coedge $-1 -1 $-1 $318 $318 $295 $340 forward $271 0 $-1 #
+		$-1   $320  // inserted:   -320 coedge $-1 -1 $-1 $320 $320 $277 $321 reversed $337 0 $-1 #
+		$-1   $321  // inserted:   -321 edge $-1 -1 $-1 $360 0 $360 6.28319 $277 $361 forward @7 unknown #
+		$-1   $322  // inserted:   -322 vertex $-1 -1 $-1 $279 0 $362 #
+		$-1   $323  // inserted:   -323 ellipse-curve $-1 -1 $-1 65 1.56549e-14 5 -0 -0 -1 -1.85 0 0 1 I I #
+		$-1   $324  // inserted:   -324 point $-1 -1 $-1 -41.5 -1.1989e-14 5 #
+		$-1   $326  // inserted:   -326 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $284 43 2 24 -1 56 -1 8 0 20 0 0 0 0 0 0 0 #
+		$-1   $327  // inserted:   -327 face $364 -1 $-1 $148 $305 $3 $-1 $365 forward single #
+		$-1   $328  // inserted:   -328 plane-surface $-1 -1 $-1 125 75 0 0 1 -0 -1 0 0 forward_v I I I I #
+		$-1   $329  // inserted:   -329 coedge $-1 -1 $-1 $299 $298 $366 $367 forward $285 0 $-1 #
+		$-1   $331  // inserted:   -331 coedge $-1 -1 $-1 $287 $296 $299 $343 reversed $249 0 $-1 #
+		$-1   $330  // inserted:   -330 coedge $-1 -1 $-1 $296 $287 $303 $347 forward $249 0 $-1 #
+		$-1   $332  // inserted:   -332 coedge $-1 -1 $-1 $366 $368 $287 $333 reversed $369 0 $-1 #
+		$-1   $333  // inserted:   -333 edge $370 -1 $-1 $371 0 $372 25 $287 $373 forward @7 unknown #
+		$-1   $335  // inserted:   -335 straight-curve $-1 -1 $-1 18.5 0 5 0 0 -1 I I #
+		$-1   $336  // inserted:   -336 ellipse-curve $-1 -1 $-1 0 0 5 -0 -0 1 1.85 0 0 1 I I #
+		$-1   $337  // inserted:   -337 loop $-1 -1 $-1 $-1 $320 $255 #
+		$-1   $338  // inserted:   -338 coedge $-1 -1 $-1 $338 $338 $374 $375 reversed $292 0 $-1 #
+		$-1   $339  // inserted:   -339 coedge $-1 -1 $-1 $339 $339 $359 $376 reversed $294 0 $-1 #
+		$-1   $340  // inserted:   -340 edge $377 -1 $-1 $378 0 $378 6.28319 $318 $379 forward @7 unknown #
+		$-1   $341  // inserted:   -341 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $297 43 2 24 -1 136 -1 9 0 10 0 0 0 0 0 0 0 #
+		$-1   $342  // inserted:   -342 straight-curve $-1 -1 $-1 -125 -75 35 1 0 0 I I #
+		$-1   $346  // inserted:   -346 coedge $-1 -1 $-1 $304 $303 $368 $381 forward $305 0 $-1 #
+		$-1   $347  // inserted:   -347 edge $-1 -1 $-1 $372 0 $307 3.5 $303 $382 forward @7 unknown #
+		$-1   $348  // inserted:   -348 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $307 43 2 24 -1 136 -1 2 0 9 0 0 0 0 0 0 0 #
+		$-1   $349  // inserted:   -349 point $-1 -1 $-1 125 -75 35 #
+		$-1   $343  // inserted:   -343 edge $-1 -1 $-1 $371 0 $301 3.5 $299 $380 forward @7 unknown #
+		$-1   $344  // inserted:   -344 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $301 43 2 24 -1 136 -1 5 0 9 0 0 0 0 0 0 0 #
+		$-1   $345  // inserted:   -345 point $-1 -1 $-1 -125 -75 35 #
+		$-1   $350  // inserted:   -350 coedge $-1 -1 $-1 $368 $366 $309 $351 reversed $369 0 $-1 #
+		$-1   $351  // inserted:   -351 edge $383 -1 $-1 $352 0 $354 25 $309 $384 forward @7 unknown #
+		$-1   $354  // inserted:   -354 vertex $387 -1 $-1 $351 1 $388 #
+		$-1   $355  // inserted:   -355 straight-curve $-1 -1 $-1 -125 75 0 0 0 1 I I #
+		$-1   $352  // inserted:   -352 vertex $385 -1 $-1 $381 1 $386 #
+		$-1   $353  // inserted:   -353 straight-curve $-1 -1 $-1 125 75 0 0 0 1 I I #
+		$-1   $358  // inserted:   -358 loop $-1 -1 $-1 $369 $374 $144 #
+		$-1   $359  // inserted:   -359 coedge $-1 -1 $-1 $359 $359 $339 $376 forward $317 0 $-1 #
+		$-1   $360  // inserted:   -360 vertex $-1 -1 $-1 $321 0 $391 #
+		$-1   $361  // inserted:   -361 ellipse-curve $-1 -1 $-1 0 0 5 -0 -0 -1 1.85 0 0 1 I I #
+		$-1   $362  // inserted:   -362 point $-1 -1 $-1 83.5 1.33893e-14 5 #
+		$-1   $364  // inserted:   -364 NMx_Sweep_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $327 43 2 24 -1 56 -1 7 0 20 0 0 0 0 0 0 0 #
+		$-1   $365  // inserted:   -365 plane-surface $-1 -1 $-1 125 -75 0 1 0 0 0 1 0 forward_v I I I I #
+		$-1   $366  // inserted:   -366 coedge $-1 -1 $-1 $350 $332 $329 $367 reversed $369 0 $-1 #
+		$-1   $367  // inserted:   -367 edge $392 -1 $-1 $354 0 $371 15 $329 $393 forward @7 unknown #
+		$-1   $368  // inserted:   -368 coedge $-1 -1 $-1 $332 $350 $346 $381 reversed $369 0 $-1 #
+		$-1   $369  // inserted:   -369 loop $-1 -1 $-1 $-1 $368 $144 #
+		$-1   $370  // inserted:   -370 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $394 $-1 $333 43 1 125 -1 20 0 #
+		$-1   $394  // inserted:   -394 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $413 $370 $333 43 1 186 -1 20 0 #
+		$-1   $413  // inserted:   -413 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $425 $394 $333 43 1 343 -1 41 0 #
+		$-1   $425  // inserted:   -425 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $413 $333 43 2 24 -1 56 -1 6 0 2 #
+		$-1   $371  // inserted:   -371 vertex $395 -1 $-1 $367 1 $396 #
+		$-1   $372  // inserted:   -372 vertex $397 -1 $-1 $381 0 $398 #
+		$-1   $373  // inserted:   -373 straight-curve $-1 -1 $-1 -125 -75 0 1 0 0 F 0 F 25 #
+		$-1   $374  // inserted:   -374 coedge $-1 -1 $-1 $374 $374 $338 $375 forward $358 0 $-1 #
+		$-1   $375  // inserted:   -375 edge $399 -1 $-1 $400 -3.14159 $400 3.14159 $374 $401 forward @7 unknown #
+		$-1   $376  // inserted:   -376 edge $402 -1 $-1 $403 0 $403 6.28319 $359 $404 forward @7 unknown #
+		$-1   $377  // inserted:   -377 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $-1 $340 43 1 107 -1 9 0 #
+		$-1   $378  // inserted:   -378 vertex $405 -1 $-1 $340 0 $406 #
+		$-1   $379  // inserted:   -379 ellipse-curve $-1 -1 $-1 -60 -9.72343e-15 0 -0 -0 1 -1.85 0 0 1 I I #
+		$-1   $381  // inserted:   -381 edge $407 -1 $-1 $372 0 $352 15 $346 $408 forward @7 unknown #
+		$-1   $382  // inserted:   -382 straight-curve $-1 -1 $-1 125 -75 0 0 0 1 I I #
+		$-1   $380  // inserted:   -380 straight-curve $-1 -1 $-1 -125 -75 0 0 0 1 I I #
+		$-1   $383  // inserted:   -383 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $409 $-1 $351 43 1 121 -1 4 0 #
+		$-1   $409  // inserted:   -409 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $383 $351 43 2 24 -1 56 -1 8 0 2 #
+		$-1   $384  // inserted:   -384 straight-curve $-1 -1 $-1 125 75 0 -1 0 0 F 0 F 25 #
+		$-1   $387  // inserted:   -387 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $411 $-1 $354 43 1 121 -1 3 1 #
+		$-1   $411  // inserted:   -411 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $423 $387 $354 43 1 123 -1 3 1 #
+		$-1   $423  // inserted:   -423 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $432 $411 $354 43 1 131 -1 3 1 #
+		$-1   $432  // inserted:   -432 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $438 $423 $354 43 1 193 -1 3 1 #
+		$-1   $438  // inserted:   -438 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $442 $432 $354 43 1 315 -1 35 1 #
+		$-1   $442  // inserted:   -442 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $446 $438 $354 43 1 323 -1 35 1 #
+		$-1   $446  // inserted:   -446 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $442 $354 43 2 24 -1 56 -1 5 0 1 #
+		$-1   $388  // inserted:   -388 point $-1 -1 $-1 -125 75 0 #
+		$-1   $385  // inserted:   -385 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $410 $-1 $352 43 1 119 -1 2 1 #
+		$-1   $410  // inserted:   -410 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $422 $385 $352 43 1 121 -1 2 1 #
+		$-1   $422  // inserted:   -422 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $431 $410 $352 43 1 129 -1 2 1 #
+		$-1   $431  // inserted:   -431 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $437 $422 $352 43 1 202 -1 2 1 #
+		$-1   $437  // inserted:   -437 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $441 $431 $352 43 1 333 -1 39 1 #
+		$-1   $441  // inserted:   -441 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $445 $437 $352 43 1 337 -1 39 1 #
+		$-1   $445  // inserted:   -445 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $441 $352 43 2 24 -1 56 -1 3 0 1 #
+		$-1   $386  // inserted:   -386 point $-1 -1 $-1 125 75 0 #
+		$-1   $391  // inserted:   -391 point $-1 -1 $-1 18.5 0 5 #
+		$-1   $392  // inserted:   -392 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $412 $-1 $367 43 1 123 -1 19 0 #
+		$-1   $412  // inserted:   -412 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $424 $392 $367 43 1 193 -1 19 0 #
+		$-1   $424  // inserted:   -424 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $433 $412 $367 43 1 323 -1 37 0 #
+		$-1   $433  // inserted:   -433 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $424 $367 43 2 24 -1 56 -1 9 0 2 #
+		$-1   $393  // inserted:   -393 straight-curve $-1 -1 $-1 -125 75 0 0 -1 0 F 0 F 15 #
+		$-1   $395  // inserted:   -395 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $414 $-1 $371 43 1 123 -1 18 1 #
+		$-1   $414  // inserted:   -414 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $426 $395 $371 43 1 125 -1 18 1 #
+		$-1   $426  // inserted:   -426 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $434 $414 $371 43 1 133 -1 18 1 #
+		$-1   $434  // inserted:   -434 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $439 $426 $371 43 1 179 -1 18 1 #
+		$-1   $439  // inserted:   -439 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $443 $434 $371 43 1 186 -1 18 1 #
+		$-1   $443  // inserted:   -443 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $447 $439 $371 43 1 193 -1 18 1 #
+		$-1   $447  // inserted:   -447 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $449 $443 $371 43 1 319 -1 36 1 #
+		$-1   $449  // inserted:   -449 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $451 $447 $371 43 1 323 -1 36 1 #
+		$-1   $451  // inserted:   -451 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $453 $449 $371 43 1 343 -1 36 1 #
+		$-1   $453  // inserted:   -453 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $451 $371 43 2 24 -1 56 -1 2 0 1 #
+		$-1   $396  // inserted:   -396 point $-1 -1 $-1 -125 -75 0 #
+		$-1   $397  // inserted:   -397 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $415 $-1 $372 43 1 119 -1 16 1 #
+		$-1   $415  // inserted:   -415 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $427 $397 $372 43 1 125 -1 16 1 #
+		$-1   $427  // inserted:   -427 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $435 $415 $372 43 1 127 -1 16 1 #
+		$-1   $435  // inserted:   -435 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $440 $427 $372 43 1 182 -1 16 1 #
+		$-1   $440  // inserted:   -440 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $444 $435 $372 43 1 186 -1 16 1 #
+		$-1   $444  // inserted:   -444 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $448 $440 $372 43 1 202 -1 16 1 #
+		$-1   $448  // inserted:   -448 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $450 $444 $372 43 1 329 -1 38 1 #
+		$-1   $450  // inserted:   -450 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $452 $448 $372 43 1 337 -1 38 1 #
+		$-1   $452  // inserted:   -452 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $454 $450 $372 43 1 343 -1 38 1 #
+		$-1   $454  // inserted:   -454 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $452 $372 43 2 24 -1 56 -1 4 0 1 #
+		$-1   $398  // inserted:   -398 point $-1 -1 $-1 125 -75 0 #
+		$-1   $399  // inserted:   -399 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $-1 $375 43 1 115 -1 15 0 #
+		$-1   $400  // inserted:   -400 vertex $416 -1 $-1 $375 0 $417 #
+		$-1   $401  // inserted:   -401 ellipse-curve $-1 -1 $-1 0 0 0 -0 -0 1 1.85 0 0 1 I I #
+		$-1   $402  // inserted:   -402 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $-1 $376 43 1 111 -1 12 0 #
+		$-1   $403  // inserted:   -403 vertex $418 -1 $-1 $376 0 $419 #
+		$-1   $404  // inserted:   -404 ellipse-curve $-1 -1 $-1 65 1.56549e-14 0 -0 -0 1 -1.85 0 0 1 I I #
+		$-1   $405  // inserted:   -405 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $420 $-1 $378 43 1 107 -1 8 1 #
+		$-1   $420  // inserted:   -420 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $405 $378 43 1 109 -1 8 1 #
+		$-1   $406  // inserted:   -406 point $-1 -1 $-1 -78.5 -9.72343e-15 0 #
+		$-1   $407  // inserted:   -407 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $421 $-1 $381 43 1 119 -1 17 0 #
+		$-1   $421  // inserted:   -421 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $430 $407 $381 43 1 202 -1 17 0 #
+		$-1   $430  // inserted:   -430 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $436 $421 $381 43 1 337 -1 40 0 #
+		$-1   $436  // inserted:   -436 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $430 $381 43 2 24 -1 56 -1 7 0 2 #
+		$-1   $408  // inserted:   -408 straight-curve $-1 -1 $-1 125 -75 0 0 1 0 F 0 F 15 #
+		$-1   $416  // inserted:   -416 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $428 $-1 $400 43 1 115 -1 14 1 #
+		$-1   $428  // inserted:   -428 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $416 $400 43 1 117 -1 14 1 #
+		$-1   $417  // inserted:   -417 point $-1 -1 $-1 -18.5 -2.2656e-15 0 #
+		$-1   $418  // inserted:   -418 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $429 $-1 $403 43 1 111 -1 11 1 #
+		$-1   $429  // inserted:   -429 NMx_Matched_Entity-NamingMatching-attrib $-1 -1 $-1 $418 $403 43 1 113 -1 11 1 #
+		$-1   $419  // inserted:   -419 point $-1 -1 $-1 46.5 1.56549e-14 0 #

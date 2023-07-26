@@ -1,0 +1,17 @@
+[2021]
+(0001): 080ED92F  u8_0=00 data=() uid={5384D1B1-2684-4D5D-9E0D-0F023BC0E55C}
+	lst0[0000] = (0002): 28C25C43  u8_0=00 data=(4,1,1,0,16,0,0,0,184,133,47,127,156,69,54,94,74,180,44,155,145,170,182,221) a0=(00,00) a1=(0ED,005) uid={E21F8AE4-5111-46F0-ABAF-3804911022D1} aX=(00 00 00 00)
+		lst0[0000] = (0007): 28C25C44 'com.autodesk.inventor.mold.iMate'  u32_0=0000
+			lst0[0000] = (000C): 28C25C45 'iMateType' u16_0=039 u8_0=00 data="AIM.mold.mate.plane"
+	lst0[0001] = (0003): 28C25C43  u8_0=00 data=(4,1,1,0,16,0,0,0,51,201,85,95,33,64,85,27,107,47,38,157,238,177,195,177) a0=(00,00) a1=(0ED,005) uid={CA3DCBF0-AE66-43D2-AC54-EEC2D064FA24} aX=(00 00 00 00)
+		lst0[0000] = (0008): 28C25C44 'com.autodesk.inventor.mold.iMate'  u32_0=0000
+			lst0[0000] = (000D): 28C25C45 'iMateType' u16_0=039 u8_0=00 data="AIM.mold.tangent.out.surface"
+	lst0[0002] = (0004): 28C25C43  u8_0=00 data=(4,1,1,0,16,0,0,0,83,128,13,236,84,64,180,148,100,28,191,158,112,119,193,20) a0=(00,00) a1=(0ED,005) uid={EE4BDD65-8E7A-4185-AC3C-4E8BBDBD4547} aX=(00 00 00 00)
+		lst0[0000] = (0009): 28C25C44 'com.autodesk.inventor.mold.iMate'  u32_0=0000
+			lst0[0000] = (000E): 28C25C45 'iMateType' u16_0=039 u8_0=00 data="AIM.mold.insert.out.edge"
+	lst0[0003] = (0005): 28C25C43  u8_0=00 data=(4,1,1,0,16,0,0,0,221,16,194,4,8,75,78,177,142,203,42,166,25,183,242,88) a0=(00,00) a1=(0ED,005) uid={1351F9B2-525E-425C-998C-1B0E46677541} aX=(00 00 00 00)
+		lst0[0000] = (000A): 28C25C44 'com.autodesk.inventor.mold.iMate'  u32_0=0000
+			lst0[0000] = (000F): 28C25C45 'iMateType' u16_0=039 u8_0=00 data="AIM.mold.insert.in.edge"
+	lst0[0004] = (0006): 28C25C43  u8_0=00 data=(4,1,1,0,16,0,0,0,112,158,238,124,244,73,253,237,46,109,84,191,223,86,52,201) a0=(00,00) a1=(0ED,005) uid={273555B6-6F12-4B68-A0F9-39912104C94C} aX=(00 00 00 00)
+		lst0[0000] = (000B): 28C25C44 'com.autodesk.inventor.mold.iMate'  u32_0=0000
+			lst0[0000] = (0010): 28C25C45 'iMateType' u16_0=039 u8_0=00 data="AIM.mold.tangent.in.surface"

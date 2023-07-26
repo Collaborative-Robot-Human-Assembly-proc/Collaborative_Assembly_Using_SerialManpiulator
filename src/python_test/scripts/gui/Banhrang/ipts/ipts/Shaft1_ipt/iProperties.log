@@ -1,0 +1,52 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 16 -                LastSavedBy: 'mahmo'
+ 17 -              LastSavedDate: 2023/06/22 14:39:04.866374
+ 18 -                         18: 'A42924CA-4BDC-76EF-16B6-56A492A75FF5'
+ 21 -                         21: '09084761-42D3-C76A-78AC-C498C02855FF'
+ 22 -               BuildVersion: 250183000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2023/06/22 00:00:00.000000
+  5 -                 PartNumber: 'Shaft'
+ 20 -                   Material: 'Steel'
+ 21 -              PartPropRevId: '06D8AC5C-85F2-4F7E-8945-151C0F6A4E7D'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'mahmo'
+ 46 -          ExternalPropRevId: '166F022E-C860-4C83-83B0-AC87614B191D'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2021 (Build 250183000, 183)'
+ 71 -         MaterialIdentifier: 'R:\\Application\\App\\Materials\\InventorMaterialLibrary\\InventorMaterialLibrary.adsklib#1:Steel\n#Material-077'
+ 72 -                 Appearance: 'Steel'
+
+FDesign:
+  0 -                          0: 255
+  3 -                          3: 1
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'mahmo'
+ 17 -                  Thumbnail: PNG: 512 x 512
+
+Inventor User Defined Properties:
+  0 -                          0: 255
+  3 -                          3: '123.000 mm'
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Metal/Steel</Category><StyleName>Steel</StyleName><Protein><MaterialId>InvGen-066</MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+
