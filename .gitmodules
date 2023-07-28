@@ -1,23 +1,34 @@
 [submodule "src/industrial_core"]
+	path = src/industrial_core
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/industrial_core_forked.git
 [submodule "src/moveit"]
+	path = src/moveit
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/moveit.git
 [submodule "src/moveit_visual_tools"]
+	path = src/moveit_visual_tools
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/moveit_visual_tools.git
 [submodule "src/abb"]
+	path = src/abb
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb.git
 [submodule "src/abb_egm_rws_managers"]
+	path = src/abb_egm_rws_managers
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb_egm_rws_managers.git
 [submodule "src/abb_libegm"]
+	path = src/abb_libegm
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb_libegm.git
 [submodule "src/abb_librws"]
+	path = src/abb_librws	
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb_librws.git
 [submodule "src/abb_robot_driver"]
+	path = src/abb_robot_driver
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb_robot_driver.git
 [submodule "src/abb_robot_driver_interfaces"]
+	path = src/abb_robot_driver_interfaces
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/abb_robot_driver_interfaces.git
 [submodule "src/cartesian_controllers"]
+	path = src/cartesian_controllers
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/cartesian_controllers.git	
 [submodule "src/rviz_visual_tools"]
+	path = src/rviz_visual_tools
 	url = https://github.com/Collaborative-Robot-Human-Assembly-proc/rviz_visual_tools.git
 	
