@@ -1,4 +1,5 @@
 # Collaborative_Assembly_Using_SerialManpiulator 
+the project provides service to assemble different product with the sole requirment of providing a CAD file for the desired assembly product.The assembly process can be done with safe human robot interaction.we use hardware components ABBirb120 and two Intel realsense cameras(D435i).
 
 this repo will help you acheive the following : 
 1) safe human robot interaction
@@ -9,7 +10,7 @@ this repo will help you acheive the following :
 there are multiple modification in moveit plugins so make sure you use the moveit submodule existing in this parent repo as it is a forked version of this organization
 
 # installation steps 
-1) git clone `git@github.com:Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator.git`
+1) `git clone git@github.com:Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator.git`
 
 2) `git submodule init`
 
