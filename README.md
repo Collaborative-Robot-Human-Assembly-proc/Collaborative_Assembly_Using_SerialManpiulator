@@ -25,4 +25,8 @@ this will get you enviroments ready to go but still more steps will be added on 
 
 
 
+https://github.com/Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator/assets/84791015/9828f55e-a640-41cc-aebb-80925a9eee7c
+
+
+
 
