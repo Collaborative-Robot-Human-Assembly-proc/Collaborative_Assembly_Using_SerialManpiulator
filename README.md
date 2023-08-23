@@ -33,4 +33,8 @@ https://github.com/Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembl
 
 https://github.com/Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator/assets/84791015/82e28041-7df3-45b9-9a9b-7969d2bbf92a
 
+# pick and place
+
+https://github.com/Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator/assets/84791015/fd132f9c-7aee-4f2e-9597-260e9806bbe6
+
 
