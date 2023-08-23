@@ -20,7 +20,8 @@ there are multiple modification in moveit plugins so make sure you use the movei
 
 this will get you enviroments ready to go but still more steps will be added on how to utilize the rest of the modules
 
-
+# gp
+https://github.com/Collaborative-Robot-Human-Assembly-proc/Collaborative_Assembly_Using_SerialManpiulator/blob/master/gp.mp4
 # project  short video
 
 
